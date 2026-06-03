@@ -3475,7 +3475,7 @@ html.theme-override .draw-overlay-container .image-grid-1x3 {
     margin-bottom: 16pt;
 }
 
-/* 2-row Ã— 3-col image grid */
+/* 2-row × 3-col image grid */
 html.theme-override .draw-overlay-container .image-grid-2x3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -3776,7 +3776,7 @@ html.theme-override .draw-overlay-container .activity-heading {
     color: var(--text-color-primary);
     text-align: center;
     margin: 15px 0 10px;
-    font-size: 28pt;
+    font-size: 32px;
 }
 
 html.theme-override .draw-overlay-container .info-box {
@@ -8582,4 +8582,148 @@ html.theme-override .bottom-99 {
 
 html.theme-override .bottom-100 {
     bottom: 100% !important;
+}
+
+html.theme-override .fs-10 {
+    font-size: 10px !important;
+}
+
+html.theme-override .fs-12 {
+    font-size: 12px !important;
+}
+
+html.theme-override .fs-14 {
+    font-size: 14px !important;
+}
+
+html.theme-override .fs-16 {
+    font-size: 16px !important;
+}
+
+html.theme-override .fs-18 {
+    font-size: 18px !important;
+}
+
+html.theme-override .fs-20 {
+    font-size: 20px !important;
+}
+
+html.theme-override .fs-22 {
+    font-size: 22px !important;
+}
+
+html.theme-override .fs-24 {
+    font-size: 24px !important;
+}
+
+html.theme-override .fs-26 {
+    font-size: 26px !important;
+}
+
+html.theme-override .fs-28 {
+    font-size: 28px !important;
+}
+
+html.theme-override .fs-30 {
+    font-size: 30px !important;
+}
+
+html.theme-override .fs-32 {
+    font-size: 32px !important;
+}
+
+html.theme-override .rotate-0 {
+    transform: rotate(0deg) !important;
+}
+
+html.theme-override .rotate-15 {
+    transform: rotate(15deg) !important;
+}
+
+html.theme-override .rotate-30 {
+    transform: rotate(30deg) !important;
+}
+
+html.theme-override .rotate-45 {
+    transform: rotate(45deg) !important;
+}
+
+html.theme-override .rotate-60 {
+    transform: rotate(60deg) !important;
+}
+
+html.theme-override .rotate-90 {
+    transform: rotate(90deg) !important;
+}
+
+html.theme-override .rotate-105 {
+    transform: rotate(105deg) !important;
+}
+
+html.theme-override .rotate-120 {
+    transform: rotate(120deg) !important;
+}
+
+html.theme-override .rotate-135 {
+    transform: rotate(135deg) !important;
+}
+
+html.theme-override .rotate-150 {
+    transform: rotate(150deg) !important;
+}
+
+html.theme-override .rotate-165 {
+    transform: rotate(165deg) !important;
+}
+
+html.theme-override .rotate-180 {
+    transform: rotate(180deg) !important;
+}
+
+html.theme-override .rotate-195 {
+    transform: rotate(195deg) !important;
+}
+
+html.theme-override .rotate-210 {
+    transform: rotate(210deg) !important;
+}
+
+html.theme-override .rotate-225 {
+    transform: rotate(225deg) !important;
+}
+
+html.theme-override .rotate-240 {
+    transform: rotate(240deg) !important;
+}
+
+html.theme-override .rotate-255 {
+    transform: rotate(255deg) !important;
+}
+
+html.theme-override .rotate-270 {
+    transform: rotate(270deg) !important;
+}
+
+html.theme-override .rotate-285 {
+    transform: rotate(285deg) !important;
+}
+
+html.theme-override .rotate-300 {
+    transform: rotate(300deg) !important;
+}
+
+html.theme-override .rotate-315 {
+    transform: rotate(315deg) !important;
+}
+
+html.theme-override .rotate-330 {
+    transform: rotate(330deg) !important;
+}
+
+html.theme-override .rotate-345 {
+    transform: rotate(345deg) !important;
+}
+
+html.theme-override .rotate-360 {
+    transform: rotate(360deg) !important;
 }
