@@ -8772,6 +8772,26 @@ html.theme-override .fs-30 {
     font-size: 30px !important;
 }
 
-.logo-icon {
+html.theme-override .logo-icon {
     width: 100%;
+}
+
+html.theme-override .text-right {
+    text-align: end;
+}
+
+html.theme-override .top-half {
+    transform: translateY(-0.5%);
+}
+
+html.theme-override .bottom-half {
+    transform: translateY(0.5%);
+}
+
+html.theme-override .left-half {
+    transform: translateX(-0.5%);
+}
+
+html.theme-override .right-half {
+    transform: translateX(0.5%);
 }
