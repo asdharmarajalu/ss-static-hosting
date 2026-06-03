@@ -8727,3 +8727,51 @@ html.theme-override .rotate-345 {
 html.theme-override .rotate-360 {
     transform: rotate(360deg) !important;
 }
+/* Temp */
+html.theme-override .fs-10 {
+    font-size: 10px !important;
+}
+
+html.theme-override .fs-12 {
+    font-size: 12px !important;
+}
+
+html.theme-override .fs-14 {
+    font-size: 14px !important;
+}
+
+html.theme-override .fs-16 {
+    font-size: 16px !important;
+}
+
+html.theme-override .fs-18 {
+    font-size: 18px !important;
+}
+
+html.theme-override .fs-20 {
+    font-size: 20px !important;
+}
+
+html.theme-override .fs-22 {
+    font-size: 22px !important;
+}
+
+html.theme-override .fs-24 {
+    font-size: 24px !important;
+}
+
+html.theme-override .fs-26 {
+    font-size: 26px !important;
+}
+
+html.theme-override .fs-28 {
+    font-size: 28px !important;
+}
+
+html.theme-override .fs-30 {
+    font-size: 30px !important;
+}
+
+.logo-icon {
+    width: 100%;
+}
