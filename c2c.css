@@ -3331,7 +3331,6 @@ html.theme-override .lesson-element.Multiselect .multi-select-question {
 
 html.theme-override .Draw .testItemQuestion .draw-overlay-container {
     margin-bottom: 0 !important;
-    font-size: 24px;
 }
 
 html.theme-override .draw-overlay-container .page {
@@ -3346,6 +3345,7 @@ html.theme-override .draw-overlay-container .page {
     flex-direction: column;
     overflow: hidden;
     min-height: var(--page-height);
+    font-size: 24px;
 }
 
 html.theme-override .draw-overlay-container .page-content {
@@ -3557,10 +3557,21 @@ html.theme-override .draw-overlay-container .family-letter {
     font-size: 18px;
 }
 
+html.theme-override .draw-overlay-container .family-letter ol.listing-text,
+html.theme-override .draw-overlay-container .family-letter ul.listing-text {
+    margin: 0 0 15px 0;
+    padding: 0 60px;
+}
+
 html.theme-override .draw-overlay-container .family-letter ol.listing-text li {
     font-size: 18px;
     line-height: 1.35;
     margin: 0;
+}
+
+html.theme-override .draw-overlay-container .family-letter ol.listing-text li:last-child,
+html.theme-override .draw-overlay-container .family-letter ul.listing-text li:last-child {
+    padding-bottom: 0;
 }
 
 html.theme-override .draw-overlay-container .worksheet-title {
@@ -3680,6 +3691,7 @@ html.theme-override .draw-overlay-container .title-page-heading {
     color: var(--text-color-primary);
     text-align: center;
     margin: 240px 0;
+    font-size: 30px;
 }
 
 html.theme-override .draw-overlay-container .image-row {
@@ -4047,7 +4059,7 @@ html.theme-override .draw-overlay-container.ssftc2e-earth-g3 .rdc-table {
 html.theme-override .draw-overlay-container.ssftc2e-earth-g3 .rdc-table th,
 html.theme-override .draw-overlay-container.ssftc2e-earth-g3 .rdc-table td {
     border: 1px solid #000;
-    padding: 20px 14px;
+    /* padding: 20px 14px; */
     height: 60px;
     vertical-align: top;
 }
@@ -4422,7 +4434,7 @@ html.theme-override .draw-overlay-container.ssftc2e-engg-g1 .block-center-layout
 }
 
 html.theme-override .draw-overlay-container.ssftc2e-engg-g1 .right-icon {
-    margin-left: auto;
+    margin-left: auto !important;
 }
 
 html.theme-override .draw-overlay-container.ssftc2e-engg-g1 .step-table {
@@ -4494,9 +4506,10 @@ html.theme-override .draw-overlay-container.ssftc2e-eng-g5 p.text-sm {
     margin-bottom: 20px;
 }
 
-html.theme-override .draw-overlay-container.ssftc2e-eng-g5 .side-by-side .text-side .image-box {
-    float: right;
-    width: 60%;
+html.theme-override .draw-overlay-container.ssftc2e-eng-g5 .side-by-side {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 html.theme-override .draw-overlay-container.ssftc2e-eng-g5 .side-by-side .chart-side {
@@ -4767,7 +4780,7 @@ html.theme-override .draw-overlay-container.ssftc2e-life-g1 .questions-list {
 
 html.theme-override .draw-overlay-container.ssftc2e-life-g1 .questions-list li {
     color: #231f20;
-    margin-bottom: 120px;
+    margin-bottom: 8%;
     margin-left: 250px;
 }
 
@@ -4815,15 +4828,15 @@ html.theme-override .draw-overlay-container.ssftc2e-eng-g5 .weather-station {
     align-items: center;
     gap: 30px;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto auto 50px;
 }
 
 html.theme-override .draw-overlay-container.ssftc2e-eng-g5 .weather-station .location-map {
-    width: 80%;
+    /* width: 100%; */
 }
 
 html.theme-override .draw-overlay-container.ssftc2e-eng-g5 .weather-station .location-label {
-    width: 30%;
+    width: 80%;
 }
 
 html.theme-override .draw-overlay-container.ssftc2e-eng-g5 .weather-station .location-label .text-label {
@@ -6041,8 +6054,36 @@ html.theme-override .draw-overlay-container .justify-center {
     justify-content: center !important;
 }
 
+html.theme-override .draw-overlay-container .justify-start {
+    justify-content: flex-start !important;
+}
+
+html.theme-override .draw-overlay-container .justify-end {
+    justify-content: flex-end !important;
+}
+
+html.theme-override .draw-overlay-container .justify-between {
+    justify-content: space-between !important;
+}
+
+html.theme-override .draw-overlay-container .justify-around {
+    justify-content: space-around !important;
+}
+
 html.theme-override .draw-overlay-container .align-center {
     align-items: center !important;
+}
+
+html.theme-override .draw-overlay-container .align-start {
+    align-items: flex-start !important;
+}
+
+html.theme-override .draw-overlay-container .align-end {
+    align-items: flex-end !important;
+}
+
+html.theme-override .draw-overlay-container .align-stretch {
+    align-items: stretch !important;
 }
 
 html.theme-override .draw-overlay-container .text-center {
@@ -6114,7 +6155,7 @@ html.theme-override .draw-overlay-container.ssftc2e-life-g4 .two-column {
 }
 
 html.theme-override .draw-overlay-container.ssftc2e-life-g4 .two-column .column {
-    flex: 1;
+    /* flex: 1; */
 }
 
 html.theme-override .draw-overlay-container.ssftc2e-life-g4 .bullet-list {
@@ -8542,4 +8583,108 @@ html.theme-override .fs-500 {
 
 html.theme-override .rotate-358 {
     transform: rotate(358deg) !important;
+}
+
+html.theme-override .color-24743a {
+    color: #24743a !important;
+}
+
+html.theme-override .p-5 {
+    padding: 5px !important;
+}
+
+html.theme-override .draw-overlay-container .color-76787b {
+    color: #76787b !important;
+}
+
+html.theme-override .listing-text.no-indent {
+    padding: 0px 15px;
+}
+
+html.theme-override .listing-text.list-bold.no-indent {
+    padding: 0px 25px;
+}
+
+html.theme-override .draw-overlay-container .h-350 {
+    height: 350px !important;
+}
+
+html.theme-override .draw-overlay-container .h-360 {
+    height: 360px !important;
+}
+
+html.theme-override .draw-overlay-container .h-370 {
+    height: 370px !important;
+}
+
+html.theme-override .draw-overlay-container .h-380 {
+    height: 380px !important;
+}
+
+html.theme-override .draw-overlay-container .h-390 {
+    height: 390px !important;
+}
+
+html.theme-override .draw-overlay-container .h-400 {
+    height: 400px !important;
+}
+
+html.theme-override .draw-overlay-container .h-410 {
+    height: 410px !important;
+}
+
+html.theme-override .draw-overlay-container .h-420 {
+    height: 420px !important;
+}
+
+html.theme-override .draw-overlay-container .h-430 {
+    height: 430px !important;
+}
+
+html.theme-override .draw-overlay-container .h-440 {
+    height: 440px !important;
+}
+
+html.theme-override .draw-overlay-container .h-450 {
+    height: 450px !important;
+}
+
+html.theme-override .w-fit {
+    width: fit-content !important;
+}
+
+html.theme-override .draw-overlay-container .gap-10 {
+    gap: 10px !important;
+}
+
+html.theme-override .draw-overlay-container .gap-15 {
+    gap: 15px !important;
+}
+
+html.theme-override .draw-overlay-container .gap-20 {
+    gap: 20px !important;
+}
+
+html.theme-override .draw-overlay-container .gap-25 {
+    gap: 25px !important;
+}
+
+html.theme-override .draw-overlay-container .gap-30 {
+    gap: 30px !important;
+}
+
+html.theme-override .draw-overlay-container .gap-35 {
+    gap: 35px !important;
+}
+
+html.theme-override .draw-overlay-container .gap-40 {
+    gap: 40px !important;
+}
+
+html.theme-override .draw-overlay-container .gap-45 {
+    gap: 45px !important;
+}
+
+html.theme-override .draw-overlay-container .gap-50 {
+    gap: 50px !important;
 }
