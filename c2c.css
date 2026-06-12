@@ -1996,7 +1996,7 @@ html.theme-override .content-wrapper .stand-alone-wrapper .lesson-element .test-
     font-weight: 400 !important;
 }
 
-.html.theme-override .content-wrapper .tpsimg {
+html.theme-override .content-wrapper .tpsimg {
     max-width: 100% !important;
 }
 
@@ -4248,6 +4248,282 @@ html.theme-override .margin-50 {
     margin: 50px;
 }
 
+html.theme-override .pb-0 {
+    padding-bottom: 0px !important;
+}
+
+html.theme-override .pb-5 {
+    padding-bottom: 5px !important;
+}
+
+html.theme-override .pb-7 {
+    padding-bottom: 7px !important;
+}
+
+html.theme-override .pb-10 {
+    padding-bottom: 10px !important;
+}
+
+html.theme-override .pb-15 {
+    padding-bottom: 15px !important;
+}
+
+html.theme-override .pb-20 {
+    padding-bottom: 20px !important;
+}
+
+html.theme-override .pb-25 {
+    padding-bottom: 25px !important;
+}
+
+html.theme-override .pb-30 {
+    padding-bottom: 30px !important;
+}
+
+html.theme-override .pb-35 {
+    padding-bottom: 35px !important;
+}
+
+html.theme-override .pb-40 {
+    padding-bottom: 40px !important;
+}
+
+html.theme-override .pb-45 {
+    padding-bottom: 45px !important;
+}
+
+html.theme-override .pb-50 {
+    padding-bottom: 50px !important;
+}
+
+html.theme-override .pb-55 {
+    padding-bottom: 55px !important;
+}
+
+html.theme-override .pb-60 {
+    padding-bottom: 10px !important;
+}
+
+html.theme-override .pb-65 {
+    padding-bottom: 65px !important;
+}
+
+html.theme-override .pb-70 {
+    padding-bottom: 70px !important;
+}
+
+html.theme-override .pb-75 {
+    padding-bottom: 75px !important;
+}
+
+html.theme-override .pb-80 {
+    padding-bottom: 80px !important;
+}
+
+html.theme-override .pb-85 {
+    padding-bottom: 85px !important;
+}
+
+html.theme-override .pb-90 {
+    padding-bottom: 90px !important;
+}
+
+html.theme-override .pb-95 {
+    padding-bottom: 95px !important;
+}
+
+html.theme-override .pb-100 {
+    padding-bottom: 100px !important;
+}
+
+html.theme-override .pt-0 {
+    padding-top: 0px !important;
+}
+
+html.theme-override .pt-5 {
+    padding-top: 5px !important;
+}
+
+html.theme-override .pt-10 {
+    padding-top: 10px !important;
+}
+
+html.theme-override .pt-15 {
+    padding-top: 15px !important;
+}
+
+html.theme-override .pt-20 {
+    padding-top: 20px !important;
+}
+
+html.theme-override .pt-25 {
+    padding-top: 25px !important;
+}
+
+html.theme-override .pt-30 {
+    padding-top: 30px !important;
+}
+
+html.theme-override .pt-35 {
+    padding-top: 35px !important;
+}
+
+html.theme-override .pt-40 {
+    padding-top: 40px !important;
+}
+
+html.theme-override .pt-45 {
+    padding-top: 45px !important;
+}
+
+html.theme-override .pt-50 {
+    padding-top: 50px !important;
+}
+
+html.theme-override .pt-55 {
+    padding-top: 55px !important;
+}
+
+html.theme-override .pt-60 {
+    padding-top: 10px !important;
+}
+
+html.theme-override .pt-65 {
+    padding-top: 65px !important;
+}
+
+html.theme-override .pt-70 {
+    padding-top: 70px !important;
+}
+
+html.theme-override .pt-75 {
+    padding-top: 75px !important;
+}
+
+html.theme-override .pt-80 {
+    padding-top: 80px !important;
+}
+
+html.theme-override .pt-85 {
+    padding-top: 85px !important;
+}
+
+html.theme-override .pt-90 {
+    padding-top: 90px !important;
+}
+
+html.theme-override .pt-95 {
+    padding-top: 95px !important;
+}
+
+html.theme-override .pt-100 {
+    padding-top: 100px !important;
+}
+
+html.theme-override .pl-0 {
+    padding-left: 0px !important;
+}
+
+html.theme-override .pl-5 {
+    padding-left: 5px !important;
+}
+
+html.theme-override .pl-10 {
+    padding-left: 10px !important;
+}
+
+html.theme-override .pl-15 {
+    padding-left: 15px !important;
+}
+
+html.theme-override .pl-20 {
+    padding-left: 20px !important;
+}
+
+html.theme-override .pl-25 {
+    padding-left: 25px !important;
+}
+
+html.theme-override .pl-30 {
+    padding-left: 30px !important;
+}
+
+html.theme-override .pl-35 {
+    padding-left: 35px !important;
+}
+
+html.theme-override .pl-40 {
+    padding-left: 40px !important;
+}
+
+html.theme-override .pl-45 {
+    padding-left: 45px !important;
+}
+
+html.theme-override .pl-50 {
+    padding-left: 50px !important;
+}
+
+html.theme-override .pl-55 {
+    padding-left: 55px !important;
+}
+
+html.theme-override .pl-60 {
+    padding-left: 10px !important;
+}
+
+html.theme-override .pl-65 {
+    padding-left: 65px !important;
+}
+
+html.theme-override .pl-70 {
+    padding-left: 70px !important;
+}
+
+html.theme-override .pl-75 {
+    padding-left: 75px !important;
+}
+
+html.theme-override .pl-80 {
+    padding-left: 80px !important;
+}
+
+html.theme-override .pl-85 {
+    padding-left: 85px !important;
+}
+
+html.theme-override .pl-90 {
+    padding-left: 90px !important;
+}
+
+html.theme-override .pl-95 {
+    padding-left: 95px !important;
+}
+
+html.theme-override .pl-100 {
+    padding-left: 100px !important;
+}
+
+html.theme-override .pr-0 {
+    padding-right: 0px;
+}
+
+html.theme-override .pr-5 {
+    padding-right: 5px;
+}
+
+html.theme-override .pr-10 {
+    padding-right: 10px;
+}
+
+html.theme-override .pr-15 {
+    padding-right: 15px;
+}
+
+html.theme-override .pr-20 {
+    padding-right: 20px;
+}
+
 html.theme-override .mb-0 {
     margin-bottom: 0px !important;
 }
@@ -4296,6 +4572,46 @@ html.theme-override .mb-50 {
     margin-bottom: 50px !important;
 }
 
+html.theme-override .mb-55 {
+    margin-bottom: 55px !important;
+}
+
+html.theme-override .mb-60 {
+    margin-bottom: 10px !important;
+}
+
+html.theme-override .mb-65 {
+    margin-bottom: 65px !important;
+}
+
+html.theme-override .mb-70 {
+    margin-bottom: 70px !important;
+}
+
+html.theme-override .mb-75 {
+    margin-bottom: 75px !important;
+}
+
+html.theme-override .mb-80 {
+    margin-bottom: 80px !important;
+}
+
+html.theme-override .mb-85 {
+    margin-bottom: 85px !important;
+}
+
+html.theme-override .mb-90 {
+    margin-bottom: 90px !important;
+}
+
+html.theme-override .mb-95 {
+    margin-bottom: 95px !important;
+}
+
+html.theme-override .mb-100 {
+    margin-bottom: 100px !important;
+}
+
 html.theme-override .mt-0 {
     margin-top: 0px !important;
 }
@@ -4324,6 +4640,62 @@ html.theme-override .mt-30 {
     margin-top: 30px !important;
 }
 
+html.theme-override .mt-35 {
+    margin-top: 35px !important;
+}
+
+html.theme-override .mt-40 {
+    margin-top: 40px !important;
+}
+
+html.theme-override .mt-45 {
+    margin-top: 45px !important;
+}
+
+html.theme-override .mt-50 {
+    margin-top: 50px !important;
+}
+
+html.theme-override .mt-55 {
+    margin-top: 55px !important;
+}
+
+html.theme-override .mt-60 {
+    margin-top: 10px !important;
+}
+
+html.theme-override .mt-65 {
+    margin-top: 65px !important;
+}
+
+html.theme-override .mt-70 {
+    margin-top: 70px !important;
+}
+
+html.theme-override .mt-75 {
+    margin-top: 75px !important;
+}
+
+html.theme-override .mt-80 {
+    margin-top: 80px !important;
+}
+
+html.theme-override .mt-85 {
+    margin-top: 85px !important;
+}
+
+html.theme-override .mt-90 {
+    margin-top: 90px !important;
+}
+
+html.theme-override .mt-95 {
+    margin-top: 95px !important;
+}
+
+html.theme-override .mt-100 {
+    margin-top: 100px !important;
+}
+
 html.theme-override .ml-0 {
     margin-left: 0px !important;
 }
@@ -4348,6 +4720,66 @@ html.theme-override .ml-25 {
     margin-left: 25px !important;
 }
 
+html.theme-override .ml-30 {
+    margin-left: 30px !important;
+}
+
+html.theme-override .ml-35 {
+    margin-left: 35px !important;
+}
+
+html.theme-override .ml-40 {
+    margin-left: 40px !important;
+}
+
+html.theme-override .ml-45 {
+    margin-left: 45px !important;
+}
+
+html.theme-override .ml-50 {
+    margin-left: 50px !important;
+}
+
+html.theme-override .ml-55 {
+    margin-left: 55px !important;
+}
+
+html.theme-override .ml-60 {
+    margin-left: 10px !important;
+}
+
+html.theme-override .ml-65 {
+    margin-left: 65px !important;
+}
+
+html.theme-override .ml-70 {
+    margin-left: 70px !important;
+}
+
+html.theme-override .ml-75 {
+    margin-left: 75px !important;
+}
+
+html.theme-override .ml-80 {
+    margin-left: 80px !important;
+}
+
+html.theme-override .ml-85 {
+    margin-left: 85px !important;
+}
+
+html.theme-override .ml-90 {
+    margin-left: 90px !important;
+}
+
+html.theme-override .ml-95 {
+    margin-left: 95px !important;
+}
+
+html.theme-override .ml-100 {
+    margin-left: 100px !important;
+}
+
 html.theme-override .mr-0 {
     margin-right: 0px;
 }
@@ -4366,86 +4798,6 @@ html.theme-override .mr-15 {
 
 html.theme-override .mr-20 {
     margin-right: 20px;
-}
-
-html.theme-override .pt-0 {
-    padding-top: 0px;
-}
-
-html.theme-override .pt-5 {
-    padding-top: 5px;
-}
-
-html.theme-override .pt-10 {
-    padding-top: 10px;
-}
-
-html.theme-override .pt-15 {
-    padding-top: 15px;
-}
-
-html.theme-override .pt-20 {
-    padding-top: 20px;
-}
-
-html.theme-override .pb-0 {
-    padding-bottom: 0px;
-}
-
-html.theme-override .pb-5 {
-    padding-bottom: 5px;
-}
-
-html.theme-override .pb-10 {
-    padding-bottom: 10px;
-}
-
-html.theme-override .pb-15 {
-    padding-bottom: 15px;
-}
-
-html.theme-override .pb-20 {
-    padding-bottom: 20px;
-}
-
-html.theme-override .pl-0 {
-    padding-left: 0px;
-}
-
-html.theme-override .pl-5 {
-    padding-left: 5px;
-}
-
-html.theme-override .pl-10 {
-    padding-left: 10px;
-}
-
-html.theme-override .pl-15 {
-    padding-left: 15px;
-}
-
-html.theme-override .pl-20 {
-    padding-left: 20px;
-}
-
-html.theme-override .pr-0 {
-    padding-right: 0px;
-}
-
-html.theme-override .pr-5 {
-    padding-right: 5px;
-}
-
-html.theme-override .pr-10 {
-    padding-right: 10px;
-}
-
-html.theme-override .pr-15 {
-    padding-right: 15px;
-}
-
-html.theme-override .pr-20 {
-    padding-right: 20px;
 }
 
 /* 09-10-2025  padding /margin Pt*/
@@ -4784,6 +5136,7 @@ html.theme-override .draw-overlay-container {
     /* max-width: 9.5in; */
     margin: 0 auto;
     font-weight: normal;
+    color: #000;
 }
 
 html.theme-override .lesson-element.Draw div:has(.testItemQuestion),
@@ -4849,11 +5202,12 @@ html.theme-override:has(.stcms-earth-wcs) {
     --toolbar-toggle-on-bg-color: var(--primary-earth-science);
     --theme-second-background-color: var(--primary-earth-science);
     --theme-border-color: var(--primary-earth-science);
+    --theme-spinner-color: var(--primary-earth-science);
 }
 
-html.theme-override:has(.stcms-earth-gmm),
-html.theme-override:has(.stcms-earth-eco),
-html.theme-override:has(.stcms-earth-sf) {
+html.theme-override:has(.stcms-life-gmm),
+html.theme-override:has(.stcms-life-eco),
+html.theme-override:has(.stcms-life-sf) {
     --section-background-color: var(--primary-life-science);
     --goto-card-inner-border: 2px solid var(--primary-life-science);
     --goto-card-selected-bg-color: var(--primary-life-science);
@@ -4870,6 +5224,7 @@ html.theme-override:has(.stcms-earth-sf) {
     --toolbar-toggle-on-bg-color: var(--primary-life-science);
     --theme-second-background-color: var(--primary-life-science);
     --theme-border-color: var(--primary-life-science);
+    --theme-spinner-color: var(--primary-life-science);
 }
 
 html.theme-override:has(.stcms-phy-ewit),
@@ -4891,6 +5246,7 @@ html.theme-override:has(.stcms-phy-mat) {
     --toolbar-toggle-on-bg-color: var(--primary-physical-science);
     --theme-second-background-color: var(--primary-physical-science);
     --theme-border-color: var(--primary-physical-science);
+    --theme-spinner-color: var(--primary-physical-science);
 }
 
 html.theme-override:has(.stcms-earth-eds) .toolbar-wrapper,
@@ -6971,6 +7327,15 @@ html.theme-override .draw-overlay-container .student-guide .page-title {
     text-indent: 0;
 }
 
+html.theme-override .draw-overlay-container .student-sheet .page-title,
+html.theme-override .draw-overlay-container .lesson-master .page-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--text-color-primary);
+    text-indent: 0;
+}
+
 html.theme-override .draw-overlay-container .student-guide .main-heading {
     font-size: 26px;
     font-weight: bold;
@@ -7235,7 +7600,7 @@ html.theme-override .c8 {
     color: #58595b;
 }
 
-html.theme-override .c9 {
+html.theme-override .gray1 {
     color: #666666;
 }
 
@@ -7509,7 +7874,7 @@ html.theme-override .draw-overlay-container ul.blue-square-list>li {
 
 html.theme-override .draw-overlay-container ul.blue-square-list>li::marker {
     color: #0061af !important;
-    content: "■";
+    content: "â– ";
     font-size: 22px;
     position: absolute;
     left: -29px !important;
@@ -7530,7 +7895,7 @@ html.theme-override .draw-overlay-container ul.green-square-list>li {
 
 html.theme-override .draw-overlay-container ul.green-square-list>li::marker {
     color: #a6c538 !important;
-    content: "■";
+    content: "â– ";
     font-size: 22px;
     position: absolute;
     left: -29px !important;
@@ -7554,8 +7919,13 @@ html.theme-override .draw-overlay-container .data-set-table p {
     text-indent: 0;
 }
 
+html.theme-override .draw-overlay-container .data-set-table {
+    border-collapse: collapse;
+}
+
 html.theme-override .draw-overlay-container .data-set-table.bg-peach td {
     background-color: #fce0cf;
+    border-collapse: collapse;
 }
 
 html.theme-override .draw-overlay-container .data-set-table td {
@@ -7694,14 +8064,13 @@ html.theme-override .draw-overlay-container .lesson-master .footer-block .vertic
 
 html.theme-override .draw-overlay-container .student-sheet-list,
 html.theme-override .draw-overlay-container .lesson-master-list {
-    margin: 0 !important;
     padding: 0 30px !important;
 }
 
 html.theme-override .draw-overlay-container .student-sheet-list li,
 html.theme-override .draw-overlay-container .lesson-master-list li {
     padding-left: 5px !important;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     line-height: 26px;
 }
 
@@ -7719,7 +8088,7 @@ html.theme-override .writing-line {
     border: none;
     border-bottom: 1px solid #000;
     height: 0;
-    margin: 0.5em 0;
+    margin: 20px 0;
     width: 100%;
 }
 
@@ -7729,32 +8098,20 @@ html.theme-override .draw-overlay-container .line-text {
     padding-right: 10px;
 }
 
-.html.theme-override .draw-overlay-container .ml-auto {
+html.theme-override .draw-overlay-container .ml-auto {
     margin-left: auto;
+}
+
+html.theme-override .draw-overlay-container .margin-xauto {
+    margin: 0 auto;
 }
 
 html.theme-override .mb-250 {
     margin-bottom: 250px !important;
 }
 
-html.theme-override .draw-overlay-container .mb-100 {
-    margin-bottom: 100px !important;
-}
-
-html.theme-override .draw-overlay-container .pb-100 {
-    padding-bottom: 100px !important;
-}
-
-html.theme-override .draw-overlay-container .pb-50 {
-    padding-bottom: 50px !important;
-}
-
 html.theme-override .draw-overlay-container .pl-40 {
     padding-left: 40px !important;
-}
-
-html.theme-override .draw-overlay-container .pb-30 {
-    padding-bottom: 30px !important;
 }
 
 html.theme-override .draw-overlay-container .bg-ash-grey {
@@ -7764,3 +8121,256 @@ html.theme-override .draw-overlay-container .bg-ash-grey {
 html.theme-override .draw-overlay-container .bg-pearl-grey {
     background-color: #e6e7e9 !important;
 }
+
+html.theme-override .draw-overlay-container .drop-cap-text .drop-cap {
+    float: left;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 0.78;
+    padding: 2px 6px 0 0;
+    color: #1a1a1a;
+}
+
+html.theme-override .draw-overlay-container .up-pointing-red {
+    color: #d2232a;
+    font-size: 18px;
+}
+
+html.theme-override .draw-overlay-container .down-pointing-red {
+    color: #d2232a;
+    font-size: 18px;
+}
+
+html.theme-override .draw-overlay-container .py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+html.theme-override .draw-overlay-container .gap-150 {
+    gap: 150px;
+}
+
+html.theme-override .draw-overlay-container .key-box {
+    border: 1px solid #000;
+    padding: 15px 25px;
+    width: max-content;
+}
+
+html.theme-override .draw-overlay-container .key-box .key-box-color {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+html.theme-override .draw-overlay-container .bg-orange {
+    background-color: #f9811a;
+}
+
+html.theme-override .draw-overlay-container .bg-green {
+    background-color: #367a2e;
+}
+
+html.theme-override .draw-overlay-container .bg-red {
+    background-color: #f11f2a;
+}
+
+html.theme-override .draw-overlay-container .bg-yellow {
+    background-color: #f9e000;
+}
+
+html.theme-override .draw-overlay-container .self-assessment-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid #000;
+    width: 100%;
+    margin: 0px;
+}
+
+html.theme-override .draw-overlay-container .self-assessment-table th,
+html.theme-override .draw-overlay-container .self-assessment-table td {
+    border: 1px solid #000;
+    text-align: left;
+    vertical-align: top;
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+html.theme-override .draw-overlay-container .self-assessment-table thead td {
+    text-align: center;
+    font-weight: bold;
+}
+
+html.theme-override .draw-overlay-container .self-assessment-table tbody td {
+    height: 400px;
+}
+
+html.theme-override .draw-overlay-container .self-assessment-sheet .footer-block,
+html.theme-override .draw-overlay-container .self-assessment-sheet .footer-block {
+    font-size: 12px;
+    border-top: none;
+}
+
+html.theme-override .draw-overlay-container .self-assessment-sheet .footer-block .credits-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+html.theme-override .draw-overlay-container .self-assessment-sheet .footer-block .credits-container p {
+    text-indent: 0;
+}
+
+html.theme-override .draw-overlay-container .self-assessment-sheet .footer-block .vertical-credit {
+    position: absolute;
+    bottom: 15%;
+    left: -9%;
+    font-weight: bold;
+    font-size: 10px;
+    transform: rotate(270deg);
+}
+
+html.theme-override .draw-overlay-container .self-assesment-sheet .footer-block .vertical-credit {
+    text-indent: 0;
+}
+
+html.theme-override .draw-overlay-container .credible-rubric-table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid #000;
+    width: 100%;
+    margin: 0px;
+}
+
+html.theme-override .draw-overlay-container .credible-rubric-table th,
+html.theme-override .draw-overlay-container .credible-rubric-table td {
+    border: 1px solid #000;
+    text-align: left;
+    vertical-align: top;
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+html.theme-override .draw-overlay-container .credible-rubric-table thead td {
+    text-align: center;
+}
+
+html.theme-override .draw-overlay-container .credible-rubric-table tbody td:first-child {
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+html.theme-override .draw-overlay-container .credible-rubric-table thead td:first-child,
+html.theme-override .draw-overlay-container .credible-rubric-table tbody td:first-child {
+    width: 15% !important;
+}
+
+html.theme-override .draw-overlay-container .credible-rubric-table thead td:last-child,
+html.theme-override .draw-overlay-container .credible-rubric-table tbody td:last-child {
+    width: 10% !important;
+}
+
+html.theme-override .draw-overlay-container .analysis-table {
+    border: none !important;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+html.theme-override .draw-overlay-container .analysis-table td,
+html.theme-override .draw-overlay-container .analysis-table th {
+    border: none !important;
+    background-color: transparent !important;
+    vertical-align: top;
+}
+
+html.theme-override .draw-overlay-container .analysis-table td:first-child,
+html.theme-override .draw-overlay-container .analysis-table th:first-child {
+    border-right: 2px solid #000 !important;
+}
+
+html.theme-override .draw-overlay-container .analysis-table th {
+    border-bottom: 2px solid #000 !important;
+}
+
+html.theme-override .draw-overlay-container .analysis-table td {
+    height: 500px;
+}
+
+html.theme-override .draw-overlay-container .wa-key-table {
+    border: none !important;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+html.theme-override .draw-overlay-container .wa-key-table td,
+html.theme-override .draw-overlay-container .wa-key-table th {
+    border: none !important;
+    background-color: transparent !important;
+    vertical-align: top;
+}
+
+html.theme-override .draw-overlay-container .wa-key-table td:first-child,
+html.theme-override .draw-overlay-container .wa-key-table th:first-child {
+    border-right: 2px solid #000 !important;
+}
+
+html.theme-override .draw-overlay-container .wa-key-table th {
+    border-bottom: 2px solid #000 !important;
+}
+
+/******************************** stcms-earth-eds ********************************/
+html.theme-override .draw-overlay-container.stcms-earth-eds .region-data-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 12px 0;
+}
+
+html.theme-override .draw-overlay-container.stcms-earth-eds .region-data-table tr {
+    border: 1px dashed #d3d3d3;
+}
+
+html.theme-override .draw-overlay-container.stcms-earth-eds .region-data-table td {
+    padding: 10px 5px;
+    height: 55px;
+}
+
+/******************************** stcms-earth-sse ********************************/
+html.theme-override .draw-overlay-container.stcms-earth-sse .tidal-data-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 12px 0;
+}
+
+html.theme-override .draw-overlay-container.stcms-earth-sse .tidal-data-table th,
+html.theme-override .draw-overlay-container.stcms-earth-sse .tidal-data-table td {
+    border: 1px solid #000;
+    padding: 5px 7px;
+    background-color: transparent !important;
+    text-align: left;
+    vertical-align: top;
+}
+
+html.theme-override .draw-overlay-container.stcms-earth-sse .tidal-data-table th {
+    font-weight: bold;
+    text-align: center;
+}
+
+html.theme-override .draw-overlay-container.stcms-earth-sse .tidal-data-table .subhead td {
+    font-weight: bold;
+}
+
+html.theme-override .draw-overlay-container.stcms-earth-sse .tidal-data-table .tall td {
+    height: 460px;
+}
+
+html.theme-override .draw-overlay-container.stcms-earth-sse .tidal-data-table .tall-md td {
+    height: 150px;
+}
+
+html.theme-override .draw-overlay-container.stcms-earth-sse .tidal-data-table .tall-sm td {
+    height: 90px;
+}
+
+/******************************** stcms-earth-wcs ********************************/
