@@ -2952,7 +2952,7 @@ html.theme-override .pl-55 {
   padding-left: 55px !important;
 }
 html.theme-override .pl-60 {
-  padding-left: 10px !important;
+  padding-left: 60px !important;
 }
 html.theme-override .pl-65 {
   padding-left: 65px !important;
@@ -5742,15 +5742,15 @@ html.theme-override .fs-12 {
 }
 
 html.theme-override .fs-14 {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 html.theme-override .fs-16 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 html.theme-override .fs-18 {
-  font-size: 18px;
+  font-size: 18px !important;
 }
 
 html.theme-override .fs-20 {
@@ -5840,7 +5840,21 @@ html.theme-override .c22 {
 html.theme-override .c23 {
   color: #ffffff;
 }
+html.theme-override .draw-overlay-container .blue-1 {
+  color: #00769b;
+}
 
+html.theme-override .draw-overlay-container .blue-2 {
+  color: #21428a;
+}
+
+html.theme-override .draw-overlay-container .brown-1 {
+  color: #68524d;
+}
+html.theme-override p {
+  margin: 0px;
+  text-indent: 24px;
+}
 html.theme-override .two-col {
   display: flex;
   gap: 50px;
@@ -5929,7 +5943,18 @@ html.theme-override
   height: max-content;
   margin: 0 0 15px 0;
 }
-
+html.theme-override .draw-overlay-container .figure-content {
+  padding-left: 8px;
+  border-left: 2px solid #000;
+  text-align: start;
+  margin-top: 40px;
+  margin-left: 60px;
+  height: max-content;
+  margin: 0 0 15px 0;
+}
+html.theme-override .draw-overlay-container .border-violet {
+  border-color: #873195 !important;
+}
 html.theme-override
   .draw-overlay-container
   .workforce-applications
@@ -6004,7 +6029,8 @@ html.theme-override
   .table-credit {
   text-indent: 0;
 }
-html.theme-override .draw-overlay-container .lesson-master .figure-content {
+html.theme-override .draw-overlay-container .lesson-master .figure-content,
+html.theme-override .draw-overlay-container .student-sheet .figure-content {
   padding-left: 8px;
   border-left: 2px solid #231f20;
   text-align: start;
@@ -6016,6 +6042,11 @@ html.theme-override .draw-overlay-container .lesson-master .figure-content {
 html.theme-override
   .draw-overlay-container
   .lesson-master
+  .figure-content
+  .figure-title,
+html.theme-override
+  .draw-overlay-container
+  .student-sheet
   .figure-content
   .figure-title {
   text-indent: 0;
@@ -6029,6 +6060,11 @@ html.theme-override
   .draw-overlay-container
   .lesson-master
   .figure-content
+  .figure-text,
+html.theme-override
+  .draw-overlay-container
+  .student-sheet
+  .figure-content
   .figure-text {
   text-indent: 0;
   font-size: 18px;
@@ -6039,6 +6075,11 @@ html.theme-override
 html.theme-override
   .draw-overlay-container
   .lesson-master
+  .figure-content
+  .figure-credit,
+html.theme-override
+  .draw-overlay-container
+  .student-sheet
   .figure-content
   .figure-credit {
   text-indent: 0;
@@ -6110,7 +6151,7 @@ html.theme-override .draw-overlay-container ul.blue-square-list > li {
 }
 html.theme-override .draw-overlay-container ul.blue-square-list > li::marker {
   color: #0061af !important;
-  content: "■";
+  content: "â– ";
   font-size: 22px;
   position: absolute;
   left: -29px !important;
@@ -6130,7 +6171,7 @@ html.theme-override .draw-overlay-container ul.green-square-list > li {
 }
 html.theme-override .draw-overlay-container ul.green-square-list > li::marker {
   color: #a6c538 !important;
-  content: "■";
+  content: "â– ";
   font-size: 22px;
   position: absolute;
   left: -29px !important;
@@ -6293,7 +6334,7 @@ html.theme-override
   position: absolute;
   bottom: 15%;
   left: -9%;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 10px;
   transform: rotate(270deg);
 }
