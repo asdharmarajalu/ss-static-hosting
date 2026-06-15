@@ -7300,12 +7300,20 @@ html.theme-override .rotate-315 {
     transform: rotate(315deg) !important;
 }
 
+html.theme-override .rotate-320 {
+    transform: rotate(320deg) !important;
+}
+
 html.theme-override .rotate-330 {
     transform: rotate(330deg) !important;
 }
 
 html.theme-override .rotate-345 {
     transform: rotate(345deg) !important;
+}
+
+html.theme-override .rotate-355 {
+    transform: rotate(355deg) !important;
 }
 
 html.theme-override .rotate-360 {
@@ -7541,11 +7549,11 @@ html.theme-override .fs-14 {
 }
 
 html.theme-override .fs-16 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 html.theme-override .fs-18 {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 html.theme-override .fs-20 {
@@ -8141,6 +8149,16 @@ html.theme-override .draw-overlay-container .down-pointing-red {
     font-size: 18px;
 }
 
+html.theme-override .draw-overlay-container .right-pointing-red {
+    color: #d2232a;
+    font-size: 18px;
+}
+
+html.theme-override .draw-overlay-container .left-pointing-red {
+    color: #d2232a;
+    font-size: 18px;
+}
+
 html.theme-override .draw-overlay-container .py-20 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -8318,6 +8336,18 @@ html.theme-override .draw-overlay-container .wa-key-table th:first-child {
 
 html.theme-override .draw-overlay-container .wa-key-table th {
     border-bottom: 2px solid #000 !important;
+}
+
+html.theme-override .draw-overlay-container .unset-table {
+    table-layout: unset !important;
+}
+
+html.theme-override .draw-overlay-container .unset-table td {
+    padding: 5px !important;
+}
+
+html.theme-override .draw-overlay-container .list-disc {
+    list-style: disc;
 }
 
 /******************************** stcms-earth-eds ********************************/
