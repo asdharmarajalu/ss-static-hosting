@@ -6402,6 +6402,7 @@ html.theme-override
 html.theme-override .draw-overlay-container .student-sheet-list,
 html.theme-override .draw-overlay-container .lesson-master-list {
   padding: 0 30px !important;
+  margin: 0;
 }
 
 html.theme-override .draw-overlay-container .student-sheet-list li,
@@ -6479,8 +6480,8 @@ html.theme-override .draw-overlay-container .left-pointing-red {
   font-size: 18px;
 }
 html.theme-override .draw-overlay-container .py-20 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 html.theme-override .draw-overlay-container .gap-150 {
   gap: 150px;
@@ -6725,7 +6726,7 @@ html.theme-override
   .no-corner-table
   thead
   tr:first-child
-  td:first-child {
+  th:first-child {
   border: 1px transparent !important;
 }
 
@@ -6771,6 +6772,156 @@ html.theme-override .draw-overlay-container .blue-4 {
 
 html.theme-override .draw-overlay-container .w-fit {
   width: fit-content;
+}
+html.theme-override .draw-overlay-container .border-bottom {
+  border-bottom: 1px solid #000;
+}
+html.theme-override .draw-overlay-container .border-bottom {
+  border-bottom: 1px solid #000;
+}
+html.theme-override .draw-overlay-container .no-corner-table-2 {
+  border: 1px solid transparent !important;
+}
+
+html.theme-override .draw-overlay-container .no-corner-table-2 td {
+  border: 1px solid #000;
+}
+
+html.theme-override
+  .draw-overlay-container
+  .no-corner-table-2
+  tbody
+  tr:first-child
+  td:nth-child(1),
+html.theme-override
+  .draw-overlay-container
+  .no-corner-table-2
+  tbody
+  tr:nth-child(2)
+  td:nth-child(1) {
+  border: 1px transparent !important;
+}
+
+html.theme-override .draw-overlay-container .pl-53 {
+  padding-left: 53px;
+}
+
+html.theme-override .draw-overlay-container .w-97 {
+  width: 97%;
+}
+html.theme-override .draw-overlay-container .no-corner-table-2 {
+  border: 1px solid transparent !important;
+}
+
+html.theme-override .draw-overlay-container .no-corner-table-2 td {
+  border: 1px solid #000;
+}
+
+html.theme-override
+  .draw-overlay-container
+  .no-corner-table-2
+  tbody
+  tr:first-child
+  td:nth-child(1),
+html.theme-override
+  .draw-overlay-container
+  .no-corner-table-2
+  tbody
+  tr:nth-child(2)
+  td:nth-child(1) {
+  border: 1px transparent !important;
+}
+
+html.theme-override .draw-overlay-container .pl-53 {
+  padding-left: 53px;
+}
+
+html.theme-override .draw-overlay-container .w-97 {
+  width: 97%;
+}
+html.theme-override .draw-overlay-container .young-innovators .main-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #005daa;
+  text-align: center;
+}
+
+html.theme-override .draw-overlay-container .young-innovators .service-mark {
+  font-size: 12px;
+  padding-left: 2px;
+  vertical-align: top;
+}
+
+html.theme-override .draw-overlay-container .young-innovators .sub-title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+html.theme-override .draw-overlay-container .young-innovators .age-content {
+  font-size: 22px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+html.theme-override
+  .draw-overlay-container
+  .young-innovators
+  .achievement-title {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+html.theme-override .draw-overlay-container .young-innovators .learn-more {
+  color: #4b5daa;
+  text-decoration: underline;
+  text-align: center;
+}
+
+html.theme-override .draw-overlay-container .young-innovators p {
+  text-indent: 0;
+}
+
+html.theme-override
+  .draw-overlay-container
+  .young-innovators
+  .footer-container {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+html.theme-override
+  .draw-overlay-container
+  .young-innovators
+  .footer-container
+  div:first-child {
+  width: 20%;
+}
+
+html.theme-override
+  .draw-overlay-container
+  .young-innovators
+  .footer-container
+  div:nth-child(2) {
+  width: 15%;
+}
+
+html.theme-override
+  .draw-overlay-container
+  .young-innovators
+  .footer-container
+  img {
+  width: 100%;
 }
 /******************************** stcms-earth-eds ********************************/
 html.theme-override .draw-overlay-container.stcms-earth-eds .region-data-table {
