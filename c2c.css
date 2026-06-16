@@ -2826,7 +2826,7 @@ html.theme-override .pb-55 {
   padding-bottom: 55px !important;
 }
 html.theme-override .pb-60 {
-  padding-bottom: 10px !important;
+  padding-bottom: 60px !important;
 }
 html.theme-override .pb-65 {
   padding-bottom: 65px !important;
@@ -2889,7 +2889,7 @@ html.theme-override .pt-55 {
   padding-top: 55px !important;
 }
 html.theme-override .pt-60 {
-  padding-top: 10px !important;
+  padding-top: 60px !important;
 }
 html.theme-override .pt-65 {
   padding-top: 65px !important;
@@ -3033,7 +3033,7 @@ html.theme-override .mb-55 {
   margin-bottom: 55px !important;
 }
 html.theme-override .mb-60 {
-  margin-bottom: 10px !important;
+  margin-bottom: 60px !important;
 }
 html.theme-override .mb-65 {
   margin-bottom: 65px !important;
@@ -3096,7 +3096,7 @@ html.theme-override .mt-55 {
   margin-top: 55px !important;
 }
 html.theme-override .mt-60 {
-  margin-top: 10px !important;
+  margin-top: 60px !important;
 }
 html.theme-override .mt-65 {
   margin-top: 65px !important;
@@ -3159,7 +3159,7 @@ html.theme-override .ml-55 {
   margin-left: 55px !important;
 }
 html.theme-override .ml-60 {
-  margin-left: 10px !important;
+  margin-left: 60px !important;
 }
 html.theme-override .ml-65 {
   margin-left: 65px !important;
@@ -3501,6 +3501,7 @@ html.theme-override:has(.stcms-earth-wcs) {
   --theme-second-background-color: var(--primary-earth-science);
   --theme-border-color: var(--primary-earth-science);
   --theme-spinner-color: var(--primary-earth-science);
+  --theme-spinner-color: var(--primary-earth-science);
 }
 html.theme-override:has(.stcms-life-gmm),
 html.theme-override:has(.stcms-life-eco),
@@ -3521,6 +3522,7 @@ html.theme-override:has(.stcms-life-sf) {
   --toolbar-toggle-on-bg-color: var(--primary-life-science);
   --theme-second-background-color: var(--primary-life-science);
   --theme-border-color: var(--primary-life-science);
+  --theme-spinner-color: var(--primary-life-science);
   --theme-spinner-color: var(--primary-life-science);
 }
 html.theme-override:has(.stcms-phy-ewit),
@@ -3543,6 +3545,7 @@ html.theme-override:has(.stcms-phy-mat) {
   --theme-second-background-color: var(--primary-physical-science);
   --theme-border-color: var(--primary-physical-science);
   --theme-spinner-color: var(--primary-physical-science);
+  --theme-spinner-color: var(--primary-physical-science);
 }
 html.theme-override:has(.stcms-earth-eds) .toolbar-wrapper,
 html.theme-override:has(.stcms-earth-sse) .toolbar-wrapper,
@@ -3564,6 +3567,51 @@ html.theme-override:has(.stcms-phy-mat) .toolbar-wrapper {
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
   border-bottom: 3px solid var(--primary-physical-science);
   font-weight: bold;
+}
+html.theme-override:has(.stcms-earth-eds)
+  .navbar-wrapper
+  .button-bar
+  .navbar-button:hover,
+html.theme-override:has(.stcms-earth-sse)
+  .navbar-wrapper
+  .button-bar
+  .navbar-button:hover,
+html.theme-override:has(.stcms-earth-wcs)
+  .navbar-wrapper
+  .button-bar
+  .navbar-button:hover {
+  text-decoration: underline;
+  border: 2px solid var(--primary-earth-science);
+}
+html.theme-override:has(.stcms-life-gmm)
+  .navbar-wrapper
+  .button-bar
+  .navbar-button:hover,
+html.theme-override:has(.stcms-life-eco)
+  .navbar-wrapper
+  .button-bar
+  .navbar-button:hover,
+html.theme-override:has(.stcms-life-sf)
+  .navbar-wrapper
+  .button-bar
+  .navbar-button:hover {
+  text-decoration: underline;
+  border: 2px solid var(--primary-life-science);
+}
+html.theme-override:has(.stcms-phy-ewit)
+  .navbar-wrapper
+  .button-bar
+  .navbar-button:hover,
+html.theme-override:has(.stcms-phy-efm)
+  .navbar-wrapper
+  .button-bar
+  .navbar-button:hover,
+html.theme-override:has(.stcms-phy-mat)
+  .navbar-wrapper
+  .button-bar
+  .navbar-button:hover {
+  text-decoration: underline;
+  border: 2px solid var(--primary-physical-science);
 }
 html.theme-override .gap-10 {
   gap: 10px;
@@ -6704,6 +6752,25 @@ html.theme-override
   tbody
   tr:nth-child(odd) {
   background-color: #e7e7e9;
+}
+html.theme-override .draw-overlay-container .upper-case {
+  text-transform: uppercase;
+}
+
+html.theme-override .draw-overlay-container .underline {
+  text-decoration: underline;
+}
+
+html.theme-override .draw-overlay-container .blue-3 {
+  color: #005daa !important;
+}
+
+html.theme-override .draw-overlay-container .blue-4 {
+  color: #4b5daa !important;
+}
+
+html.theme-override .draw-overlay-container .w-fit {
+  width: fit-content;
 }
 /******************************** stcms-earth-eds ********************************/
 html.theme-override .draw-overlay-container.stcms-earth-eds .region-data-table {
