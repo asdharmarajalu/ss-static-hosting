@@ -5432,7 +5432,7 @@ html.theme-override .draw-overlay-container .student-handout .page-title,
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
     font-size: 26px;
     font-weight: bold;
-    margin: 12px 0 0 20px;
+    margin-bottom: 20px;
 }
 
 /******************************************************************** OSE MS Student Handout *********************************************************************/
@@ -5497,7 +5497,7 @@ html.theme-override .draw-overlay-container .teacher-reference .blue-table-1 {
 html.theme-override .draw-overlay-container .student-procedure .page-title {
     font-size: 26px;
     font-weight: bold;
-    margin-bottom: 12px 0 0 20px;
+    margin-bottom: 20px;
 }
 
 html.theme-override .draw-overlay-container .student-procedure .section-heading {
@@ -5553,7 +5553,7 @@ html.theme-override .draw-overlay-container .student-procedure .bullets li {
 html.theme-override .draw-overlay-container .student-reading .page-title {
     font-size: 26px;
     font-weight: bold;
-    margin: 12px 0 0 20px;
+    margin-bottom: 20px;
 }
 
 html.theme-override .draw-overlay-container .student-reading .section-heading {
