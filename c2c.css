@@ -2300,6 +2300,70 @@ html.theme-override .mr-20 {
     margin-right: 20px;
 }
 
+html.theme-override .mr-25 {
+    margin-left: 25px !important;
+}
+
+html.theme-override .mr-30 {
+    margin-left: 30px !important;
+}
+
+html.theme-override .mr-35 {
+    margin-left: 35px !important;
+}
+
+html.theme-override .mr-40 {
+    margin-left: 40px !important;
+}
+
+html.theme-override .mr-45 {
+    margin-left: 45px !important;
+}
+
+html.theme-override .mr-50 {
+    margin-left: 50px !important;
+}
+
+html.theme-override .mr-55 {
+    margin-left: 55px !important;
+}
+
+html.theme-override .mr-60 {
+    margin-left: 10px !important;
+}
+
+html.theme-override .mr-65 {
+    margin-left: 65px !important;
+}
+
+html.theme-override .mr-70 {
+    margin-left: 70px !important;
+}
+
+html.theme-override .mr-75 {
+    margin-left: 75px !important;
+}
+
+html.theme-override .mr-80 {
+    margin-left: 80px !important;
+}
+
+html.theme-override .mr-85 {
+    margin-left: 85px !important;
+}
+
+html.theme-override .mr-90 {
+    margin-left: 90px !important;
+}
+
+html.theme-override .mr-95 {
+    margin-left: 95px !important;
+}
+
+html.theme-override .mr-100 {
+    margin-left: 100px !important;
+}
+
 /* Padding top */
 
 html.theme-override .pt-0 {
@@ -2989,6 +3053,10 @@ html.theme-override .w-95 {
 
 html.theme-override .w-100 {
     width: 100% !important;
+}
+
+html.theme-override .draw-overlay-container .w-125 {
+    width: 125% !important;
 }
 
 /*********** canvas toolbar center css ************/
@@ -5329,6 +5397,146 @@ html.theme-override p {
 }
 
 /**************************************************************************** Common Styles ******************************************************/
+html.theme-override .draw-overlay-container .hidden-content {
+    visibility: hidden !important;
+}
+
+html.theme-override .draw-overlay-container .border-b-2 {
+    border-bottom: 2px solid #000 !important;
+}
+
+html.theme-override .draw-overlay-container .h-10 {
+    height: 10px;
+}
+
+html.theme-override .draw-overlay-container .h-25 {
+    height: 25px;
+}
+
+html.theme-override .draw-overlay-container .h-50 {
+    height: 50px;
+}
+
+html.theme-override .draw-overlay-container .h-100 {
+    height: 100px;
+}
+
+html.theme-override .draw-overlay-container .h-125 {
+    height: 125px;
+}
+
+html.theme-override .draw-overlay-container .h-150 {
+    height: 150px;
+}
+
+html.theme-override .draw-overlay-container .h-175 {
+    height: 175px;
+}
+
+html.theme-override .draw-overlay-container .h-200 {
+    height: 200px;
+}
+
+html.theme-override .draw-overlay-container .h-225 {
+    height: 225px;
+}
+
+html.theme-override .draw-overlay-container .h-250 {
+    height: 250px;
+}
+
+html.theme-override .draw-overlay-container .h-275 {
+    height: 275px;
+}
+
+html.theme-override .draw-overlay-container .h-280 {
+    height: 280px;
+}
+
+html.theme-override .draw-overlay-container .h-300 {
+    height: 300px;
+}
+
+html.theme-override .draw-overlay-container .h-325 {
+    height: 325px;
+}
+
+html.theme-override .draw-overlay-container .h-350 {
+    height: 350px;
+}
+
+html.theme-override .draw-overlay-container .h-375 {
+    height: 375px;
+}
+
+html.theme-override .draw-overlay-container .h-400 {
+    height: 400px;
+}
+
+html.theme-override .draw-overlay-container .h-425 {
+    height: 425px;
+}
+
+html.theme-override .draw-overlay-container .h-450 {
+    height: 450px;
+}
+
+html.theme-override .draw-overlay-container .h-475 {
+    height: 475px;
+}
+
+html.theme-override .draw-overlay-container .h-500 {
+    height: 500px;
+}
+
+html.theme-override .draw-overlay-container .h-525 {
+    height: 525px;
+}
+
+html.theme-override .draw-overlay-container .h-550 {
+    height: 550px;
+}
+
+html.theme-override .draw-overlay-container .h-575 {
+    height: 575px;
+}
+
+html.theme-override .draw-overlay-container .h-600 {
+    height: 600px;
+}
+
+html.theme-override .draw-overlay-container .h-650 {
+    height: 650px;
+}
+
+html.theme-override .draw-overlay-container .h-700 {
+    height: 700px;
+}
+
+html.theme-override .draw-overlay-container .h-750 {
+    height: 750px;
+}
+
+html.theme-override .draw-overlay-container .h-800 {
+    height: 800px;
+}
+
+html.theme-override .draw-overlay-container .h-850 {
+    height: 850px;
+}
+
+html.theme-override .draw-overlay-container .h-900 {
+    height: 900px;
+}
+
+html.theme-override .draw-overlay-container .h-950 {
+    height: 950px;
+}
+
+html.theme-override .draw-overlay-container .h-1000 {
+    height: 1000px;
+}
+
 /* Common Margins */
 html.theme-override .draw-overlay-container .mx-60 {
     margin-left: 60px;
@@ -5338,6 +5546,19 @@ html.theme-override .draw-overlay-container .mx-60 {
 /* Commom Colors */
 html.theme-override .draw-overlay-container .text-green {
     color: #4f6128;
+}
+
+html.theme-override .draw-overlay-container .text-moss {
+    color: #009051;
+}
+
+/* 26/06/26 */
+html.theme-override .draw-overlay-container .text-light-green {
+    color: #87a96b;
+}
+
+html.theme-override .draw-overlay-container .text-grey {
+    color: #666666;
 }
 
 /* Common Ordered and Unordered Lists */
@@ -5392,7 +5613,8 @@ html.theme-override .draw-overlay-container .border-2 {
     border: 2px solid #000 !important;
 }
 
-html.theme-override .draw-overlay-container .border-2 td {
+html.theme-override .draw-overlay-container .border-2 td,
+html.theme-override .draw-overlay-container .border-2 th {
     border: 2px solid #000 !important;
 }
 
@@ -5411,13 +5633,61 @@ html.theme-override .draw-overlay-container .writing-line {
     line-height: normal;
 }
 
-/******************************************** Footer ****************************************************/
+/* Writing mode and text-orientation */
+html.theme-override .sideways-lr {
+    writing-mode: sideways-lr !important;
+}
+
+html.theme-override .sideways-rl {
+    writing-mode: sideways-rl !important;
+}
+
+html.theme-override .vertical-lr {
+    writing-mode: vertical-lr !important;
+}
+
+html.theme-override .vertical-rl {
+    writing-mode: vertical-rl !important;
+}
+
+html.theme-override .draw-overlay-container .green-table-1 {
+    background-color: #4f6128;
+    border-color: black;
+    color: white;
+}
+
+html.theme-override .draw-overlay-container .green-table-2 {
+    background-color: #86a86a;
+    color: white;
+}
+
+html.theme-override .draw-overlay-container .orange-table-1 {
+    background-color: #fc8b00;
+    border-color: black;
+    color: #000;
+}
+
+html.theme-override .draw-overlay-container .text-blue {
+    color: #296c8d !important;
+}
+
+html.theme-override .draw-overlay-container .bg-transparent {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+html.theme-override .draw-overlay-container .underline {
+    text-decoration: underline !important;
+}
+
+/*************************************************** Footers ****************************************************/
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     font-size: 12px;
     margin-top: auto;
+    padding: 20px 0 0 0;
     width: 100%;
 }
 
@@ -5426,7 +5696,6 @@ html.theme-override .draw-overlay-container .footer-block p {
     text-indent: 0;
 }
 
-/*************************************************************************** Footers ********************************************************/
 /* Common to OSE-MS Student Handout and Teacher Reference */
 html.theme-override .draw-overlay-container .student-handout .page-title,
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
@@ -5454,23 +5723,6 @@ html.theme-override .draw-overlay-container .student-handout .transcript-content
 }
 
 /************************************************************************ OSE MS Teacher Reference *******************************************************************/
-html.theme-override .draw-overlay-container .teacher-reference .green-table-1 {
-    background-color: #4f6128;
-    border-color: black;
-    color: white;
-}
-
-html.theme-override .draw-overlay-container .teacher-reference .green-table-2 {
-    background-color: #86a86a;
-    color: white;
-}
-
-html.theme-override .draw-overlay-container .teacher-reference .orange-table-1 {
-    background-color: #fc8b00;
-    border-color: black;
-    color: #000;
-}
-
 html.theme-override .draw-overlay-container .teacher-reference .sub-title {
     font-size: 22px;
     font-weight: bold;
@@ -5483,12 +5735,12 @@ html.theme-override .draw-overlay-container .teacher-reference .green-border-tab
     border: 2px solid #e7ebdf !important;
 }
 
-html.theme-override .draw-overlay-container .teacher-reference .black-table-1 {
+html.theme-override .draw-overlay-container .black-table-1 {
     background-color: #000;
     color: white;
 }
 
-html.theme-override .draw-overlay-container .teacher-reference .blue-table-1 {
+html.theme-override .draw-overlay-container .blue-table-1 {
     background-color: #246b8c;
     color: white;
 }
@@ -5577,4 +5829,18 @@ html.theme-override .draw-overlay-container .student-reading .image-box {
 html.theme-override .draw-overlay-container .student-reading .image-box img.insertImageShop.ogmentImg {
     max-width: 100%;
     display: block;
+}
+
+html.theme-override .draw-overlay-container .student-reading .mirror-table {
+    border: none;
+}
+
+html.theme-override .draw-overlay-container .student-reading .mirror-table td {
+    border: none;
+}
+
+html.theme-override .draw-overlay-container .student-reading .mirror-table tr:first-child {
+    background-color: #4f6128;
+    border: none;
+    color: white;
 }
