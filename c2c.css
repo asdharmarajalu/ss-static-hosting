@@ -3126,6 +3126,7 @@ html.theme-override .draw-overlay-container .page {
     overflow: hidden;
     min-height: var(--page-height);
     font-size: 18px;
+    line-height: 1.5;
 }
 
 html.theme-override .draw-overlay-container .page-content {
@@ -5671,6 +5672,22 @@ html.theme-override .draw-overlay-container .text-blue {
     color: #296c8d !important;
 }
 
+html.theme-override .draw-overlay-container .bg-green-2 {
+    background-color: #87a96b;
+}
+
+html.theme-override .draw-overlay-container .bg-green-3 {
+    background-color: #e8ebe0;
+}
+
+html.theme-override .draw-overlay-container .bg-green-4 {
+    background-color: #e2ebed;
+}
+
+html.theme-override .draw-overlay-container .bg-grey-1 {
+    background-color: #d9d9d9;
+}
+
 html.theme-override .draw-overlay-container .bg-transparent {
     background: transparent !important;
     background-color: transparent !important;
@@ -5678,6 +5695,36 @@ html.theme-override .draw-overlay-container .bg-transparent {
 
 html.theme-override .draw-overlay-container .underline {
     text-decoration: underline !important;
+}
+
+html.theme-override .draw-overlay-container .line-text {
+    margin: 0;
+    white-space: nowrap;
+    padding-right: 10px;
+    line-height: normal;
+}
+
+html.theme-override .draw-overlay-container .text-image {
+    display: inline-block;
+    padding-right: 10px;
+    width: 30px;
+}
+
+html.theme-override .draw-overlay-container .plus-table {
+    border: none !important;
+}
+
+html.theme-override .draw-overlay-container .plus-table td,
+html.theme-override .draw-overlay-container .plus-table th {
+    border: none !important;
+}
+
+html.theme-override .draw-overlay-container .right-border {
+    border-right: 2px solid #000;
+}
+
+html.theme-override .draw-overlay-container .bottom-border {
+    border-right: 2px solid #000;
 }
 
 /*************************************************** Footers ****************************************************/
@@ -5754,15 +5801,16 @@ html.theme-override .draw-overlay-container .student-procedure .page-title {
 
 html.theme-override .draw-overlay-container .student-procedure .section-heading {
     font-weight: bold;
-    margin: 20px 0 5px 0;
+    margin: 20px 0 0 0;
     color: #000;
+    line-height: normal;
 }
 
 html.theme-override .draw-overlay-container .student-procedure .section-row {
     display: flex;
     align-items: flex-start;
     gap: 10%;
-    margin: 12px 0;
+    margin: 0 0 45px 0;
 }
 
 html.theme-override .draw-overlay-container .student-procedure .section-img {
@@ -5779,7 +5827,7 @@ html.theme-override .draw-overlay-container .student-procedure .image-box {
 
 html.theme-override .draw-overlay-container .student-procedure .insertImageShop.ogmentImg {
     display: inline-block;
-    width: 100px;
+    width: 120px;
 }
 
 html.theme-override .draw-overlay-container .student-procedure .num-item {
@@ -5789,6 +5837,7 @@ html.theme-override .draw-overlay-container .student-procedure .num-item {
 
 html.theme-override .draw-overlay-container .student-procedure .num-item li {
     margin: 4px 0;
+    line-height: 1.5;
 }
 
 html.theme-override .draw-overlay-container .student-procedure .bullets {
