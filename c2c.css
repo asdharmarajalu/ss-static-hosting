@@ -2072,7 +2072,7 @@ html.theme-override .mb-55 {
 }
 
 html.theme-override .mb-60 {
-    margin-bottom: 10px !important;
+    margin-bottom: 60px !important;
 }
 
 html.theme-override .mb-65 {
@@ -2158,7 +2158,7 @@ html.theme-override .mt-55 {
 }
 
 html.theme-override .mt-60 {
-    margin-top: 10px !important;
+    margin-top: 60px !important;
 }
 
 html.theme-override .mt-65 {
@@ -2244,7 +2244,7 @@ html.theme-override .ml-55 {
 }
 
 html.theme-override .ml-60 {
-    margin-left: 10px !important;
+    margin-left: 60px !important;
 }
 
 html.theme-override .ml-65 {
@@ -2279,6 +2279,10 @@ html.theme-override .ml-100 {
     margin-left: 100px !important;
 }
 
+html.theme-override .ml-200 {
+    margin-left: 200px !important;
+}
+
 /* Margin right */
 html.theme-override .mr-0 {
     margin-right: 0px;
@@ -2301,67 +2305,67 @@ html.theme-override .mr-20 {
 }
 
 html.theme-override .mr-25 {
-    margin-left: 25px !important;
+    margin-right: 25px !important;
 }
 
 html.theme-override .mr-30 {
-    margin-left: 30px !important;
+    margin-right: 30px !important;
 }
 
 html.theme-override .mr-35 {
-    margin-left: 35px !important;
+    margin-right: 35px !important;
 }
 
 html.theme-override .mr-40 {
-    margin-left: 40px !important;
+    margin-right: 40px !important;
 }
 
 html.theme-override .mr-45 {
-    margin-left: 45px !important;
+    margin-right: 45px !important;
 }
 
 html.theme-override .mr-50 {
-    margin-left: 50px !important;
+    margin-right: 50px !important;
 }
 
 html.theme-override .mr-55 {
-    margin-left: 55px !important;
+    margin-right: 55px !important;
 }
 
 html.theme-override .mr-60 {
-    margin-left: 10px !important;
+    margin-right: 60px !important;
 }
 
 html.theme-override .mr-65 {
-    margin-left: 65px !important;
+    margin-right: 65px !important;
 }
 
 html.theme-override .mr-70 {
-    margin-left: 70px !important;
+    margin-right: 70px !important;
 }
 
 html.theme-override .mr-75 {
-    margin-left: 75px !important;
+    margin-right: 75px !important;
 }
 
 html.theme-override .mr-80 {
-    margin-left: 80px !important;
+    margin-right: 80px !important;
 }
 
 html.theme-override .mr-85 {
-    margin-left: 85px !important;
+    margin-right: 85px !important;
 }
 
 html.theme-override .mr-90 {
-    margin-left: 90px !important;
+    margin-right: 90px !important;
 }
 
 html.theme-override .mr-95 {
-    margin-left: 95px !important;
+    margin-right: 95px !important;
 }
 
 html.theme-override .mr-100 {
-    margin-left: 100px !important;
+    margin-right: 100px !important;
 }
 
 /* Padding top */
@@ -2415,7 +2419,7 @@ html.theme-override .pt-55 {
 }
 
 html.theme-override .pt-60 {
-    padding-top: 10px !important;
+    padding-top: 60px !important;
 }
 
 html.theme-override .pt-65 {
@@ -2500,7 +2504,7 @@ html.theme-override .pl-55 {
 }
 
 html.theme-override .pl-60 {
-    padding-left: 10px !important;
+    padding-left: 60px !important;
 }
 
 html.theme-override .pl-65 {
@@ -2651,7 +2655,7 @@ html.theme-override .pb-55 {
 }
 
 html.theme-override .pb-60 {
-    padding-bottom: 10px !important;
+    padding-bottom: 60px !important;
 }
 
 html.theme-override .pb-65 {
@@ -5546,11 +5550,11 @@ html.theme-override .draw-overlay-container .mx-60 {
 
 /* Commom Colors */
 html.theme-override .draw-overlay-container .text-green {
-    color: #4f6128;
+    color: #3b673a;
 }
 
 html.theme-override .draw-overlay-container .text-moss {
-    color: #009051;
+    color: #3b673a;
 }
 
 /* 26/06/26 */
@@ -5560,6 +5564,14 @@ html.theme-override .draw-overlay-container .text-light-green {
 
 html.theme-override .draw-overlay-container .text-grey {
     color: #666666;
+}
+
+html.theme-override .draw-overlay-container .c23 {
+    color: #ffffff;
+}
+
+html.theme-override .draw-overlay-container .bg-black {
+    background-color: black;
 }
 
 /* Common Ordered and Unordered Lists */
@@ -5606,7 +5618,6 @@ html.theme-override .draw-overlay-container .data-table td {
     border: 1px solid #000;
     text-align: left;
     vertical-align: top;
-    background-color: transparent;
     padding: 5px 10px;
 }
 
@@ -5652,7 +5663,7 @@ html.theme-override .vertical-rl {
 }
 
 html.theme-override .draw-overlay-container .green-table-1 {
-    background-color: #4f6128;
+    background-color: #3b673a;
     border-color: black;
     color: white;
 }
@@ -5673,11 +5684,11 @@ html.theme-override .draw-overlay-container .text-blue {
 }
 
 html.theme-override .draw-overlay-container .bg-green-2 {
-    background-color: #87a96b;
+    background-color: #3b673a;
 }
 
 html.theme-override .draw-overlay-container .bg-green-3 {
-    background-color: #e8ebe0;
+    background-color: #cbddc5;
 }
 
 html.theme-override .draw-overlay-container .bg-green-4 {
@@ -5685,7 +5696,7 @@ html.theme-override .draw-overlay-container .bg-green-4 {
 }
 
 html.theme-override .draw-overlay-container .bg-grey-1 {
-    background-color: #d9d9d9;
+    background-color: #f2f2f2;
 }
 
 html.theme-override .draw-overlay-container .bg-transparent {
@@ -5695,6 +5706,44 @@ html.theme-override .draw-overlay-container .bg-transparent {
 
 html.theme-override .draw-overlay-container .underline {
     text-decoration: underline !important;
+}
+
+html.theme-override .draw-overlay-container .bg-orange-1 {
+    background-color: #f98800;
+    color: #fff;
+}
+
+html.theme-override .draw-overlay-container .text-red {
+    color: #95161a;
+}
+
+html.theme-override .draw-overlay-container .bg-red {
+    background-color: #95161a;
+    color: #fff;
+}
+
+html.theme-override .draw-overlay-container .bg-light-red {
+    background-color: #ecd2c7;
+}
+
+html.theme-override .draw-overlay-container .hyper-link {
+    color: #0562c1;
+}
+
+html.theme-override .draw-overlay-container .bg-pale-blue {
+    background-color: #d9e1f3;
+}
+
+html.theme-override .draw-overlay-container .bg-pale-orange {
+    background-color: #fbefe7;
+}
+
+html.theme-override .draw-overlay-container .text-grey-2 {
+    color: #7c7c7c;
+}
+
+html.theme-override .draw-overlay-container .text-black {
+    color: #000000;
 }
 
 html.theme-override .draw-overlay-container .line-text {
@@ -5711,7 +5760,7 @@ html.theme-override .draw-overlay-container .text-image {
 }
 
 html.theme-override .draw-overlay-container .plus-table {
-    border: none !important;
+    border: none;
 }
 
 html.theme-override .draw-overlay-container .plus-table td,
@@ -5719,12 +5768,65 @@ html.theme-override .draw-overlay-container .plus-table th {
     border: none !important;
 }
 
-html.theme-override .draw-overlay-container .right-border {
-    border-right: 2px solid #000;
+html.theme-override .draw-overlay-container .right-border2 {
+    border-right: 2px solid #000 !important;
 }
 
 html.theme-override .draw-overlay-container .bottom-border {
     border-right: 2px solid #000;
+}
+
+/* Width */
+
+html.theme-override .draw-overlay-container .w-fit {
+    width: fit-content !important;
+}
+
+/* Margin */
+
+html.theme-override .draw-overlay-container .ml-auto {
+    margin-left: auto !important;
+}
+
+/* Borders */
+
+html.theme-override .draw-overlay-container .border-1 {
+    border: 1px solid #000;
+}
+
+html.theme-override .draw-overlay-container .border-blue-2 {
+    border-bottom: 5px solid #006fc0;
+}
+
+html.theme-override .draw-overlay-container .border-top-1 {
+    border-top: 1px solid #000;
+}
+
+/* Table */
+
+html.theme-override .draw-overlay-container .unset-table {
+    table-layout: unset !important;
+}
+
+html.theme-override .draw-overlay-container .unset-table td {
+    padding: 5px !important;
+}
+
+html.theme-override .draw-overlay-container .unset-table th {
+    padding: 5px !important;
+}
+
+/* Others */
+html.theme-override .draw-overlay-container .deco-none {
+    text-decoration: none !important;
+}
+
+html.theme-override .draw-overlay-container .dot {
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
 }
 
 /*************************************************** Footers ****************************************************/
@@ -5749,6 +5851,17 @@ html.theme-override .draw-overlay-container .teacher-reference .page-title {
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+html.theme-override .draw-overlay-container .footer-block-2 {
+    font-size: 12px;
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+html.theme-override .draw-overlay-container .footer-block-2 div {
+    padding-top: 10px;
+    border-top: 1px solid #000;
 }
 
 /******************************************************************** OSE MS Student Handout *********************************************************************/
@@ -5889,7 +6002,7 @@ html.theme-override .draw-overlay-container .student-reading .mirror-table td {
 }
 
 html.theme-override .draw-overlay-container .student-reading .mirror-table tr:first-child {
-    background-color: #4f6128;
+    background-color: #3b673a;
     border: none;
     color: white;
 }
