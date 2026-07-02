@@ -2983,6 +2983,10 @@ html.theme-override div#summaryPage-standalone-wrapper~.flyout-wrapper {
 }
 
 /*********** 18-03-24 Width Classes **********/
+html.theme-override .w-5 {
+    width: 5% !important;
+}
+
 html.theme-override .w-10 {
     width: 10% !important;
 }
@@ -3334,6 +3338,10 @@ html.theme-override .gap-95 {
 
 html.theme-override .gap-100 {
     gap: 100px;
+}
+
+html.theme-override .gap-140 {
+    gap: 140px;
 }
 
 html.theme-override .align-items-start {
@@ -5352,7 +5360,7 @@ html.theme-override .bold {
 }
 
 html.theme-override .text-normal {
-    font-weight: normal !important;
+    font-weight: normal;
 }
 
 html.theme-override .italic {
@@ -5418,8 +5426,16 @@ html.theme-override .draw-overlay-container .h-25 {
     height: 25px;
 }
 
+html.theme-override .draw-overlay-container .h-40 {
+    height: 40px;
+}
+
 html.theme-override .draw-overlay-container .h-50 {
     height: 50px;
+}
+
+html.theme-override .draw-overlay-container .h-60 {
+    height: 60px;
 }
 
 html.theme-override .draw-overlay-container .h-100 {
@@ -5574,6 +5590,115 @@ html.theme-override .draw-overlay-container .bg-black {
     background-color: black;
 }
 
+html.theme-override .draw-overlay-container .bg-white {
+    background-color: #fff;
+}
+
+html.theme-override .draw-overlay-container .green-table-1 {
+    background-color: #3b673a;
+    border-color: black;
+    color: white;
+}
+
+html.theme-override .draw-overlay-container .green-table-2 {
+    background-color: #86a86a;
+    color: white;
+}
+
+html.theme-override .draw-overlay-container .orange-table-1 {
+    background-color: #fc8b00;
+    border-color: black;
+    color: #000;
+}
+
+html.theme-override .draw-overlay-container .text-blue {
+    color: #09577d !important;
+}
+
+html.theme-override .draw-overlay-container .bg-blue {
+    background-color: #09577d;
+    color: white;
+}
+
+html.theme-override .draw-overlay-container .bg-light-blue {
+    background-color: #d0dbe7;
+}
+
+html.theme-override .draw-overlay-container .bg-green-2 {
+    background-color: #3b673a;
+}
+
+html.theme-override .draw-overlay-container .bg-green-3 {
+    background-color: #cbddc5;
+}
+
+html.theme-override .draw-overlay-container .bg-green-4 {
+    background-color: #e2ebed;
+}
+
+html.theme-override .draw-overlay-container .bg-grey-1 {
+    background-color: #d9d9d9;
+}
+
+html.theme-override .draw-overlay-container .bg-grey-2 {
+    background-color: #cccccc;
+}
+
+html.theme-override .draw-overlay-container .bg-transparent {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+html.theme-override .draw-overlay-container .underline {
+    text-decoration: underline !important;
+}
+
+html.theme-override .draw-overlay-container .bg-orange-1 {
+    background-color: #f98800;
+    color: #fff;
+}
+
+html.theme-override .draw-overlay-container .text-red {
+    color: #95161a;
+}
+
+html.theme-override .draw-overlay-container .bg-red {
+    background-color: #95161a;
+    color: #fff;
+}
+
+html.theme-override .draw-overlay-container .bg-light-red {
+    background-color: #ecd2c7;
+}
+
+html.theme-override .draw-overlay-container .hyper-link {
+    color: #0562c1;
+}
+
+html.theme-override .draw-overlay-container .bg-pale-blue {
+    background-color: #d9e1f3;
+}
+
+html.theme-override .draw-overlay-container .bg-pale-orange {
+    background-color: #fbefe7;
+}
+
+html.theme-override .draw-overlay-container .text-grey-2 {
+    color: #7c7c7c;
+}
+
+html.theme-override .draw-overlay-container .text-black {
+    color: #000000;
+}
+
+html.theme-override .draw-overlay-container .bg-pale-yellow {
+    background-color: #fff2cc;
+}
+
+html.theme-override .draw-overlay-container .division-border-red {
+    border-bottom: 3px solid #95161a;
+}
+
 /* Common Ordered and Unordered Lists */
 html.theme-override .draw-overlay-container .bullet-list {
     list-style: disc;
@@ -5589,6 +5714,10 @@ html.theme-override .draw-overlay-container .alphabet-list {
 
 html.theme-override .draw-overlay-container .upp-alphabet-list {
     list-style: upper-alpha;
+}
+
+html.theme-override .draw-overlay-container .circle-list {
+    list-style: circle;
 }
 
 html.theme-override .draw-overlay-container .bullet-list li,
@@ -5662,88 +5791,8 @@ html.theme-override .vertical-rl {
     writing-mode: vertical-rl !important;
 }
 
-html.theme-override .draw-overlay-container .green-table-1 {
-    background-color: #3b673a;
-    border-color: black;
-    color: white;
-}
-
-html.theme-override .draw-overlay-container .green-table-2 {
-    background-color: #86a86a;
-    color: white;
-}
-
-html.theme-override .draw-overlay-container .orange-table-1 {
-    background-color: #fc8b00;
-    border-color: black;
-    color: #000;
-}
-
-html.theme-override .draw-overlay-container .text-blue {
-    color: #296c8d !important;
-}
-
-html.theme-override .draw-overlay-container .bg-green-2 {
-    background-color: #3b673a;
-}
-
-html.theme-override .draw-overlay-container .bg-green-3 {
-    background-color: #cbddc5;
-}
-
-html.theme-override .draw-overlay-container .bg-green-4 {
-    background-color: #e2ebed;
-}
-
-html.theme-override .draw-overlay-container .bg-grey-1 {
-    background-color: #f2f2f2;
-}
-
-html.theme-override .draw-overlay-container .bg-transparent {
-    background: transparent !important;
-    background-color: transparent !important;
-}
-
-html.theme-override .draw-overlay-container .underline {
-    text-decoration: underline !important;
-}
-
-html.theme-override .draw-overlay-container .bg-orange-1 {
-    background-color: #f98800;
-    color: #fff;
-}
-
-html.theme-override .draw-overlay-container .text-red {
-    color: #95161a;
-}
-
-html.theme-override .draw-overlay-container .bg-red {
-    background-color: #95161a;
-    color: #fff;
-}
-
-html.theme-override .draw-overlay-container .bg-light-red {
-    background-color: #ecd2c7;
-}
-
-html.theme-override .draw-overlay-container .hyper-link {
-    color: #0562c1;
-}
-
-html.theme-override .draw-overlay-container .bg-pale-blue {
-    background-color: #d9e1f3;
-}
-
-html.theme-override .draw-overlay-container .bg-pale-orange {
-    background-color: #fbefe7;
-}
-
-html.theme-override .draw-overlay-container .text-grey-2 {
-    color: #7c7c7c;
-}
-
-html.theme-override .draw-overlay-container .text-black {
-    color: #000000;
+html.theme-override .draw-overlay-container .flex-1 {
+    flex: 1 !important;
 }
 
 html.theme-override .draw-overlay-container .line-text {
@@ -5765,7 +5814,7 @@ html.theme-override .draw-overlay-container .plus-table {
 
 html.theme-override .draw-overlay-container .plus-table td,
 html.theme-override .draw-overlay-container .plus-table th {
-    border: none !important;
+    border: none;
 }
 
 html.theme-override .draw-overlay-container .right-border2 {
@@ -5773,7 +5822,7 @@ html.theme-override .draw-overlay-container .right-border2 {
 }
 
 html.theme-override .draw-overlay-container .bottom-border {
-    border-right: 2px solid #000;
+    border-bottom: 2px solid #000 !important;
 }
 
 /* Width */
@@ -5821,12 +5870,20 @@ html.theme-override .draw-overlay-container .deco-none {
     text-decoration: none !important;
 }
 
-html.theme-override .draw-overlay-container .dot {
-    height: 8px;
-    width: 8px;
-    background-color: black;
-    border-radius: 100%;
+html.theme-override .draw-overlay-container .circle-hollow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html.theme-override .draw-overlay-container .check-box {
     display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000;
 }
 
 /*************************************************** Footers ****************************************************/
@@ -5847,9 +5904,10 @@ html.theme-override .draw-overlay-container .footer-block p {
 
 /* Common to OSE-MS Student Handout and Teacher Reference */
 html.theme-override .draw-overlay-container .student-handout .page-title,
-html.theme-override .draw-overlay-container .teacher-reference .page-title {
+html.theme-override .draw-overlay-container .teacher-reference .page-title,
+html.theme-override .draw-overlay-container .student-assessment .page-title {
     font-size: 26px;
-    font-weight: bold;
+    font-weight: bold !important;
     margin-bottom: 20px;
 }
 
@@ -5901,14 +5959,14 @@ html.theme-override .draw-overlay-container .black-table-1 {
 }
 
 html.theme-override .draw-overlay-container .blue-table-1 {
-    background-color: #246b8c;
+    background-color: #09577d;
     color: white;
 }
 
 /*********************************************************************** Student Procedure **************************************************/
 html.theme-override .draw-overlay-container .student-procedure .page-title {
     font-size: 26px;
-    font-weight: bold;
+    font-weight: bold !important;
     margin-bottom: 20px;
 }
 
@@ -5966,7 +6024,7 @@ html.theme-override .draw-overlay-container .student-procedure .bullets li {
 /****************************** Student Reading ******************************/
 html.theme-override .draw-overlay-container .student-reading .page-title {
     font-size: 26px;
-    font-weight: bold;
+    font-weight: bold !important;
     margin-bottom: 20px;
 }
 
