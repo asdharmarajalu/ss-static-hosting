@@ -3264,6 +3264,14 @@ html.theme-override:has(.ose-ms-Grade8) .navbar-wrapper .button-bar .navbar-butt
     border: 2px solid var(--primary-Grade8-color);
 }
 
+html.theme-override .gap-2 {
+    gap: 2px;
+}
+
+html.theme-override .gap-5 {
+    gap: 2px;
+}
+
 html.theme-override .gap-10 {
     gap: 10px;
 }
@@ -5438,6 +5446,18 @@ html.theme-override .draw-overlay-container .h-60 {
     height: 60px;
 }
 
+html.theme-override .draw-overlay-container .h-70 {
+    height: 70px !important;
+}
+
+html.theme-override .draw-overlay-container .h-80 {
+    height: 80px !important;
+}
+
+html.theme-override .draw-overlay-container .h-90 {
+    height: 90px !important;
+}
+
 html.theme-override .draw-overlay-container .h-100 {
     height: 100px;
 }
@@ -5699,6 +5719,14 @@ html.theme-override .draw-overlay-container .division-border-red {
     border-bottom: 3px solid #95161a;
 }
 
+html.theme-override .draw-overlay-container .bg-smoke-white {
+    background-color: #f5f5f5;
+}
+
+html.theme-override .draw-overlay-container .bg-grey-3 {
+    background-color: #e1e1e1;
+}
+
 /* Common Ordered and Unordered Lists */
 html.theme-override .draw-overlay-container .bullet-list {
     list-style: disc;
@@ -5765,12 +5793,24 @@ html.theme-override .draw-overlay-container .vertical-border-table td {
     border-top: none !important;
 }
 
+html.theme-override .draw-overlay-container .no-corner-table {
+    border: 1px solid transparent !important;
+}
+
+html.theme-override .draw-overlay-container .no-corner-table td {
+    border: 1px solid #000;
+}
+
+html.theme-override .draw-overlay-container .no-corner-table thead tr:first-child th:first-child {
+    border: 1px transparent !important;
+}
+
 html.theme-override .draw-overlay-container .writing-line {
     border: none;
     border-bottom: 1px solid #000;
     min-height: 1px;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
     line-height: normal;
 }
 
@@ -5931,7 +5971,7 @@ html.theme-override .draw-overlay-container .student-handout .transcript-content
 
 html.theme-override .draw-overlay-container .student-handout .transcript-content div {
     display: flex;
-    gap: 60px;
+    gap: 25px;
     text-align: left;
 }
 
@@ -5961,6 +6001,11 @@ html.theme-override .draw-overlay-container .black-table-1 {
 html.theme-override .draw-overlay-container .blue-table-1 {
     background-color: #09577d;
     color: white;
+}
+
+html.theme-override .draw-overlay-container .black-table-1>th:not(:last-child),
+html.theme-override .draw-overlay-container .black-table-1>td:not(:last-child) {
+    border-right: 1px solid #fff !important;
 }
 
 /*********************************************************************** Student Procedure **************************************************/
