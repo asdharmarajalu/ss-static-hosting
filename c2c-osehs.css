@@ -1,3 +1,7 @@
+body {
+    font-family: "Myriad Pro";
+}
+
 @font-face {
   font-family: "GoodDog Plain";
   src: url(https://assets.content2classroom.com/E70B17008AA84D34980D1AB67B732895/GOODDP__.TTF);
