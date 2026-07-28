@@ -2288,6 +2288,10 @@ html.theme-override .mr-0 {
     margin-right: 0px;
 }
 
+html.theme-override .mr-1 {
+    margin-right: 1px;
+}
+
 html.theme-override .mr-5 {
     margin-right: 5px;
 }
@@ -3164,7 +3168,12 @@ html.theme-override .draw-overlay-container .page-content {
     width: 100%;
 }
 
-html.theme-override:has(.ose-ms-Grade6) {
+html.theme-override:has(.ose-ms-grade-6-1),
+html.theme-override:has(.ose-ms-grade-6-2),
+html.theme-override:has(.ose-ms-grade-6-3),
+html.theme-override:has(.ose-ms-grade-6-4),
+html.theme-override:has(.ose-ms-grade-6-5),
+html.theme-override:has(.ose-ms-grade-6-6) {
     --toolbar-toggle-on-bg-color: var(--primary-Grade6-color);
     --theme-first-color: var(--primary-Grade6-color);
     --theme-spinner-color: var(--primary-Grade6-color);
@@ -3192,7 +3201,12 @@ html.theme-override:has(.ose-ms-Grade6) {
     --theme-video-scrubber-progress-bar-bg-color: var(--primary-Grade6-color);
 }
 
-html.theme-override:has(.ose-ms-chemisty) {
+html.theme-override:has(.ose-ms-grade-7-1),
+html.theme-override:has(.ose-ms-grade-7-2),
+html.theme-override:has(.ose-ms-grade-7-3),
+html.theme-override:has(.ose-ms-grade-7-4),
+html.theme-override:has(.ose-ms-grade-7-5),
+html.theme-override:has(.ose-ms-grade-7-6) {
     --toolbar-toggle-on-bg-color: var(--primary-Grade7-color);
     --theme-first-color: var(--primary-Grade7-color);
     --theme-spinner-color: var(--primary-Grade7-color);
@@ -3220,7 +3234,12 @@ html.theme-override:has(.ose-ms-chemisty) {
     --theme-video-scrubber-progress-bar-bg-color: var(--primary-Grade7-color);
 }
 
-html.theme-override:has(.ose-ms-Grade8) {
+html.theme-override:has(.ose-ms-grade-8-1),
+html.theme-override:has(.ose-ms-grade-8-2),
+html.theme-override:has(.ose-ms-grade-8-3),
+html.theme-override:has(.ose-ms-grade-8-4),
+html.theme-override:has(.ose-ms-grade-8-5),
+html.theme-override:has(.ose-ms-grade-8-6) {
     --toolbar-toggle-on-bg-color: var(--primary-Grade8-color);
     --theme-first-color: var(--primary-Grade8-color);
     --theme-spinner-color: var(--primary-Grade8-color);
@@ -3248,37 +3267,67 @@ html.theme-override:has(.ose-ms-Grade8) {
     --theme-video-scrubber-progress-bar-bg-color: var(--primary-Grade8-color);
 }
 
-html.theme-override:has(.ose-ms-Grade6) .toolbar-wrapper {
+html.theme-override:has(.ose-ms-grade-6-1) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-6-2) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-6-3) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-6-4) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-6-5) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-6-6) .toolbar-wrapper {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
     border-bottom: 3px solid var(--primary-Grade6-color);
     font-weight: bold;
 }
 
-html.theme-override:has(.ose-ms-Grade7) .toolbar-wrapper {
+html.theme-override:has(.ose-ms-grade-7-1) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-7-2) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-7-3) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-7-4) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-7-5) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-7-6) .toolbar-wrapper {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
     border-bottom: 3px solidvar(--primary-Grade7-color);
     font-weight: bold;
 }
 
-html.theme-override:has(.ose-ms-Grade8) .toolbar-wrapper {
+html.theme-override:has(.ose-ms-grade-8-1) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-8-2) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-8-3) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-8-4) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-8-5) .toolbar-wrapper,
+html.theme-override:has(.ose-ms-grade-8-6) .toolbar-wrapper {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
     border-bottom: 3px solid var(--primary-Grade8-color);
     font-weight: bold;
 }
 
-html.theme-override:has(.ose-ms-Grade6) .navbar-wrapper .button-bar .navbar-button:hover {
+html.theme-override:has(.ose-ms-grade-6-1) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-6-2) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-6-3) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-6-4) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-6-5) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-6-6) .navbar-wrapper .button-bar .navbar-button:hover {
     text-decoration: underline;
     background-color: var(--secondary-Grade6-color);
     border: 2px solid var(--primary-Grade6-color);
 }
 
-html.theme-override:has(.ose-ms-Grade7) .navbar-wrapper .button-bar .navbar-button:hover {
+html.theme-override:has(.ose-ms-grade-7-1) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-7-2) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-7-3) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-7-4) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-7-5) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-7-6) .navbar-wrapper .button-bar .navbar-button:hover {
     text-decoration: underline;
     background-color: var(--secondary-Grade7-color);
     border: 2px solid var(--primary-Grade7-color);
 }
 
-html.theme-override:has(.ose-ms-Grade8) .navbar-wrapper .button-bar .navbar-button:hover {
+html.theme-override:has(.ose-ms-grade-8-1) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-8-2) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-8-3) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-8-4) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-8-5) .navbar-wrapper .button-bar .navbar-button:hover,
+html.theme-override:has(.ose-ms-grade-8-6) .navbar-wrapper .button-bar .navbar-button:hover {
     text-decoration: underline;
     background-color: var(--secondary-Grade8-color);
     border: 2px solid var(--primary-Grade8-color);
@@ -5680,6 +5729,26 @@ html.theme-override .draw-overlay-container .bg-blue {
     color: white;
 }
 
+html.theme-override .draw-overlay-container .bg-yellow-1 {
+    background-color: #ffaf00;
+}
+
+html.theme-override .draw-overlay-container .bg-orange-2 {
+    background-color: #fd6000;
+}
+
+html.theme-override .draw-overlay-container .bg-pink-1 {
+    background-color: #dc257e;
+}
+
+html.theme-override .draw-overlay-container .bg-purple-1 {
+    background-color: #785eef;
+}
+
+html.theme-override .draw-overlay-container .bg-blue-2 {
+    background-color: #638fff;
+}
+
 html.theme-override .draw-overlay-container .bg-light-blue {
     background-color: #d0dbe7;
 }
@@ -5706,6 +5775,14 @@ html.theme-override .draw-overlay-container .bg-grey-2 {
 
 html.theme-override .draw-overlay-container .bg-grey-4 {
     background-color: #f2f2f2;
+}
+
+html.theme-override .draw-overlay-container .division-border-right-blue {
+    border-right: 5px solid #09577d;
+}
+
+html.theme-override .draw-overlay-container .text-dark-grey {
+    color: #585858;
 }
 
 html.theme-override .draw-overlay-container .division-border-grey {
@@ -5835,7 +5912,6 @@ html.theme-override .draw-overlay-container .upp-alphabet-list li {
 
 html.theme-override .draw-overlay-container .list-bold li::marker {
     font-weight: bold !important;
-    color: #000 !important;
 }
 
 html.theme-override .draw-overlay-container .list-type-circle {
