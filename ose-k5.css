@@ -1,0 +1,1956 @@
+@font-face {
+    font-family: "Coming Soon";
+    src: url(https://assets.content2classroom.com/E70B17008AA84D34980D1AB67B732895/ComingSoon-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Andika";
+    src: url(https://assets.content2classroom.com/E70B17008AA84D34980D1AB67B732895/Andika-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Andika";
+    src: url(https://assets.content2classroom.com/E70B17008AA84D34980D1AB67B732895/Andika-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Andika";
+    src: url(https://assets.content2classroom.com/E70B17008AA84D34980D1AB67B732895/Andika-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Andika";
+    src: url(https://assets.content2classroom.com/E70B17008AA84D34980D1AB67B732895/Andika-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "CabinSketch";
+    src: url(https://assets.content2classroom.com/E70B17008AA84D34980D1AB67B732895/CabinSketch-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "CabinSketch";
+    src: url(https://assets.content2classroom.com/E70B17008AA84D34980D1AB67B732895/CabinSketch-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+:root {
+    --page-width: 8.5in;
+    --page-height: 7in;
+    --bg-color-page: #ffffff;
+    --page-padding: 0.5in;
+}
+
+
+* {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: "Andika";
+    text-align: left;
+}
+
+html.theme-override .draw-overlay-container .font-coming-soon {
+    font-family: "Coming Soon";
+}
+
+html.theme-override .draw-overlay-container .font-cabin-sketch {
+    font-family: "CabinSketch";
+}
+
+html.theme-override .Draw .testItemQuestion .draw-overlay-container {
+    margin-bottom: 0 !important;
+}
+
+html.theme-override .draw-overlay-container .page {
+    width: var(--page-width);
+    background-color: var(--bg-color-page);
+    margin: 20px auto;
+    padding: var(--page-padding);
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    page-break-after: always;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: var(--page-height);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+html.theme-override .draw-overlay-container .page-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+html.theme-override .draw-overlay-container .page-title {
+    font-family: "CabinSketch";
+    font-size: 40px;
+    text-indent: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 20px;
+}
+
+html.theme-override .draw-overlay-container .sub-title {
+    font-family: "Coming Soon";
+    font-size: 30px;
+    text-indent: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+html.theme-override .draw-overlay-container p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Image  */
+
+html.theme-override .draw-overlay-container .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+html.theme-override .draw-overlay-container .image-box {
+    margin: 12px 0;
+    padding: 0;
+}
+
+html.theme-override .draw-overlay-container .image-box img {
+    width: 100%;
+}
+
+/* Ordered and Unordered Lists */
+
+html.theme-override .draw-overlay-container .num-list {
+    list-style-type: decimal;
+}
+
+html.theme-override .draw-overlay-container .bullet-list {
+    list-style-type: disc;
+}
+
+html.theme-override .draw-overlay-container .num-list,
+html.theme-override .draw-overlay-container .bullet-list {
+    margin: 5px 0;
+    padding-left: 40px;
+}
+
+html.theme-override .draw-overlay-container .num-list li,
+html.theme-override .draw-overlay-container .bullet-list li {
+    margin: 4px 0;
+}
+
+/* Table  */
+
+html.theme-override .draw-overlay-container .data-table,
+html.theme-override .draw-overlay-container .data-table-medium,
+html.theme-override .draw-overlay-container .data-table-bold {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+}
+
+html.theme-override .draw-overlay-container .data-table th,
+html.theme-override .draw-overlay-container .data-table td {
+    border: 1px solid #000;
+    padding: 6px 9px;
+    vertical-align: top;
+    text-align: left;
+}
+
+html.theme-override .draw-overlay-container .data-table-medium th,
+html.theme-override .draw-overlay-container .data-table-medium td {
+    border: 2px solid #000;
+    padding: 6px 9px;
+    vertical-align: top;
+    text-align: left;
+}
+
+html.theme-override .draw-overlay-container .data-table-bold th,
+html.theme-override .draw-overlay-container .data-table-bold td {
+    border: 3px solid #000;
+    padding: 6px 9px;
+    vertical-align: top;
+    text-align: left;
+}
+
+html.theme-override .draw-overlay-container .data-table thead th,
+html.theme-override .draw-overlay-container .data-table-medium thead th,
+html.theme-override .draw-overlay-container .data-table-bold thead th {
+    font-weight: bold;
+}
+
+.t-chart-table td,
+.t-chart-table th {
+    border-left: none !important;
+    border-top: none !important;
+}
+
+.t-chart-table tr>*:last-child {
+    border-right: none !important;
+}
+
+.t-chart-table tr:last-child>* {
+    border-bottom: none !important;
+}
+
+html.theme-override .unset-table {
+    table-layout: unset !important;
+}
+
+/* Margin Bottom */
+
+html.theme-override .mb-0 {
+    margin-bottom: 0px !important;
+}
+
+html.theme-override .mb-5 {
+    margin-bottom: 5px !important;
+}
+
+html.theme-override .mb-10 {
+    margin-bottom: 10px !important;
+}
+
+html.theme-override .mb-15 {
+    margin-bottom: 15px !important;
+}
+
+html.theme-override .mb-20 {
+    margin-bottom: 20px !important;
+}
+
+html.theme-override .mb-25 {
+    margin-bottom: 25px !important;
+}
+
+html.theme-override .mb-30 {
+    margin-bottom: 30px !important;
+}
+
+html.theme-override .mb-35 {
+    margin-bottom: 35px !important;
+}
+
+html.theme-override .mb-40 {
+    margin-bottom: 40px !important;
+}
+
+html.theme-override .mb-45 {
+    margin-bottom: 45px !important;
+}
+
+html.theme-override .mb-50 {
+    margin-bottom: 50px !important;
+}
+
+html.theme-override .mb-55 {
+    margin-bottom: 55px !important;
+}
+
+html.theme-override .mb-60 {
+    margin-bottom: 60px !important;
+}
+
+html.theme-override .mb-65 {
+    margin-bottom: 65px !important;
+}
+
+html.theme-override .mb-70 {
+    margin-bottom: 70px !important;
+}
+
+html.theme-override .mb-75 {
+    margin-bottom: 75px !important;
+}
+
+html.theme-override .mb-80 {
+    margin-bottom: 80px !important;
+}
+
+html.theme-override .mb-85 {
+    margin-bottom: 85px !important;
+}
+
+html.theme-override .mb-90 {
+    margin-bottom: 90px !important;
+}
+
+html.theme-override .mb-95 {
+    margin-bottom: 95px !important;
+}
+
+html.theme-override .mb-100 {
+    margin-bottom: 100px !important;
+}
+
+/* Margin Top */
+
+html.theme-override .mt-0 {
+    margin-top: 0px !important;
+}
+
+html.theme-override .mt-5 {
+    margin-top: 5px !important;
+}
+
+html.theme-override .mt-10 {
+    margin-top: 10px !important;
+}
+
+html.theme-override .mt-15 {
+    margin-top: 15px !important;
+}
+
+html.theme-override .mt-20 {
+    margin-top: 20px !important;
+}
+
+html.theme-override .mt-25 {
+    margin-top: 25px !important;
+}
+
+html.theme-override .mt-30 {
+    margin-top: 30px !important;
+}
+
+html.theme-override .mt-35 {
+    margin-top: 35px !important;
+}
+
+html.theme-override .mt-40 {
+    margin-top: 40px !important;
+}
+
+html.theme-override .mt-45 {
+    margin-top: 45px !important;
+}
+
+html.theme-override .mt-50 {
+    margin-top: 50px !important;
+}
+
+html.theme-override .mt-55 {
+    margin-top: 55px !important;
+}
+
+html.theme-override .mt-60 {
+    margin-top: 60px !important;
+}
+
+html.theme-override .mt-65 {
+    margin-top: 65px !important;
+}
+
+html.theme-override .mt-70 {
+    margin-top: 70px !important;
+}
+
+html.theme-override .mt-75 {
+    margin-top: 75px !important;
+}
+
+html.theme-override .mt-80 {
+    margin-top: 80px !important;
+}
+
+html.theme-override .mt-85 {
+    margin-top: 85px !important;
+}
+
+html.theme-override .mt-90 {
+    margin-top: 90px !important;
+}
+
+html.theme-override .mt-95 {
+    margin-top: 95px !important;
+}
+
+html.theme-override .mt-100 {
+    margin-top: 100px !important;
+}
+
+/* Margin left */
+
+html.theme-override .ml-0 {
+    margin-left: 0px !important;
+}
+
+html.theme-override .ml-5 {
+    margin-left: 5px !important;
+}
+
+html.theme-override .ml-10 {
+    margin-left: 10px !important;
+}
+
+html.theme-override .ml-15 {
+    margin-left: 15px !important;
+}
+
+html.theme-override .ml-20 {
+    margin-left: 20px !important;
+}
+
+html.theme-override .ml-25 {
+    margin-left: 25px !important;
+}
+
+html.theme-override .ml-30 {
+    margin-left: 30px !important;
+}
+
+html.theme-override .ml-35 {
+    margin-left: 35px !important;
+}
+
+html.theme-override .ml-40 {
+    margin-left: 40px !important;
+}
+
+html.theme-override .ml-45 {
+    margin-left: 45px !important;
+}
+
+html.theme-override .ml-50 {
+    margin-left: 50px !important;
+}
+
+html.theme-override .ml-55 {
+    margin-left: 55px !important;
+}
+
+html.theme-override .ml-60 {
+    margin-left: 60px !important;
+}
+
+html.theme-override .ml-65 {
+    margin-left: 65px !important;
+}
+
+html.theme-override .ml-70 {
+    margin-left: 70px !important;
+}
+
+html.theme-override .ml-75 {
+    margin-left: 75px !important;
+}
+
+html.theme-override .ml-80 {
+    margin-left: 80px !important;
+}
+
+html.theme-override .ml-85 {
+    margin-left: 85px !important;
+}
+
+html.theme-override .ml-90 {
+    margin-left: 90px !important;
+}
+
+html.theme-override .ml-95 {
+    margin-left: 95px !important;
+}
+
+html.theme-override .ml-100 {
+    margin-left: 100px !important;
+}
+
+/* Margin right */
+html.theme-override .mr-0 {
+    margin-right: 0px;
+}
+
+html.theme-override .mr-5 {
+    margin-right: 5px;
+}
+
+html.theme-override .mr-10 {
+    margin-right: 10px;
+}
+
+html.theme-override .mr-15 {
+    margin-right: 15px;
+}
+
+html.theme-override .mr-20 {
+    margin-right: 20px;
+}
+
+html.theme-override .mr-25 {
+    margin-right: 25px !important;
+}
+
+html.theme-override .mr-30 {
+    margin-right: 30px !important;
+}
+
+html.theme-override .mr-35 {
+    margin-right: 35px !important;
+}
+
+html.theme-override .mr-40 {
+    margin-right: 40px !important;
+}
+
+html.theme-override .mr-45 {
+    margin-right: 45px !important;
+}
+
+html.theme-override .mr-50 {
+    margin-right: 50px !important;
+}
+
+html.theme-override .mr-55 {
+    margin-right: 55px !important;
+}
+
+html.theme-override .mr-60 {
+    margin-right: 60px !important;
+}
+
+html.theme-override .mr-65 {
+    margin-right: 65px !important;
+}
+
+html.theme-override .mr-70 {
+    margin-right: 70px !important;
+}
+
+html.theme-override .mr-75 {
+    margin-right: 75px !important;
+}
+
+html.theme-override .mr-80 {
+    margin-right: 80px !important;
+}
+
+html.theme-override .mr-85 {
+    margin-right: 85px !important;
+}
+
+html.theme-override .mr-90 {
+    margin-right: 90px !important;
+}
+
+html.theme-override .mr-95 {
+    margin-right: 95px !important;
+}
+
+html.theme-override .mr-100 {
+    margin-right: 100px !important;
+}
+
+/* Margin X axis */
+html.theme-override .mx-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+html.theme-override .mx-5 {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+html.theme-override .mx-10 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+html.theme-override .mx-15 {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+
+html.theme-override .mx-20 {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+html.theme-override .mx-25 {
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+}
+
+html.theme-override .mx-30 {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+}
+
+html.theme-override .mx-35 {
+    margin-left: 35px !important;
+    margin-right: 35px !important;
+}
+
+html.theme-override .mx-40 {
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+}
+
+html.theme-override .mx-45 {
+    margin-left: 45px !important;
+    margin-right: 45px !important;
+}
+
+html.theme-override .mx-50 {
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+
+html.theme-override .mx-55 {
+    margin-left: 55px !important;
+    margin-right: 55px !important;
+}
+
+html.theme-override .mx-60 {
+    margin-left: 60px !important;
+    margin-right: 60px !important;
+}
+
+html.theme-override .mx-65 {
+    margin-left: 65px !important;
+    margin-right: 65px !important;
+}
+
+html.theme-override .mx-70 {
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+}
+
+html.theme-override .mx-75 {
+    margin-left: 75px !important;
+    margin-right: 75px !important;
+}
+
+html.theme-override .mx-80 {
+    margin-left: 80px !important;
+    margin-right: 80px !important;
+}
+
+html.theme-override .mx-85 {
+    margin-left: 85px !important;
+    margin-right: 85px !important;
+}
+
+html.theme-override .mx-90 {
+    margin-left: 90px !important;
+    margin-right: 90px !important;
+}
+
+html.theme-override .mx-95 {
+    margin-left: 95px !important;
+    margin-right: 95px !important;
+}
+
+html.theme-override .mx-100 {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+}
+
+/* Margin Y axis */
+html.theme-override .my-0 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+html.theme-override .my-5 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+}
+
+html.theme-override .my-10 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+html.theme-override .my-15 {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+html.theme-override .my-20 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+html.theme-override .my-25 {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+html.theme-override .my-30 {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+html.theme-override .my-35 {
+    margin-top: 35px !important;
+    margin-bottom: 35px !important;
+}
+
+html.theme-override .my-40 {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+html.theme-override .my-45 {
+    margin-top: 45px !important;
+    margin-bottom: 45px !important;
+}
+
+html.theme-override .my-50 {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+html.theme-override .my-55 {
+    margin-top: 55px !important;
+    margin-bottom: 55px !important;
+}
+
+html.theme-override .my-60 {
+    margin-top: 60px !important;
+    margin-bottom: 60px !important;
+}
+
+html.theme-override .my-65 {
+    margin-top: 65px !important;
+    margin-bottom: 65px !important;
+}
+
+html.theme-override .my-70 {
+    margin-top: 70px !important;
+    margin-bottom: 70px !important;
+}
+
+html.theme-override .my-75 {
+    margin-top: 75px !important;
+    margin-bottom: 75px !important;
+}
+
+html.theme-override .my-80 {
+    margin-top: 80px !important;
+    margin-bottom: 80px !important;
+}
+
+html.theme-override .my-85 {
+    margin-top: 85px !important;
+    margin-bottom: 85px !important;
+}
+
+html.theme-override .my-90 {
+    margin-top: 90px !important;
+    margin-bottom: 90px !important;
+}
+
+html.theme-override .my-95 {
+    margin-top: 95px !important;
+    margin-bottom: 95px !important;
+}
+
+html.theme-override .my-100 {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+/* Padding left */
+html.theme-override .pl-0 {
+    padding-left: 0px !important;
+}
+
+html.theme-override .pl-5 {
+    padding-left: 5px !important;
+}
+
+html.theme-override .pl-10 {
+    padding-left: 10px !important;
+}
+
+html.theme-override .pl-15 {
+    padding-left: 15px !important;
+}
+
+html.theme-override .pl-20 {
+    padding-left: 20px !important;
+}
+
+html.theme-override .pl-25 {
+    padding-left: 25px !important;
+}
+
+html.theme-override .pl-30 {
+    padding-left: 30px !important;
+}
+
+html.theme-override .pl-35 {
+    padding-left: 35px !important;
+}
+
+html.theme-override .pl-40 {
+    padding-left: 40px !important;
+}
+
+html.theme-override .pl-45 {
+    padding-left: 45px !important;
+}
+
+html.theme-override .pl-50 {
+    padding-left: 50px !important;
+}
+
+html.theme-override .pl-55 {
+    padding-left: 55px !important;
+}
+
+html.theme-override .pl-60 {
+    padding-left: 60px !important;
+}
+
+html.theme-override .pl-65 {
+    padding-left: 65px !important;
+}
+
+html.theme-override .pl-70 {
+    padding-left: 70px !important;
+}
+
+html.theme-override .pl-75 {
+    padding-left: 75px !important;
+}
+
+html.theme-override .pl-80 {
+    padding-left: 80px !important;
+}
+
+html.theme-override .pl-85 {
+    padding-left: 85px !important;
+}
+
+html.theme-override .pl-90 {
+    padding-left: 90px !important;
+}
+
+html.theme-override .pl-95 {
+    padding-left: 95px !important;
+}
+
+html.theme-override .pl-100 {
+    padding-left: 100px !important;
+}
+
+/* Padding right */
+html.theme-override .pr-0 {
+    padding-right: 0px;
+}
+
+html.theme-override .pr-5 {
+    padding-right: 5px;
+}
+
+html.theme-override .pr-10 {
+    padding-right: 10px;
+}
+
+html.theme-override .pr-15 {
+    padding-right: 15px;
+}
+
+html.theme-override .pr-20 {
+    padding-right: 20px;
+}
+
+html.theme-override .pr-25 {
+    padding-right: 25px;
+}
+
+html.theme-override .pr-30 {
+    padding-right: 30px;
+}
+
+html.theme-override .pr-35 {
+    padding-right: 35px;
+}
+
+html.theme-override .pr-40 {
+    padding-right: 40px;
+}
+
+html.theme-override .pr-45 {
+    padding-right: 45px;
+}
+
+html.theme-override .pr-50 {
+    padding-right: 50px;
+}
+
+html.theme-override .pr-55 {
+    padding-right: 55px;
+}
+
+html.theme-override .pr-60 {
+    padding-right: 60px;
+}
+
+html.theme-override .pr-65 {
+    padding-right: 65px;
+}
+
+html.theme-override .pr-70 {
+    padding-right: 70px;
+}
+
+html.theme-override .pr-75 {
+    padding-right: 75px;
+}
+
+html.theme-override .pr-80 {
+    padding-right: 80px;
+}
+
+html.theme-override .pr-85 {
+    padding-right: 85px;
+}
+
+html.theme-override .pr-90 {
+    padding-right: 90px;
+}
+
+html.theme-override .pr-95 {
+    padding-right: 95px;
+}
+
+html.theme-override .pr-100 {
+    padding-right: 100px;
+}
+
+/* Padding top */
+html.theme-override .pt-0 {
+    padding-top: 0px !important;
+}
+
+html.theme-override .pt-5 {
+    padding-top: 5px !important;
+}
+
+html.theme-override .pt-10 {
+    padding-top: 10px !important;
+}
+
+html.theme-override .pt-15 {
+    padding-top: 15px !important;
+}
+
+html.theme-override .pt-20 {
+    padding-top: 20px !important;
+}
+
+html.theme-override .pt-25 {
+    padding-top: 25px !important;
+}
+
+html.theme-override .pt-30 {
+    padding-top: 30px !important;
+}
+
+html.theme-override .pt-35 {
+    padding-top: 35px !important;
+}
+
+html.theme-override .pt-40 {
+    padding-top: 40px !important;
+}
+
+html.theme-override .pt-45 {
+    padding-top: 45px !important;
+}
+
+html.theme-override .pt-50 {
+    padding-top: 50px !important;
+}
+
+html.theme-override .pt-55 {
+    padding-top: 55px !important;
+}
+
+html.theme-override .pt-60 {
+    padding-top: 60px !important;
+}
+
+html.theme-override .pt-65 {
+    padding-top: 65px !important;
+}
+
+html.theme-override .pt-70 {
+    padding-top: 70px !important;
+}
+
+html.theme-override .pt-75 {
+    padding-top: 75px !important;
+}
+
+html.theme-override .pt-80 {
+    padding-top: 80px !important;
+}
+
+html.theme-override .pt-85 {
+    padding-top: 85px !important;
+}
+
+html.theme-override .pt-90 {
+    padding-top: 90px !important;
+}
+
+html.theme-override .pt-95 {
+    padding-top: 95px !important;
+}
+
+html.theme-override .pt-100 {
+    padding-top: 100px !important;
+}
+
+/* Padding bottom */
+html.theme-override .pb-0 {
+    padding-bottom: 0px !important;
+}
+
+html.theme-override .pb-5 {
+    padding-bottom: 5px !important;
+}
+
+html.theme-override .pb-10 {
+    padding-bottom: 10px !important;
+}
+
+html.theme-override .pb-15 {
+    padding-bottom: 15px !important;
+}
+
+html.theme-override .pb-20 {
+    padding-bottom: 20px !important;
+}
+
+html.theme-override .pb-25 {
+    padding-bottom: 25px !important;
+}
+
+html.theme-override .pb-30 {
+    padding-bottom: 30px !important;
+}
+
+html.theme-override .pb-35 {
+    padding-bottom: 35px !important;
+}
+
+html.theme-override .pb-40 {
+    padding-bottom: 40px !important;
+}
+
+html.theme-override .pb-45 {
+    padding-bottom: 45px !important;
+}
+
+html.theme-override .pb-50 {
+    padding-bottom: 50px !important;
+}
+
+html.theme-override .pb-55 {
+    padding-bottom: 55px !important;
+}
+
+html.theme-override .pb-60 {
+    padding-bottom: 60px !important;
+}
+
+html.theme-override .pb-65 {
+    padding-bottom: 65px !important;
+}
+
+html.theme-override .pb-70 {
+    padding-bottom: 70px !important;
+}
+
+html.theme-override .pb-75 {
+    padding-bottom: 75px !important;
+}
+
+html.theme-override .pb-80 {
+    padding-bottom: 80px !important;
+}
+
+html.theme-override .pb-85 {
+    padding-bottom: 85px !important;
+}
+
+html.theme-override .pb-90 {
+    padding-bottom: 90px !important;
+}
+
+html.theme-override .pb-95 {
+    padding-bottom: 95px !important;
+}
+
+html.theme-override .pb-100 {
+    padding-bottom: 100px !important;
+}
+
+/* Padding X axis */
+
+html.theme-override .px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+html.theme-override .px-5 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+html.theme-override .px-10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+html.theme-override .px-15 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+html.theme-override .px-20 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+html.theme-override .px-25 {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+html.theme-override .px-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+html.theme-override .px-35 {
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+
+html.theme-override .px-40 {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+html.theme-override .px-45 {
+    padding-left: 45px !important;
+    padding-right: 45px !important;
+}
+
+html.theme-override .px-50 {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+html.theme-override .px-55 {
+    padding-left: 55px !important;
+    padding-right: 55px !important;
+}
+
+html.theme-override .px-60 {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+html.theme-override .px-65 {
+    padding-left: 65px !important;
+    padding-right: 65px !important;
+}
+
+html.theme-override .px-70 {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
+
+html.theme-override .px-75 {
+    padding-left: 75px !important;
+    padding-right: 75px !important;
+}
+
+html.theme-override .px-80 {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+html.theme-override .px-85 {
+    padding-left: 85px !important;
+    padding-right: 85px !important;
+}
+
+html.theme-override .px-90 {
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+}
+
+html.theme-override .px-95 {
+    padding-left: 95px !important;
+    padding-right: 95px !important;
+}
+
+html.theme-override .px-100 {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+/* Padding Y axis */
+
+html.theme-override .py-0 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+html.theme-override .py-5 {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+html.theme-override .py-10 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+html.theme-override .py-15 {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+html.theme-override .py-20 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+html.theme-override .py-25 {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+}
+
+html.theme-override .py-30 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+html.theme-override .py-35 {
+    padding-top: 35px !important;
+    padding-bottom: 35px !important;
+}
+
+html.theme-override .py-40 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+html.theme-override .py-45 {
+    padding-top: 45px !important;
+    padding-bottom: 45px !important;
+}
+
+html.theme-override .py-50 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+html.theme-override .py-55 {
+    padding-top: 55px !important;
+    padding-bottom: 55px !important;
+}
+
+html.theme-override .py-60 {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+
+html.theme-override .py-65 {
+    padding-top: 65px !important;
+    padding-bottom: 65px !important;
+}
+
+html.theme-override .py-70 {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+}
+
+html.theme-override .py-75 {
+    padding-top: 75px !important;
+    padding-bottom: 75px !important;
+}
+
+html.theme-override .py-80 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+}
+
+html.theme-override .py-85 {
+    padding-top: 85px !important;
+    padding-bottom: 85px !important;
+}
+
+html.theme-override .py-90 {
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+
+html.theme-override .py-95 {
+    padding-top: 95px !important;
+    padding-bottom: 95px !important;
+}
+
+html.theme-override .py-100 {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+/* Height Classes */
+
+html.theme-override .draw-overlay-container .h-50 {
+    height: 50px;
+}
+
+html.theme-override .draw-overlay-container .h-60 {
+    height: 60px;
+}
+
+html.theme-override .draw-overlay-container .h-70 {
+    height: 70px !important;
+}
+
+html.theme-override .draw-overlay-container .h-80 {
+    height: 80px !important;
+}
+
+html.theme-override .draw-overlay-container .h-90 {
+    height: 90px !important;
+}
+
+html.theme-override .draw-overlay-container .h-100 {
+    height: 100px;
+}
+
+html.theme-override .draw-overlay-container .h-125 {
+    height: 125px;
+}
+
+html.theme-override .draw-overlay-container .h-150 {
+    height: 150px;
+}
+
+html.theme-override .draw-overlay-container .h-175 {
+    height: 175px;
+}
+
+html.theme-override .draw-overlay-container .h-200 {
+    height: 200px;
+}
+
+html.theme-override .draw-overlay-container .h-225 {
+    height: 225px;
+}
+
+html.theme-override .draw-overlay-container .h-250 {
+    height: 250px;
+}
+
+html.theme-override .draw-overlay-container .h-275 {
+    height: 275px;
+}
+
+html.theme-override .draw-overlay-container .h-300 {
+    height: 300px;
+}
+
+html.theme-override .draw-overlay-container .h-325 {
+    height: 325px;
+}
+
+html.theme-override .draw-overlay-container .h-350 {
+    height: 350px;
+}
+
+html.theme-override .draw-overlay-container .h-375 {
+    height: 375px;
+}
+
+html.theme-override .draw-overlay-container .h-400 {
+    height: 400px;
+}
+
+html.theme-override .draw-overlay-container .h-425 {
+    height: 425px;
+}
+
+html.theme-override .draw-overlay-container .h-450 {
+    height: 450px;
+}
+
+html.theme-override .draw-overlay-container .h-475 {
+    height: 475px;
+}
+
+html.theme-override .draw-overlay-container .h-500 {
+    height: 500px;
+}
+
+html.theme-override .draw-overlay-container .h-525 {
+    height: 525px;
+}
+
+html.theme-override .draw-overlay-container .h-550 {
+    height: 550px;
+}
+
+html.theme-override .draw-overlay-container .h-575 {
+    height: 575px;
+}
+
+html.theme-override .draw-overlay-container .h-600 {
+    height: 600px;
+}
+
+html.theme-override .draw-overlay-container .h-650 {
+    height: 650px;
+}
+
+html.theme-override .draw-overlay-container .h-700 {
+    height: 700px;
+}
+
+html.theme-override .draw-overlay-container .h-750 {
+    height: 750px;
+}
+
+html.theme-override .draw-overlay-container .h-800 {
+    height: 800px;
+}
+
+html.theme-override .draw-overlay-container .h-850 {
+    height: 850px;
+}
+
+html.theme-override .draw-overlay-container .h-900 {
+    height: 900px;
+}
+
+html.theme-override .draw-overlay-container .h-950 {
+    height: 950px;
+}
+
+html.theme-override .draw-overlay-container .h-1000 {
+    height: 1000px;
+}
+
+/* Width Classes */
+html.theme-override .w-1 {
+    width: 1% !important;
+}
+
+html.theme-override .w-2 {
+    width: 2% !important;
+}
+
+html.theme-override .w-3 {
+    width: 3% !important;
+}
+
+html.theme-override .w-4 {
+    width: 4% !important;
+}
+
+html.theme-override .w-5 {
+    width: 5% !important;
+}
+
+html.theme-override .w-6 {
+    width: 6% !important;
+}
+
+html.theme-override .w-7 {
+    width: 7% !important;
+}
+
+html.theme-override .w-8 {
+    width: 8% !important;
+}
+
+html.theme-override .w-9 {
+    width: 9% !important;
+}
+
+html.theme-override .w-10 {
+    width: 10% !important;
+}
+
+html.theme-override .w-15 {
+    width: 15% !important;
+}
+
+html.theme-override .w-20 {
+    width: 20% !important;
+}
+
+html.theme-override .w-25 {
+    width: 25% !important;
+}
+
+html.theme-override .w-30 {
+    width: 30% !important;
+}
+
+html.theme-override .w-35 {
+    width: 35% !important;
+}
+
+html.theme-override .w-40 {
+    width: 40% !important;
+}
+
+html.theme-override .w-45 {
+    width: 45% !important;
+}
+
+html.theme-override .w-50 {
+    width: 50% !important;
+}
+
+html.theme-override .w-55 {
+    width: 55% !important;
+}
+
+html.theme-override .w-60 {
+    width: 60% !important;
+}
+
+html.theme-override .w-65 {
+    width: 65% !important;
+}
+
+html.theme-override .w-70 {
+    width: 70% !important;
+}
+
+html.theme-override .w-75 {
+    width: 75% !important;
+}
+
+html.theme-override .w-80 {
+    width: 80% !important;
+}
+
+html.theme-override .w-85 {
+    width: 85% !important;
+}
+
+html.theme-override .w-90 {
+    width: 90% !important;
+}
+
+html.theme-override .w-95 {
+    width: 95% !important;
+}
+
+html.theme-override .w-100 {
+    width: 100% !important;
+}
+
+/* Display Properties */
+
+html.theme-override .center-layout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+html.theme-override .d-flex {
+    display: flex;
+}
+
+html.theme-override .d-inline-block {
+    display: inline-block;
+}
+
+html.theme-override .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html.theme-override .flex-even {
+    align-items: stretch;
+}
+
+html.theme-override .flex-even>* {
+    flex: 1;
+    min-width: 0;
+}
+
+html.theme-override .flex-w-even>* {
+    flex: 1;
+    min-width: 0;
+}
+
+html.theme-override .flex-h-even {
+    align-items: stretch;
+}
+
+html.theme-override .align-items-start {
+    align-items: start !important;
+}
+
+html.theme-override .align-items-center {
+    align-items: center !important;
+}
+
+html.theme-override .align-items-end {
+    align-items: end !important;
+}
+
+html.theme-override .justify-content-start {
+    justify-content: start !important;
+}
+
+html.theme-override .justify-content-center {
+    justify-content: center !important;
+}
+
+html.theme-override .justify-content-end {
+    justify-content: end !important;
+}
+
+html.theme-override .justify-content-between {
+    justify-content: space-between !important;
+}
+
+html.theme-override .justify-content-around {
+    justify-content: space-around !important;
+}
+
+html.theme-override .justify-content-evenly {
+    justify-content: space-evenly !important;
+}
+
+html.theme-override .flex-row {
+    flex-direction: row !important;
+}
+
+html.theme-override .flex-column {
+    flex-direction: column !important;
+}
+
+html.theme-override .flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+html.theme-override .flex-nowrap {
+    flex-wrap: nowrap !important;
+}
+
+html.theme-override .vertical-align-top {
+    vertical-align: top !important;
+}
+
+html.theme-override .vertical-align-middle {
+    vertical-align: middle !important;
+}
+
+html.theme-override .vertical-align-bottom {
+    vertical-align: bottom !important;
+}
+
+/* Flex Gaps  */
+
+html.theme-override .gap-5 {
+    gap: 5px !important;
+}
+
+html.theme-override .gap-10 {
+    gap: 10px !important;
+}
+
+html.theme-override .gap-15 {
+    gap: 15px !important;
+}
+
+html.theme-override .gap-20 {
+    gap: 20px !important;
+}
+
+html.theme-override .gap-25 {
+    gap: 25px !important;
+}
+
+html.theme-override .gap-30 {
+    gap: 30px !important;
+}
+
+html.theme-override .gap-35 {
+    gap: 35px !important;
+}
+
+html.theme-override .gap-40 {
+    gap: 40px !important;
+}
+
+html.theme-override .gap-45 {
+    gap: 45px !important;
+}
+
+html.theme-override .gap-50 {
+    gap: 50px !important;
+}
+
+html.theme-override .gap-55 {
+    gap: 55px !important;
+}
+
+html.theme-override .gap-60 {
+    gap: 60px !important;
+}
+
+html.theme-override .gap-65 {
+    gap: 65px !important;
+}
+
+html.theme-override .gap-70 {
+    gap: 70px !important;
+}
+
+html.theme-override .gap-75 {
+    gap: 75px !important;
+}
+
+html.theme-override .gap-80 {
+    gap: 80px !important;
+}
+
+html.theme-override .gap-85 {
+    gap: 85px !important;
+}
+
+html.theme-override .gap-90 {
+    gap: 90px !important;
+}
+
+html.theme-override .gap-95 {
+    gap: 95px !important;
+}
+
+html.theme-override .gap-100 {
+    gap: 100px !important;
+}
+
+/* Text Align Properties */
+
+html.theme-override .text-left {
+    text-align: left !important;
+}
+
+html.theme-override .text-center {
+    text-align: center !important;
+}
+
+html.theme-override .text-right {
+    text-align: right !important;
+}
+
+html.theme-override .text-justify {
+    text-align: justify !important;
+}
+
+html.theme-override .text-start {
+    text-align: start !important;
+}
+
+html.theme-override .text-end {
+    text-align: end !important;
+}
+
+html.theme-override .text-inherit {
+    text-align: inherit !important;
+}
+
+html.theme-override .text-initial {
+    text-align: initial !important;
+}
+
+html.theme-override .text-unset {
+    text-align: unset !important;
+}
+
+html.theme-override .text-indent-0 {
+    text-indent: 0 !important;
+}
+
+html.theme-override .text-indent-1 {
+    text-indent: 1em !important;
+}
+
+html.theme-override .text-indent-2 {
+    text-indent: 2em !important;
+}
+
+html.theme-override .text-indent-3 {
+    text-indent: 3em !important;
+}
+
+html.theme-override .text-indent-4 {
+    text-indent: 4em !important;
+}
+
+html.theme-override .text-indent-5 {
+    text-indent: 5em !important;
+}
+
+/* Writing Line */
+html.theme-override .draw-overlay-container .writing-line {
+    border: none;
+    border-bottom: 1px solid #000;
+    min-height: 1px;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+html.theme-override .draw-overlay-container .writing-line-bold {
+    border: none;
+    border-bottom: 3px solid #000;
+    min-height: 1px;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+html.theme-override .draw-overlay-container .writing-line-gray {
+    border: none;
+    border-bottom: 2px solid #b7b7b7;
+    min-height: 1px;
+    width: 100%;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+/* Unique Components */
+
+html.theme-override .draw-overlay-container .circle-bold {
+    aspect-ratio: 1;
+    border: 7px solid #000;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Text Formatting */
+
+html.theme-override .text-normal {
+    font-weight: normal;
+}
+
+html.theme-override .bold {
+    font-weight: bold !important;
+}
+
+
+html.theme-override .italic {
+    font-style: italic !important;
+}
+
+html.theme-override .draw-overlay-container .underline {
+    text-decoration: underline !important;
+}
+
+/* Box and Borders */
+
+.border-box {
+    border: 1px solid #000;
+}
+
+.border-box-medium {
+    border: 2px solid #000;
+}
+
+.border-box-bold {
+    border: 3px solid #000;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.border-transparent {
+    border: transparent !important;
+}
+
+.border-1 {
+    border: 1px solid #000 !important;
+}
+
+.border-2 {
+    border: 2px solid #000 !important;
+}
+
+.border-3 {
+    border: 3px solid #000 !important;
+}
+
+.border-4 {
+    border: 4px solid #000 !important;
+}
+
+.border-5 {
+    border: 5px solid #000 !important;
+}
+
+/* Colors */
+
+html.theme-override .draw-overlay-container .bg-gray {
+    background-color: #eeeeee;
+}
+
+/* html.theme-override .draw-overlay-container .bg-orange {
+    background-color: #935427;
+}
+
+html.theme-override .draw-overlay-container .bg-green {
+    background-color: #3b6639;
+}
+
+html.theme-override .draw-overlay-container .bg-blue {
+    background-color: #25408c;
+} */
+
+html.theme-override .draw-overlay-container .text-orange {
+    color: #f17f21;
+}
+
+html.theme-override .draw-overlay-container .text-green {
+    color: #85a63d;
+}
+
+html.theme-override .draw-overlay-container .text-blue {
+    color: #323b8f;
+}
