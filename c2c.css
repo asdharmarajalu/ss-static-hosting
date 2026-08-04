@@ -55,17 +55,12 @@ body {
     /* ************** APP ************** */
     --theme-first-color: #3b673a;
     /* ^ (by default) affects spinner, top border, progress bar, modal headers, distractor selector and background button color on nav */
-
     --theme-spinner-color: #3b673a;
-
     --modal-header-font-color: #fff;
-
     --theme-second-color: #cbddc5;
     /* ^ affects background toolbar color, button border. */
-
     --theme-background-color: #fff;
     /* ^ is the default background color and will show items are set transparent */
-
     --theme-second-background-color: #cbddc5;
     /* #fff; */
     --theme-primary-button-border-color: var(--theme-first-color);
@@ -74,7 +69,6 @@ body {
     --theme-font-size-xlarge: 22px;
     --theme-font-size-large: 18px;
     --theme-font-size-small: 16px;
-
     /* ************** TITLE ************** */
     /* IMAGES these can be an image url or 'none'; */
     /* --basic-title-inner-background-color: #f8f8f8; */
@@ -91,10 +85,8 @@ body {
     --theme-subtitle-font-color: #3b673a;
     --basic-title-font-family: "Roboto", sans-serif;
     --basic-title-banner-border-radius: 10px;
-
     --theme-title-font-weight: 600;
     --theme-subtitle-font-weight: normal;
-
     /* ************** TOOLBAR ************** */
     --toolbar-background: #fff;
     /* background color */
@@ -106,13 +98,11 @@ body {
     --toolbar-title-color: #000;
     --toolbar-button-group-bg-color: #eee;
     --toolbar-logo-url: url("https://assets.content2classroom.com/E70B17008AA84D34980D1AB67B732895/opensci_logo_v4.svg");
-
     --toolbar-logo-height: 18px;
     --toolbar-logo-width: 62px;
     /* toolbar font */
     --theme-font-size-tiny: 12px;
     --toolbar-toggle-on-bg-color: #3b673a;
-
     /* ************** CONTENT ************** */
     /*--basic-lesson-content-background-image: url('https://assets.content2classroom.com/carolina/theme-icons/carolina-open-sci-ed-bg.webp');*/
     --basic-content-title-border-radius: 0px;
@@ -125,23 +115,19 @@ body {
     /* --basic-content-inner-border-radius: 20px; */
     --basic-question-font-size: 18px;
     --theme-font-size: 16px;
-
     --section-background-color: var(--question-header-background-color);
     --section-banner-font-color: var(--question-banner-font-color);
     --section-header-font-style: normal;
     --section-header-font-weight: bold;
-
     /* ************** NAV ************** */
     /* goto */
     --goto-button-font-color: #000;
     --goto-button-font-weight: bold;
     --goto-button-color: transparent;
     --title-goto-button-color: var(--theme-first-color);
-
     --goto-open-button-border-color: #3b673a;
     --goto-open-button-font-color: #fff;
     --goto-open-button-color: #3b673a;
-
     /* back and next */
     --nav-border-color: #3b673a;
     --nav-button-color: #000;
@@ -149,19 +135,15 @@ body {
     --nav-button-font-weight: bold;
     --nav-background-color: #fff;
     --nav-button-radius: 6px;
-
     /* ------------------------------------------------------------------------------------------------------------------ */
     --activity-child-question-width: calc(100% - 50px);
-
     --activity-nav-bg-color: #eee;
-
     --activity-nav-button-bg-color: #fff;
     --activity-nav-button-border: 1px solid var(--activity-nav-button-border-color);
     /* --activity-nav-button-font-color: var(--theme-second-color); */
     --activity-nav-button-font-color: purple;
     --activity-nav-button-font-size: 16px;
     --activity-nav-button-hover-font-size: 16px;
-
     --activity-nav-button-border-color: #3b673a;
     --activity-nav-button-height: 32px;
     --activity-nav-button-margin: 11px 0 0 8px;
@@ -238,7 +220,6 @@ body {
     --goto-card-height: 120px;
     --goto-card-number-label-bottom: 5px;
     --goto-card-number-label-font-weight: bold;
-
     --goto-small-card-bg-color: #e9ffdb;
     --goto-small-card-bg-color-selected: #3b673a;
     --goto-small-card-color: #000;
@@ -254,7 +235,6 @@ body {
     --goto-small-card-width: auto;
     --goto-small-card-title-width: 161px;
     --goto-small-card-summary-width: 161px;
-
     --goto-card-inner-bg-color: #fff;
     --goto-card-inner-color: #000;
     --goto-card-inner-height: 100%;
@@ -264,7 +244,6 @@ body {
     --goto-card-inner-selected-bg-color: var(--theme-background-color);
     --goto-card-inner-selected-color: var(--theme-first-color);
     --goto-card-inner-width: 100%;
-
     --goto-card-margins: 12px 9px;
     --goto-card-min-height: 120px;
     --goto-card-min-width: 186px;
@@ -374,7 +353,6 @@ body {
     --theme-item-question-bottom-margin: 20px;
     --theme-light-font-color: #565656;
     --theme-pop-color: var(--theme-first-color);
-
     --theme-primary-button-click: #c5d4ec;
     --theme-primary-button-bg-color: var(--theme-first-color);
     --theme-primary-button-color: #fff;
@@ -384,7 +362,6 @@ body {
     --theme-primary-button-padding: 0 14px 1px 14px;
     --theme-primary-button-radius: 4px;
     --theme-radius: 8px;
-
     --theme-text-input-border: 1px solid;
     --theme-text-input-font-color: #000;
     --theme-text-input-height: 24px;
@@ -439,7 +416,6 @@ body {
     --toolbar-icon-wrapper-help-height: 30px;
     /* --toolbar-instruction-icon-url: url('https://assets.content2classroom.com/si/theme-icons/instructions.svg');
       --toolbar-lineReader-icon-url: url('https://assets.content2classroom.com/si/theme-icons/lineRead.svg'); */
-
     --toolbar-logo-wrapper-height: 57px;
     --toolbar-logo-wrapper-width: auto;
     --toolbar-menu-small-width: 65px;
@@ -477,7 +453,6 @@ html.theme-override .scoring-toolbar-wrapper {
     background-color: var(--theme-primary-button-hover) !important;
     color: var(--theme-primary-button-color) !important;
   } */
-
 html.theme-override .publisher-preview .filter-control-bar button.control-button:hover {
     color: var(--theme-primary-button-color);
 }
@@ -493,7 +468,6 @@ html.theme-override .toolbar-wrapper .flat-menu-group.lessonGroup .toolbar-butto
 /* html.theme-override .toolbar-wrapper .flat-menu-group.lessonGroup .toolbar-button-wrapper.toggle-off {
       background-color: var(--toolbar-button-group-bg-color);
     } */
-
 html.theme-override .content-wrapper .stand-alone-wrapper .lesson-element.stand-alone.TitlePage .title-page-wrapper .title-bar-wrapper {
     min-height: 200px;
     background-color: var(--basic-title-gb-color);
@@ -661,7 +635,6 @@ html.theme-override .toolbar-wrapper .toolbar-dropdown.calculatorsGroup.dropdown
 /* html.theme-override .toolbar-wrapper .toolbar-button-wrapper.toggle-off .toolbar-icon-wrapper .toolbar-icon {
     background-color: var(--toolbar-font-label-color-hover);
   } */
-
 html.theme-override .toolbar-wrapper .toolbar-button-wrapper.toggle-on .toolbar-icon-wrapper .toolbar-icon {
     background-color: var(--toolbar-font-label-color-hover);
 }
@@ -768,7 +741,6 @@ html.theme-override .activity-content .question-slider-button-wrapper .icon-wrap
 }
 
 /* theme impl */
-
 html.theme-override .volumeControl:focus-visible {
     outline: auto;
 }
@@ -1219,7 +1191,6 @@ html.theme-override .goto-card.selected {
 /* html.theme-override .goto-card.selected .goto-card-inner {
     color: var(--theme-first-color);
   } */
-
 html.theme-override .activity-content .question-panel {
     padding: 0;
     color: #000;
@@ -1801,7 +1772,6 @@ html.theme-override .ChapterNumber {
 
 /* --------------------------------------------- */
 /* Box styles */
-
 html.theme-override .BoxText100,
 html.theme-override .BoxText75,
 html.theme-override .BoxText50 {
@@ -2108,7 +2078,6 @@ html.theme-override .mb-100 {
 }
 
 /* margin top */
-
 html.theme-override .mt-0 {
     margin-top: 0px !important;
 }
@@ -2194,7 +2163,6 @@ html.theme-override .mt-100 {
 }
 
 /* Margin left */
-
 html.theme-override .ml-0 {
     margin-left: 0px !important;
 }
@@ -2373,7 +2341,6 @@ html.theme-override .mr-100 {
 }
 
 /* Padding top */
-
 html.theme-override .pt-0 {
     padding-top: 0px !important;
 }
@@ -2562,6 +2529,70 @@ html.theme-override .pr-15 {
 
 html.theme-override .pr-20 {
     padding-right: 20px;
+}
+
+html.theme-override .pr-25 {
+    padding-right: 25px;
+}
+
+html.theme-override .pr-30 {
+    padding-right: 30px;
+}
+
+html.theme-override .pr-35 {
+    padding-right: 35px;
+}
+
+html.theme-override .pr-40 {
+    padding-right: 40px;
+}
+
+html.theme-override .pr-45 {
+    padding-right: 45px;
+}
+
+html.theme-override .pr-50 {
+    padding-right: 50px;
+}
+
+html.theme-override .pr-55 {
+    padding-right: 55px;
+}
+
+html.theme-override .pr-60 {
+    padding-right: 60px;
+}
+
+html.theme-override .pr-65 {
+    padding-right: 65px;
+}
+
+html.theme-override .pr-70 {
+    padding-right: 70px;
+}
+
+html.theme-override .pr-75 {
+    padding-right: 75px;
+}
+
+html.theme-override .pr-80 {
+    padding-right: 80px;
+}
+
+html.theme-override .pr-85 {
+    padding-right: 85px;
+}
+
+html.theme-override .pr-90 {
+    padding-right: 90px;
+}
+
+html.theme-override .pr-95 {
+    padding-right: 95px;
+}
+
+html.theme-override .pr-100 {
+    padding-right: 100px;
 }
 
 /* Padding left */
@@ -2841,7 +2872,6 @@ html.theme-override .activity-content.MultipartActivity .Draw div:has(.testItemQ
 }
 
 /* 02-09-2024 */
-
 html.theme-override .text-center {
     text-align: center !important;
 }
@@ -2881,7 +2911,6 @@ html.theme-override .flyout-panel.teacher-notes-panel .teacher-notes-wrapper .te
 }
 
 /* 10-09-2024 full screen css*/
-
 @supports (selector(:has(*))) {
     html.theme-override .Pane.vertical.Pane1:has(.content-slider-button-wrapper.slider-button.content-collapse) {
         width: 2% !important;
@@ -2893,19 +2922,16 @@ html.theme-override .flyout-panel.teacher-notes-panel .teacher-notes-wrapper .te
 }
 
 /* 17-09-2024 */
-
 html.theme-override .ArticleQuestion .article-activity-question .body:has(.removedflex) {
     display: block;
 }
 
 /* 19-09-20024 teacher noter left border */
-
 html.theme-override .flyout-wrapper .flyout-panel-wrapper {
     border-left: 2px solid var(--theme-first-color);
 }
 
 /* 25-09-2024 */
-
 html.theme-override .flex-wrapper {
     display: flex;
     gap: 5px;
@@ -2917,7 +2943,6 @@ html.theme-override .d-inline-block {
 }
 
 /* 27-09-2024  text color CSS */
-
 html.theme-override .brown1 {
     color: #945428;
 }
@@ -3031,6 +3056,10 @@ html.theme-override .w-35 {
     width: 35% !important;
 }
 
+html.theme-override .w-38 {
+    width: 38% !important;
+}
+
 html.theme-override .w-40 {
     width: 40% !important;
 }
@@ -3041,6 +3070,10 @@ html.theme-override .w-45 {
 
 html.theme-override .w-50 {
     width: 50% !important;
+}
+
+html.theme-override .w-52 {
+    width: 52% !important;
 }
 
 html.theme-override .w-55 {
@@ -3097,7 +3130,6 @@ html.theme-override .testItemQuestion:has(.question-wrapper.toolbar-center)~.dra
 }
 
 /************************* OSE-MS PDF-HTML Conversion *************************/
-
 :root {
     --primary-Grade6-color: #3b673a;
     --secondary-Grade6-color: #cbddc5;
@@ -3634,6 +3666,10 @@ html.theme-override .top-border {
 
 html.theme-override .bottom-border {
     border-bottom: 1px solid #000000 !important;
+}
+
+html.theme-override .draw-overlay-container .border-right-dashed {
+    border-right: 2px dashed #b7b7b7;
 }
 
 html.theme-override .fs-18 {
@@ -5812,6 +5848,11 @@ html.theme-override .draw-overlay-container .bg-red {
     color: #fff;
 }
 
+html.theme-override .draw-overlay-container .bg-red>th:not(:last-child),
+html.theme-override .draw-overlay-container .bg-red>td:not(:last-child) {
+    border-right: 1px solid #fff !important;
+}
+
 html.theme-override .draw-overlay-container .bg-light-red {
     background-color: #ecd2c7;
 }
@@ -6054,19 +6095,16 @@ html.theme-override .draw-overlay-container .bottom-border {
 }
 
 /* Width */
-
 html.theme-override .draw-overlay-container .w-fit {
     width: fit-content !important;
 }
 
 /* Margin */
-
 html.theme-override .draw-overlay-container .ml-auto {
     margin-left: auto !important;
 }
 
 /* Borders */
-
 html.theme-override .draw-overlay-container .border-1 {
     border: 1px solid #000;
 }
@@ -6080,7 +6118,6 @@ html.theme-override .draw-overlay-container .border-top-1 {
 }
 
 /* Table */
-
 html.theme-override .draw-overlay-container .unset-table {
     table-layout: unset !important;
 }
@@ -6311,3 +6348,14 @@ html.theme-override .draw-overlay-container .student-reading .mirror-table tr:fi
     border: none;
     color: white;
 }
+
+html.theme-override .draw-overlay-container.ose-ms-grade-8-6 .horse-image p {
+    width: 80px;
+    text-align: center;
+}
+
+html.theme-override .draw-overlay-container.ose-ms-grade-8-6 .horse-image p:last-child {
+    width: 60px;
+    text-align: center;
+}
+
