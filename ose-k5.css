@@ -160,9 +160,7 @@ html.theme-override .draw-overlay-container .bullet-list li {
 
 /* Table  */
 
-html.theme-override .draw-overlay-container .data-table,
-html.theme-override .draw-overlay-container .data-table-medium,
-html.theme-override .draw-overlay-container .data-table-bold {
+html.theme-override .draw-overlay-container .data-table {
     table-layout: fixed;
     border-collapse: collapse;
     width: 100%;
@@ -171,31 +169,13 @@ html.theme-override .draw-overlay-container .data-table-bold {
 
 html.theme-override .draw-overlay-container .data-table th,
 html.theme-override .draw-overlay-container .data-table td {
-    border: 1px solid #000;
-    padding: 6px 9px;
-    vertical-align: top;
-    text-align: left;
-}
-
-html.theme-override .draw-overlay-container .data-table-medium th,
-html.theme-override .draw-overlay-container .data-table-medium td {
     border: 2px solid #000;
     padding: 6px 9px;
     vertical-align: top;
     text-align: left;
 }
 
-html.theme-override .draw-overlay-container .data-table-bold th,
-html.theme-override .draw-overlay-container .data-table-bold td {
-    border: 3px solid #000;
-    padding: 6px 9px;
-    vertical-align: top;
-    text-align: left;
-}
-
-html.theme-override .draw-overlay-container .data-table thead th,
-html.theme-override .draw-overlay-container .data-table-medium thead th,
-html.theme-override .draw-overlay-container .data-table-bold thead th {
+html.theme-override .draw-overlay-container .data-table thead th {
     font-weight: bold;
 }
 
@@ -1886,15 +1866,7 @@ html.theme-override .draw-overlay-container .underline {
 /* Box and Borders */
 
 .border-box {
-    border: 1px solid #000;
-}
-
-.border-box-medium {
     border: 2px solid #000;
-}
-
-.border-box-bold {
-    border: 3px solid #000;
 }
 
 .border-none {
