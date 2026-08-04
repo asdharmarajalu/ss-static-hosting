@@ -137,6 +137,10 @@ html.theme-override .draw-overlay-container .image-box img {
     width: 100%;
 }
 
+html.theme-override .draw-overlay-container .image-credit {
+    font-size: 12px !important;
+}
+
 /* Ordered and Unordered Lists */
 
 html.theme-override .draw-overlay-container .num-list {
