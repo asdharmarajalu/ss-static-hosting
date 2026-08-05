@@ -1919,6 +1919,18 @@ html.theme-override .draw-overlay-container .text-blue {
     color: #323b8f;
 }
 
+/* BG Colors  */
+
+html.theme-override .draw-overlay-container .bg-black {
+    background-color: #231f20;
+    color: #ffffff;
+}
+
+html.theme-override .draw-overlay-container .bg-black>th:not(:last-child),
+html.theme-override .draw-overlay-container .bg-black>td:not(:last-child) {
+    border-right: 2px solid #fff !important;
+}
+
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
