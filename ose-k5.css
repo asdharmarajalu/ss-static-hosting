@@ -1907,18 +1907,6 @@ html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
 }
 
-/* html.theme-override .draw-overlay-container .bg-orange {
-    background-color: #935427;
-}
-
-html.theme-override .draw-overlay-container .bg-green {
-    background-color: #3b6639;
-}
-
-html.theme-override .draw-overlay-container .bg-blue {
-    background-color: #25408c;
-} */
-
 html.theme-override .draw-overlay-container .text-orange {
     color: #f17f21;
 }
@@ -1929,4 +1917,20 @@ html.theme-override .draw-overlay-container .text-green {
 
 html.theme-override .draw-overlay-container .text-blue {
     color: #323b8f;
+}
+
+/* Footer */
+html.theme-override .draw-overlay-container .footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 12px;
+    margin-top: auto;
+    padding: 20px 0 0 0;
+    width: 100%;
+}
+
+html.theme-override .draw-overlay-container .footer-block p {
+    margin: 2px 0;
+    text-indent: 0;
 }
