@@ -62,13 +62,13 @@ body {
     text-align: left;
 }
 
-html.theme-override .draw-overlay-container .font-coming-soon {
+/* html.theme-override .draw-overlay-container .font-coming-soon {
     font-family: "Coming Soon";
 }
 
 html.theme-override .draw-overlay-container .font-cabin-sketch {
     font-family: "CabinSketch";
-}
+} */
 
 html.theme-override .Draw .testItemQuestion .draw-overlay-container {
     margin-bottom: 0 !important;
@@ -115,7 +115,7 @@ html.theme-override .draw-overlay-container .main-title {
 
 html.theme-override .draw-overlay-container .activity-title {
     font-family: "CabinSketch";
-    font-size: 18px;
+    font-size: 22px;
     text-indent: 0pt;
     margin-top: 0pt;
     margin-bottom: 10px;
