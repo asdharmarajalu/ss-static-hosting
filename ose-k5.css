@@ -113,6 +113,14 @@ html.theme-override .draw-overlay-container .main-title {
     margin-bottom: 10px;
 }
 
+html.theme-override .draw-overlay-container .activity-title {
+    font-family: "CabinSketch";
+    font-size: 18px;
+    text-indent: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 10px;
+}
+
 html.theme-override .draw-overlay-container .sub-title {
     font-family: "Coming Soon";
     font-size: 30px;
