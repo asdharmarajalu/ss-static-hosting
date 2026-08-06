@@ -1861,7 +1861,16 @@ html.theme-override .draw-overlay-container .writing-line {
     border-bottom: 1px solid #000;
     min-height: 1px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    line-height: normal;
+}
+
+html.theme-override .draw-overlay-container .writing-line-medium {
+    border: none;
+    border-bottom: 2px solid #000;
+    min-height: 1px;
+    width: 100%;
+    margin-bottom: 25px;
     line-height: normal;
 }
 
@@ -1870,7 +1879,7 @@ html.theme-override .draw-overlay-container .writing-line-bold {
     border-bottom: 3px solid #000;
     min-height: 1px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     line-height: normal;
 }
 
@@ -1879,7 +1888,7 @@ html.theme-override .draw-overlay-container .writing-line-gray {
     border-bottom: 2px solid #b7b7b7;
     min-height: 1px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     line-height: normal;
 }
 
@@ -1916,7 +1925,7 @@ html.theme-override .draw-overlay-container .underline {
 /* Box and Borders */
 
 .border-box {
-    border: 3px solid #000;
+    border: 2px solid #000;
 }
 
 .border-none {
