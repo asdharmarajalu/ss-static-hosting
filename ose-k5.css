@@ -1858,16 +1858,16 @@ html.theme-override .text-indent-5 {
 /* Writing Line */
 html.theme-override .draw-overlay-container .writing-line {
     border: none;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #000;
     min-height: 1px;
     width: 100%;
     margin-bottom: 25px;
     line-height: normal;
 }
 
-html.theme-override .draw-overlay-container .writing-line-medium {
+html.theme-override .draw-overlay-container .writing-line-light {
     border: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
     min-height: 1px;
     width: 100%;
     margin-bottom: 25px;
@@ -1877,6 +1877,15 @@ html.theme-override .draw-overlay-container .writing-line-medium {
 html.theme-override .draw-overlay-container .writing-line-bold {
     border: none;
     border-bottom: 3px solid #000;
+    min-height: 1px;
+    width: 100%;
+    margin-bottom: 25px;
+    line-height: normal;
+}
+
+html.theme-override .draw-overlay-container .writing-line-dashed {
+    border: none;
+    border-bottom: 2px dashed #000;
     min-height: 1px;
     width: 100%;
     margin-bottom: 25px;
