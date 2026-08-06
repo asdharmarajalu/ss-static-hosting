@@ -142,6 +142,27 @@ html.theme-override .draw-overlay-container .image-credit {
 
 /* Ordered and Unordered Lists */
 
+html.theme-override .draw-overlay-container .num-list,
+html.theme-override .draw-overlay-container .bullet-list,
+html.theme-override .draw-overlay-container .lower-alpha-list,
+html.theme-override .draw-overlay-container .upper-alpha-list,
+html.theme-override .draw-overlay-container .lower-roman-list,
+html.theme-override .draw-overlay-container .upper-roman-list,
+html.theme-override .draw-overlay-container .circle-list {
+    margin: 5px 0;
+    padding-left: 40px;
+}
+
+html.theme-override .draw-overlay-container .num-list li,
+html.theme-override .draw-overlay-container .bullet-list li,
+html.theme-override .draw-overlay-container .lower-alpha-list li,
+html.theme-override .draw-overlay-container .upper-alpha-list li,
+html.theme-override .draw-overlay-container .lower-roman-list li,
+html.theme-override .draw-overlay-container .upper-roman-list li,
+html.theme-override .draw-overlay-container .circle-list li {
+    margin: 4px 0;
+}
+
 html.theme-override .draw-overlay-container .num-list {
     list-style-type: decimal;
 }
@@ -150,15 +171,28 @@ html.theme-override .draw-overlay-container .bullet-list {
     list-style-type: disc;
 }
 
-html.theme-override .draw-overlay-container .num-list,
-html.theme-override .draw-overlay-container .bullet-list {
-    margin: 5px 0;
-    padding-left: 40px;
+html.theme-override .draw-overlay-container .lower-alpha-list {
+    list-style-type: lower-alpha;
 }
 
-html.theme-override .draw-overlay-container .num-list li,
-html.theme-override .draw-overlay-container .bullet-list li {
-    margin: 4px 0;
+html.theme-override .draw-overlay-container .upper-alpha-list {
+    list-style-type: upper-alpha;
+}
+
+html.theme-override .draw-overlay-container .lower-roman-list {
+    list-style-type: lower-roman;
+}
+
+html.theme-override .draw-overlay-container .upper-roman-list {
+    list-style-type: upper-roman;
+}
+
+html.theme-override .draw-overlay-container .circle-list {
+    list-style-type: circle;
+}
+
+html.theme-override .draw-overlay-container .list-style-none {
+    list-style-type: none !important;
 }
 
 /* Table  */
