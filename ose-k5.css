@@ -57,11 +57,6 @@
     box-sizing: content-box;
 }
 
-body {
-    font-family: "Andika";
-    text-align: left;
-}
-
 /* html.theme-override .draw-overlay-container .font-coming-soon {
     font-family: "Coming Soon";
 }
@@ -70,8 +65,9 @@ html.theme-override .draw-overlay-container .font-cabin-sketch {
     font-family: "CabinSketch";
 } */
 
-html.theme-override .Draw .testItemQuestion .draw-overlay-container {
+html.theme-override .draw-overlay-container {
     margin-bottom: 0 !important;
+    font-family: "Andika";
 }
 
 html.theme-override .draw-overlay-container .page {
@@ -211,13 +207,37 @@ html.theme-override .draw-overlay-container .list-style-none {
     list-style-type: none !important;
 }
 
+/* Square-List */
+
+html.theme-override .draw-overlay-container .square-list {
+    list-style: none;
+    margin: 5px 0;
+    padding-left: 40px;
+}
+
+html.theme-override .draw-overlay-container .square-list li {
+    position: relative;
+    margin: 4px 0;
+}
+
+html.theme-override .draw-overlay-container .square-list li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background: #000;
+    left: -20px;
+    top: 0.74em;
+    transform: translateY(-50%);
+}
+
 /* Table  */
 
 html.theme-override .draw-overlay-container .data-table {
     table-layout: fixed;
     border-collapse: collapse;
     width: 100%;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
 html.theme-override .draw-overlay-container .data-table th,
@@ -248,6 +268,1785 @@ html.theme-override .draw-overlay-container .data-table thead th {
 
 html.theme-override .unset-table {
     table-layout: unset !important;
+}
+
+/* Card Set */
+
+html.theme-override .draw-overlay-container .card-set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html.theme-override .draw-overlay-container .card-set .card-title {
+    font-size: 40px;
+    margin-bottom: 10px !important;
+}
+
+html.theme-override .draw-overlay-container .card-set .card-content {
+    font-size: 24px;
+}
+
+/* Positioning */
+html.theme-override .position-relative {
+    position: relative !important;
+}
+
+html.theme-override .position-absolute {
+    position: absolute !important;
+}
+
+html.theme-override .top-0 {
+    top: 0% !important;
+}
+
+html.theme-override .top-1 {
+    top: 1% !important;
+}
+
+html.theme-override .top-2 {
+    top: 2% !important;
+}
+
+html.theme-override .top-3 {
+    top: 3% !important;
+}
+
+html.theme-override .top-4 {
+    top: 4% !important;
+}
+
+html.theme-override .top-5 {
+    top: 5% !important;
+}
+
+html.theme-override .top-6 {
+    top: 6% !important;
+}
+
+html.theme-override .top-7 {
+    top: 7% !important;
+}
+
+html.theme-override .top-8 {
+    top: 8% !important;
+}
+
+html.theme-override .top-9 {
+    top: 9% !important;
+}
+
+html.theme-override .top-10 {
+    top: 10% !important;
+}
+
+html.theme-override .top-11 {
+    top: 11% !important;
+}
+
+html.theme-override .top-12 {
+    top: 12% !important;
+}
+
+html.theme-override .top-13 {
+    top: 13% !important;
+}
+
+html.theme-override .top-14 {
+    top: 14% !important;
+}
+
+html.theme-override .top-15 {
+    top: 15% !important;
+}
+
+html.theme-override .top-16 {
+    top: 16% !important;
+}
+
+html.theme-override .top-17 {
+    top: 17% !important;
+}
+
+html.theme-override .top-18 {
+    top: 18% !important;
+}
+
+html.theme-override .top-19 {
+    top: 19% !important;
+}
+
+html.theme-override .top-20 {
+    top: 20% !important;
+}
+
+html.theme-override .top-21 {
+    top: 21% !important;
+}
+
+html.theme-override .top-22 {
+    top: 22% !important;
+}
+
+html.theme-override .top-23 {
+    top: 23% !important;
+}
+
+html.theme-override .top-24 {
+    top: 24% !important;
+}
+
+html.theme-override .top-25 {
+    top: 25% !important;
+}
+
+html.theme-override .top-26 {
+    top: 26% !important;
+}
+
+html.theme-override .top-27 {
+    top: 27% !important;
+}
+
+html.theme-override .top-28 {
+    top: 28% !important;
+}
+
+html.theme-override .top-29 {
+    top: 29% !important;
+}
+
+html.theme-override .top-30 {
+    top: 30% !important;
+}
+
+html.theme-override .top-31 {
+    top: 31% !important;
+}
+
+html.theme-override .top-32 {
+    top: 32% !important;
+}
+
+html.theme-override .top-33 {
+    top: 33% !important;
+}
+
+html.theme-override .top-34 {
+    top: 34% !important;
+}
+
+html.theme-override .top-35 {
+    top: 35% !important;
+}
+
+html.theme-override .top-36 {
+    top: 36% !important;
+}
+
+html.theme-override .top-37 {
+    top: 37% !important;
+}
+
+html.theme-override .top-38 {
+    top: 38% !important;
+}
+
+html.theme-override .top-39 {
+    top: 39% !important;
+}
+
+html.theme-override .top-40 {
+    top: 40% !important;
+}
+
+html.theme-override .top-41 {
+    top: 41% !important;
+}
+
+html.theme-override .top-42 {
+    top: 42% !important;
+}
+
+html.theme-override .top-43 {
+    top: 43% !important;
+}
+
+html.theme-override .top-44 {
+    top: 44% !important;
+}
+
+html.theme-override .top-45 {
+    top: 45% !important;
+}
+
+html.theme-override .top-46 {
+    top: 46% !important;
+}
+
+html.theme-override .top-47 {
+    top: 47% !important;
+}
+
+html.theme-override .top-48 {
+    top: 48% !important;
+}
+
+html.theme-override .top-49 {
+    top: 49% !important;
+}
+
+html.theme-override .top-50 {
+    top: 50% !important;
+}
+
+html.theme-override .top-51 {
+    top: 51% !important;
+}
+
+html.theme-override .top-52 {
+    top: 52% !important;
+}
+
+html.theme-override .top-53 {
+    top: 53% !important;
+}
+
+html.theme-override .top-54 {
+    top: 54% !important;
+}
+
+html.theme-override .top-55 {
+    top: 55% !important;
+}
+
+html.theme-override .top-56 {
+    top: 56% !important;
+}
+
+html.theme-override .top-57 {
+    top: 57% !important;
+}
+
+html.theme-override .top-58 {
+    top: 58% !important;
+}
+
+html.theme-override .top-59 {
+    top: 59% !important;
+}
+
+html.theme-override .top-60 {
+    top: 60% !important;
+}
+
+html.theme-override .top-61 {
+    top: 61% !important;
+}
+
+html.theme-override .top-62 {
+    top: 62% !important;
+}
+
+html.theme-override .top-63 {
+    top: 63% !important;
+}
+
+html.theme-override .top-64 {
+    top: 64% !important;
+}
+
+html.theme-override .top-65 {
+    top: 65% !important;
+}
+
+html.theme-override .top-66 {
+    top: 66% !important;
+}
+
+html.theme-override .top-67 {
+    top: 67% !important;
+}
+
+html.theme-override .top-68 {
+    top: 68% !important;
+}
+
+html.theme-override .top-69 {
+    top: 69% !important;
+}
+
+html.theme-override .top-70 {
+    top: 70% !important;
+}
+
+html.theme-override .top-71 {
+    top: 71% !important;
+}
+
+html.theme-override .top-72 {
+    top: 72% !important;
+}
+
+html.theme-override .top-73 {
+    top: 73% !important;
+}
+
+html.theme-override .top-74 {
+    top: 74% !important;
+}
+
+html.theme-override .top-75 {
+    top: 75% !important;
+}
+
+html.theme-override .top-76 {
+    top: 76% !important;
+}
+
+html.theme-override .top-77 {
+    top: 77% !important;
+}
+
+html.theme-override .top-78 {
+    top: 78% !important;
+}
+
+html.theme-override .top-79 {
+    top: 79% !important;
+}
+
+html.theme-override .top-80 {
+    top: 80% !important;
+}
+
+html.theme-override .top-81 {
+    top: 81% !important;
+}
+
+html.theme-override .top-82 {
+    top: 82% !important;
+}
+
+html.theme-override .top-83 {
+    top: 83% !important;
+}
+
+html.theme-override .top-84 {
+    top: 84% !important;
+}
+
+html.theme-override .top-85 {
+    top: 85% !important;
+}
+
+html.theme-override .top-86 {
+    top: 86% !important;
+}
+
+html.theme-override .top-87 {
+    top: 87% !important;
+}
+
+html.theme-override .top-88 {
+    top: 88% !important;
+}
+
+html.theme-override .top-89 {
+    top: 89% !important;
+}
+
+html.theme-override .top-90 {
+    top: 90% !important;
+}
+
+html.theme-override .top-91 {
+    top: 91% !important;
+}
+
+html.theme-override .top-92 {
+    top: 92% !important;
+}
+
+html.theme-override .top-93 {
+    top: 93% !important;
+}
+
+html.theme-override .top-94 {
+    top: 94% !important;
+}
+
+html.theme-override .top-95 {
+    top: 95% !important;
+}
+
+html.theme-override .top-96 {
+    top: 96% !important;
+}
+
+html.theme-override .top-97 {
+    top: 97% !important;
+}
+
+html.theme-override .top-98 {
+    top: 98% !important;
+}
+
+html.theme-override .top-99 {
+    top: 99% !important;
+}
+
+html.theme-override .top-100 {
+    top: 100% !important;
+}
+
+html.theme-override .left-0 {
+    left: 0% !important;
+}
+
+html.theme-override .left-1 {
+    left: 1% !important;
+}
+
+html.theme-override .left-2 {
+    left: 2% !important;
+}
+
+html.theme-override .left-3 {
+    left: 3% !important;
+}
+
+html.theme-override .left-4 {
+    left: 4% !important;
+}
+
+html.theme-override .left-5 {
+    left: 5% !important;
+}
+
+html.theme-override .left-6 {
+    left: 6% !important;
+}
+
+html.theme-override .left-7 {
+    left: 7% !important;
+}
+
+html.theme-override .left-8 {
+    left: 8% !important;
+}
+
+html.theme-override .left-9 {
+    left: 9% !important;
+}
+
+html.theme-override .left-10 {
+    left: 10% !important;
+}
+
+html.theme-override .left-11 {
+    left: 11% !important;
+}
+
+html.theme-override .left-12 {
+    left: 12% !important;
+}
+
+html.theme-override .left-13 {
+    left: 13% !important;
+}
+
+html.theme-override .left-14 {
+    left: 14% !important;
+}
+
+html.theme-override .left-15 {
+    left: 15% !important;
+}
+
+html.theme-override .left-16 {
+    left: 16% !important;
+}
+
+html.theme-override .left-17 {
+    left: 17% !important;
+}
+
+html.theme-override .left-18 {
+    left: 18% !important;
+}
+
+html.theme-override .left-19 {
+    left: 19% !important;
+}
+
+html.theme-override .left-20 {
+    left: 20% !important;
+}
+
+html.theme-override .left-21 {
+    left: 21% !important;
+}
+
+html.theme-override .left-22 {
+    left: 22% !important;
+}
+
+html.theme-override .left-23 {
+    left: 23% !important;
+}
+
+html.theme-override .left-24 {
+    left: 24% !important;
+}
+
+html.theme-override .left-25 {
+    left: 25% !important;
+}
+
+html.theme-override .left-26 {
+    left: 26% !important;
+}
+
+html.theme-override .left-27 {
+    left: 27% !important;
+}
+
+html.theme-override .left-28 {
+    left: 28% !important;
+}
+
+html.theme-override .left-29 {
+    left: 29% !important;
+}
+
+html.theme-override .left-30 {
+    left: 30% !important;
+}
+
+html.theme-override .left-31 {
+    left: 31% !important;
+}
+
+html.theme-override .left-32 {
+    left: 32% !important;
+}
+
+html.theme-override .left-33 {
+    left: 33% !important;
+}
+
+html.theme-override .left-34 {
+    left: 34% !important;
+}
+
+html.theme-override .left-35 {
+    left: 35% !important;
+}
+
+html.theme-override .left-36 {
+    left: 36% !important;
+}
+
+html.theme-override .left-37 {
+    left: 37% !important;
+}
+
+html.theme-override .left-38 {
+    left: 38% !important;
+}
+
+html.theme-override .left-39 {
+    left: 39% !important;
+}
+
+html.theme-override .left-40 {
+    left: 40% !important;
+}
+
+html.theme-override .left-41 {
+    left: 41% !important;
+}
+
+html.theme-override .left-42 {
+    left: 42% !important;
+}
+
+html.theme-override .left-43 {
+    left: 43% !important;
+}
+
+html.theme-override .left-44 {
+    left: 44% !important;
+}
+
+html.theme-override .left-45 {
+    left: 45% !important;
+}
+
+html.theme-override .left-46 {
+    left: 46% !important;
+}
+
+html.theme-override .left-47 {
+    left: 47% !important;
+}
+
+html.theme-override .left-48 {
+    left: 48% !important;
+}
+
+html.theme-override .left-49 {
+    left: 49% !important;
+}
+
+html.theme-override .left-50 {
+    left: 50% !important;
+}
+
+html.theme-override .left-51 {
+    left: 51% !important;
+}
+
+html.theme-override .left-52 {
+    left: 52% !important;
+}
+
+html.theme-override .left-53 {
+    left: 53% !important;
+}
+
+html.theme-override .left-54 {
+    left: 54% !important;
+}
+
+html.theme-override .left-55 {
+    left: 55% !important;
+}
+
+html.theme-override .left-56 {
+    left: 56% !important;
+}
+
+html.theme-override .left-57 {
+    left: 57% !important;
+}
+
+html.theme-override .left-58 {
+    left: 58% !important;
+}
+
+html.theme-override .left-59 {
+    left: 59% !important;
+}
+
+html.theme-override .left-60 {
+    left: 60% !important;
+}
+
+html.theme-override .left-61 {
+    left: 61% !important;
+}
+
+html.theme-override .left-62 {
+    left: 62% !important;
+}
+
+html.theme-override .left-63 {
+    left: 63% !important;
+}
+
+html.theme-override .left-64 {
+    left: 64% !important;
+}
+
+html.theme-override .left-65 {
+    left: 65% !important;
+}
+
+html.theme-override .left-66 {
+    left: 66% !important;
+}
+
+html.theme-override .left-67 {
+    left: 67% !important;
+}
+
+html.theme-override .left-68 {
+    left: 68% !important;
+}
+
+html.theme-override .left-69 {
+    left: 69% !important;
+}
+
+html.theme-override .left-70 {
+    left: 70% !important;
+}
+
+html.theme-override .left-71 {
+    left: 71% !important;
+}
+
+html.theme-override .left-72 {
+    left: 72% !important;
+}
+
+html.theme-override .left-73 {
+    left: 73% !important;
+}
+
+html.theme-override .left-74 {
+    left: 74% !important;
+}
+
+html.theme-override .left-75 {
+    left: 75% !important;
+}
+
+html.theme-override .left-76 {
+    left: 76% !important;
+}
+
+html.theme-override .left-77 {
+    left: 77% !important;
+}
+
+html.theme-override .left-78 {
+    left: 78% !important;
+}
+
+html.theme-override .left-79 {
+    left: 79% !important;
+}
+
+html.theme-override .left-80 {
+    left: 80% !important;
+}
+
+html.theme-override .left-81 {
+    left: 81% !important;
+}
+
+html.theme-override .left-82 {
+    left: 82% !important;
+}
+
+html.theme-override .left-83 {
+    left: 83% !important;
+}
+
+html.theme-override .left-84 {
+    left: 84% !important;
+}
+
+html.theme-override .left-85 {
+    left: 85% !important;
+}
+
+html.theme-override .left-86 {
+    left: 86% !important;
+}
+
+html.theme-override .left-87 {
+    left: 87% !important;
+}
+
+html.theme-override .left-88 {
+    left: 88% !important;
+}
+
+html.theme-override .left-89 {
+    left: 89% !important;
+}
+
+html.theme-override .left-90 {
+    left: 90% !important;
+}
+
+html.theme-override .left-91 {
+    left: 91% !important;
+}
+
+html.theme-override .left-92 {
+    left: 92% !important;
+}
+
+html.theme-override .left-93 {
+    left: 93% !important;
+}
+
+html.theme-override .left-94 {
+    left: 94% !important;
+}
+
+html.theme-override .left-95 {
+    left: 95% !important;
+}
+
+html.theme-override .left-96 {
+    left: 96% !important;
+}
+
+html.theme-override .left-97 {
+    left: 97% !important;
+}
+
+html.theme-override .left-98 {
+    left: 98% !important;
+}
+
+html.theme-override .left-99 {
+    left: 99% !important;
+}
+
+html.theme-override .left-100 {
+    left: 100% !important;
+}
+
+html.theme-override .right-0 {
+    right: 0% !important;
+}
+
+html.theme-override .right-1 {
+    right: 1% !important;
+}
+
+html.theme-override .right-2 {
+    right: 2% !important;
+}
+
+html.theme-override .right-3 {
+    right: 3% !important;
+}
+
+html.theme-override .right-4 {
+    right: 4% !important;
+}
+
+html.theme-override .right-5 {
+    right: 5% !important;
+}
+
+html.theme-override .right-6 {
+    right: 6% !important;
+}
+
+html.theme-override .right-7 {
+    right: 7% !important;
+}
+
+html.theme-override .right-8 {
+    right: 8% !important;
+}
+
+html.theme-override .right-9 {
+    right: 9% !important;
+}
+
+html.theme-override .right-10 {
+    right: 10% !important;
+}
+
+html.theme-override .right-11 {
+    right: 11% !important;
+}
+
+html.theme-override .right-12 {
+    right: 12% !important;
+}
+
+html.theme-override .right-13 {
+    right: 13% !important;
+}
+
+html.theme-override .right-14 {
+    right: 14% !important;
+}
+
+html.theme-override .right-15 {
+    right: 15% !important;
+}
+
+html.theme-override .right-16 {
+    right: 16% !important;
+}
+
+html.theme-override .right-17 {
+    right: 17% !important;
+}
+
+html.theme-override .right-18 {
+    right: 18% !important;
+}
+
+html.theme-override .right-19 {
+    right: 19% !important;
+}
+
+html.theme-override .right-20 {
+    right: 20% !important;
+}
+
+html.theme-override .right-21 {
+    right: 21% !important;
+}
+
+html.theme-override .right-22 {
+    right: 22% !important;
+}
+
+html.theme-override .right-23 {
+    right: 23% !important;
+}
+
+html.theme-override .right-24 {
+    right: 24% !important;
+}
+
+html.theme-override .right-25 {
+    right: 25% !important;
+}
+
+html.theme-override .right-26 {
+    right: 26% !important;
+}
+
+html.theme-override .right-27 {
+    right: 27% !important;
+}
+
+html.theme-override .right-28 {
+    right: 28% !important;
+}
+
+html.theme-override .right-29 {
+    right: 29% !important;
+}
+
+html.theme-override .right-30 {
+    right: 30% !important;
+}
+
+html.theme-override .right-31 {
+    right: 31% !important;
+}
+
+html.theme-override .right-32 {
+    right: 32% !important;
+}
+
+html.theme-override .right-33 {
+    right: 33% !important;
+}
+
+html.theme-override .right-34 {
+    right: 34% !important;
+}
+
+html.theme-override .right-35 {
+    right: 35% !important;
+}
+
+html.theme-override .right-36 {
+    right: 36% !important;
+}
+
+html.theme-override .right-37 {
+    right: 37% !important;
+}
+
+html.theme-override .right-38 {
+    right: 38% !important;
+}
+
+html.theme-override .right-39 {
+    right: 39% !important;
+}
+
+html.theme-override .right-40 {
+    right: 40% !important;
+}
+
+html.theme-override .right-41 {
+    right: 41% !important;
+}
+
+html.theme-override .right-42 {
+    right: 42% !important;
+}
+
+html.theme-override .right-43 {
+    right: 43% !important;
+}
+
+html.theme-override .right-44 {
+    right: 44% !important;
+}
+
+html.theme-override .right-45 {
+    right: 45% !important;
+}
+
+html.theme-override .right-46 {
+    right: 46% !important;
+}
+
+html.theme-override .right-47 {
+    right: 47% !important;
+}
+
+html.theme-override .right-48 {
+    right: 48% !important;
+}
+
+html.theme-override .right-49 {
+    right: 49% !important;
+}
+
+html.theme-override .right-50 {
+    right: 50% !important;
+}
+
+html.theme-override .right-51 {
+    right: 51% !important;
+}
+
+html.theme-override .right-52 {
+    right: 52% !important;
+}
+
+html.theme-override .right-53 {
+    right: 53% !important;
+}
+
+html.theme-override .right-54 {
+    right: 54% !important;
+}
+
+html.theme-override .right-55 {
+    right: 55% !important;
+}
+
+html.theme-override .right-56 {
+    right: 56% !important;
+}
+
+html.theme-override .right-57 {
+    right: 57% !important;
+}
+
+html.theme-override .right-58 {
+    right: 58% !important;
+}
+
+html.theme-override .right-59 {
+    right: 59% !important;
+}
+
+html.theme-override .right-60 {
+    right: 60% !important;
+}
+
+html.theme-override .right-61 {
+    right: 61% !important;
+}
+
+html.theme-override .right-62 {
+    right: 62% !important;
+}
+
+html.theme-override .right-63 {
+    right: 63% !important;
+}
+
+html.theme-override .right-64 {
+    right: 64% !important;
+}
+
+html.theme-override .right-65 {
+    right: 65% !important;
+}
+
+html.theme-override .right-66 {
+    right: 66% !important;
+}
+
+html.theme-override .right-67 {
+    right: 67% !important;
+}
+
+html.theme-override .right-68 {
+    right: 68% !important;
+}
+
+html.theme-override .right-69 {
+    right: 69% !important;
+}
+
+html.theme-override .right-70 {
+    right: 70% !important;
+}
+
+html.theme-override .right-71 {
+    right: 71% !important;
+}
+
+html.theme-override .right-72 {
+    right: 72% !important;
+}
+
+html.theme-override .right-73 {
+    right: 73% !important;
+}
+
+html.theme-override .right-74 {
+    right: 74% !important;
+}
+
+html.theme-override .right-75 {
+    right: 75% !important;
+}
+
+html.theme-override .right-76 {
+    right: 76% !important;
+}
+
+html.theme-override .right-77 {
+    right: 77% !important;
+}
+
+html.theme-override .right-78 {
+    right: 78% !important;
+}
+
+html.theme-override .right-79 {
+    right: 79% !important;
+}
+
+html.theme-override .right-80 {
+    right: 80% !important;
+}
+
+html.theme-override .right-81 {
+    right: 81% !important;
+}
+
+html.theme-override .right-82 {
+    right: 82% !important;
+}
+
+html.theme-override .right-83 {
+    right: 83% !important;
+}
+
+html.theme-override .right-84 {
+    right: 84% !important;
+}
+
+html.theme-override .right-85 {
+    right: 85% !important;
+}
+
+html.theme-override .right-86 {
+    right: 86% !important;
+}
+
+html.theme-override .right-87 {
+    right: 87% !important;
+}
+
+html.theme-override .right-88 {
+    right: 88% !important;
+}
+
+html.theme-override .right-89 {
+    right: 89% !important;
+}
+
+html.theme-override .right-90 {
+    right: 90% !important;
+}
+
+html.theme-override .right-91 {
+    right: 91% !important;
+}
+
+html.theme-override .right-92 {
+    right: 92% !important;
+}
+
+html.theme-override .right-93 {
+    right: 93% !important;
+}
+
+html.theme-override .right-94 {
+    right: 94% !important;
+}
+
+html.theme-override .right-95 {
+    right: 95% !important;
+}
+
+html.theme-override .right-96 {
+    right: 96% !important;
+}
+
+html.theme-override .right-97 {
+    right: 97% !important;
+}
+
+html.theme-override .right-98 {
+    right: 98% !important;
+}
+
+html.theme-override .right-99 {
+    right: 99% !important;
+}
+
+html.theme-override .right-100 {
+    right: 100% !important;
+}
+
+html.theme-override .bottom-0 {
+    bottom: 0% !important;
+}
+
+html.theme-override .bottom-1 {
+    bottom: 1% !important;
+}
+
+html.theme-override .bottom-2 {
+    bottom: 2% !important;
+}
+
+html.theme-override .bottom-3 {
+    bottom: 3% !important;
+}
+
+html.theme-override .bottom-4 {
+    bottom: 4% !important;
+}
+
+html.theme-override .bottom-5 {
+    bottom: 5% !important;
+}
+
+html.theme-override .bottom-6 {
+    bottom: 6% !important;
+}
+
+html.theme-override .bottom-7 {
+    bottom: 7% !important;
+}
+
+html.theme-override .bottom-8 {
+    bottom: 8% !important;
+}
+
+html.theme-override .bottom-9 {
+    bottom: 9% !important;
+}
+
+html.theme-override .bottom-10 {
+    bottom: 10% !important;
+}
+
+html.theme-override .bottom-11 {
+    bottom: 11% !important;
+}
+
+html.theme-override .bottom-12 {
+    bottom: 12% !important;
+}
+
+html.theme-override .bottom-13 {
+    bottom: 13% !important;
+}
+
+html.theme-override .bottom-14 {
+    bottom: 14% !important;
+}
+
+html.theme-override .bottom-15 {
+    bottom: 15% !important;
+}
+
+html.theme-override .bottom-16 {
+    bottom: 16% !important;
+}
+
+html.theme-override .bottom-17 {
+    bottom: 17% !important;
+}
+
+html.theme-override .bottom-18 {
+    bottom: 18% !important;
+}
+
+html.theme-override .bottom-19 {
+    bottom: 19% !important;
+}
+
+html.theme-override .bottom-20 {
+    bottom: 20% !important;
+}
+
+html.theme-override .bottom-21 {
+    bottom: 21% !important;
+}
+
+html.theme-override .bottom-22 {
+    bottom: 22% !important;
+}
+
+html.theme-override .bottom-23 {
+    bottom: 23% !important;
+}
+
+html.theme-override .bottom-24 {
+    bottom: 24% !important;
+}
+
+html.theme-override .bottom-25 {
+    bottom: 25% !important;
+}
+
+html.theme-override .bottom-26 {
+    bottom: 26% !important;
+}
+
+html.theme-override .bottom-27 {
+    bottom: 27% !important;
+}
+
+html.theme-override .bottom-28 {
+    bottom: 28% !important;
+}
+
+html.theme-override .bottom-29 {
+    bottom: 29% !important;
+}
+
+html.theme-override .bottom-30 {
+    bottom: 30% !important;
+}
+
+html.theme-override .bottom-31 {
+    bottom: 31% !important;
+}
+
+html.theme-override .bottom-32 {
+    bottom: 32% !important;
+}
+
+html.theme-override .bottom-33 {
+    bottom: 33% !important;
+}
+
+html.theme-override .bottom-34 {
+    bottom: 34% !important;
+}
+
+html.theme-override .bottom-35 {
+    bottom: 35% !important;
+}
+
+html.theme-override .bottom-36 {
+    bottom: 36% !important;
+}
+
+html.theme-override .bottom-37 {
+    bottom: 37% !important;
+}
+
+html.theme-override .bottom-38 {
+    bottom: 38% !important;
+}
+
+html.theme-override .bottom-39 {
+    bottom: 39% !important;
+}
+
+html.theme-override .bottom-40 {
+    bottom: 40% !important;
+}
+
+html.theme-override .bottom-41 {
+    bottom: 41% !important;
+}
+
+html.theme-override .bottom-42 {
+    bottom: 42% !important;
+}
+
+html.theme-override .bottom-43 {
+    bottom: 43% !important;
+}
+
+html.theme-override .bottom-44 {
+    bottom: 44% !important;
+}
+
+html.theme-override .bottom-45 {
+    bottom: 45% !important;
+}
+
+html.theme-override .bottom-46 {
+    bottom: 46% !important;
+}
+
+html.theme-override .bottom-47 {
+    bottom: 47% !important;
+}
+
+html.theme-override .bottom-48 {
+    bottom: 48% !important;
+}
+
+html.theme-override .bottom-49 {
+    bottom: 49% !important;
+}
+
+html.theme-override .bottom-50 {
+    bottom: 50% !important;
+}
+
+html.theme-override .bottom-51 {
+    bottom: 51% !important;
+}
+
+html.theme-override .bottom-52 {
+    bottom: 52% !important;
+}
+
+html.theme-override .bottom-53 {
+    bottom: 53% !important;
+}
+
+html.theme-override .bottom-54 {
+    bottom: 54% !important;
+}
+
+html.theme-override .bottom-55 {
+    bottom: 55% !important;
+}
+
+html.theme-override .bottom-56 {
+    bottom: 56% !important;
+}
+
+html.theme-override .bottom-57 {
+    bottom: 57% !important;
+}
+
+html.theme-override .bottom-58 {
+    bottom: 58% !important;
+}
+
+html.theme-override .bottom-59 {
+    bottom: 59% !important;
+}
+
+html.theme-override .bottom-60 {
+    bottom: 60% !important;
+}
+
+html.theme-override .bottom-61 {
+    bottom: 61% !important;
+}
+
+html.theme-override .bottom-62 {
+    bottom: 62% !important;
+}
+
+html.theme-override .bottom-63 {
+    bottom: 63% !important;
+}
+
+html.theme-override .bottom-64 {
+    bottom: 64% !important;
+}
+
+html.theme-override .bottom-65 {
+    bottom: 65% !important;
+}
+
+html.theme-override .bottom-66 {
+    bottom: 66% !important;
+}
+
+html.theme-override .bottom-67 {
+    bottom: 67% !important;
+}
+
+html.theme-override .bottom-68 {
+    bottom: 68% !important;
+}
+
+html.theme-override .bottom-69 {
+    bottom: 69% !important;
+}
+
+html.theme-override .bottom-70 {
+    bottom: 70% !important;
+}
+
+html.theme-override .bottom-71 {
+    bottom: 71% !important;
+}
+
+html.theme-override .bottom-72 {
+    bottom: 72% !important;
+}
+
+html.theme-override .bottom-73 {
+    bottom: 73% !important;
+}
+
+html.theme-override .bottom-74 {
+    bottom: 74% !important;
+}
+
+html.theme-override .bottom-75 {
+    bottom: 75% !important;
+}
+
+html.theme-override .bottom-76 {
+    bottom: 76% !important;
+}
+
+html.theme-override .bottom-77 {
+    bottom: 77% !important;
+}
+
+html.theme-override .bottom-78 {
+    bottom: 78% !important;
+}
+
+html.theme-override .bottom-79 {
+    bottom: 79% !important;
+}
+
+html.theme-override .bottom-80 {
+    bottom: 80% !important;
+}
+
+html.theme-override .bottom-81 {
+    bottom: 81% !important;
+}
+
+html.theme-override .bottom-82 {
+    bottom: 82% !important;
+}
+
+html.theme-override .bottom-83 {
+    bottom: 83% !important;
+}
+
+html.theme-override .bottom-84 {
+    bottom: 84% !important;
+}
+
+html.theme-override .bottom-85 {
+    bottom: 85% !important;
+}
+
+html.theme-override .bottom-86 {
+    bottom: 86% !important;
+}
+
+html.theme-override .bottom-87 {
+    bottom: 87% !important;
+}
+
+html.theme-override .bottom-88 {
+    bottom: 88% !important;
+}
+
+html.theme-override .bottom-89 {
+    bottom: 89% !important;
+}
+
+html.theme-override .bottom-90 {
+    bottom: 90% !important;
+}
+
+html.theme-override .bottom-91 {
+    bottom: 91% !important;
+}
+
+html.theme-override .bottom-92 {
+    bottom: 92% !important;
+}
+
+html.theme-override .bottom-93 {
+    bottom: 93% !important;
+}
+
+html.theme-override .bottom-94 {
+    bottom: 94% !important;
+}
+
+html.theme-override .bottom-95 {
+    bottom: 95% !important;
+}
+
+html.theme-override .bottom-96 {
+    bottom: 96% !important;
+}
+
+html.theme-override .bottom-97 {
+    bottom: 97% !important;
+}
+
+html.theme-override .bottom-98 {
+    bottom: 98% !important;
+}
+
+html.theme-override .bottom-99 {
+    bottom: 99% !important;
+}
+
+html.theme-override .bottom-100 {
+    bottom: 100% !important;
+}
+
+html.theme-override .top-half {
+    margin-top: -0.5%;
+}
+
+html.theme-override .bottom-half {
+    margin-top: 0.5%;
+}
+
+html.theme-override .left-half {
+    margin-left: -0.5%;
+}
+
+html.theme-override .right-half {
+    margin-left: 0.5%;
+}
+
+html.theme-override .rotate-0 {
+    transform: rotate(0deg) !important;
+}
+
+html.theme-override .rotate-15 {
+    transform: rotate(15deg) !important;
+}
+
+html.theme-override .rotate-30 {
+    transform: rotate(30deg) !important;
+}
+
+html.theme-override .rotate-45 {
+    transform: rotate(45deg) !important;
+}
+
+html.theme-override .rotate-60 {
+    transform: rotate(60deg) !important;
+}
+
+html.theme-override .rotate-90 {
+    transform: rotate(90deg) !important;
+}
+
+html.theme-override .rotate-105 {
+    transform: rotate(105deg) !important;
+}
+
+html.theme-override .rotate-120 {
+    transform: rotate(120deg) !important;
+}
+
+html.theme-override .rotate-135 {
+    transform: rotate(135deg) !important;
+}
+
+html.theme-override .rotate-150 {
+    transform: rotate(150deg) !important;
+}
+
+html.theme-override .rotate-165 {
+    transform: rotate(165deg) !important;
+}
+
+html.theme-override .rotate-180 {
+    transform: rotate(180deg) !important;
+}
+
+html.theme-override .rotate-195 {
+    transform: rotate(195deg) !important;
+}
+
+html.theme-override .rotate-210 {
+    transform: rotate(210deg) !important;
+}
+
+html.theme-override .rotate-225 {
+    transform: rotate(225deg) !important;
+}
+
+html.theme-override .rotate-240 {
+    transform: rotate(240deg) !important;
+}
+
+html.theme-override .rotate-255 {
+    transform: rotate(255deg) !important;
+}
+
+html.theme-override .rotate-270 {
+    transform: rotate(270deg) !important;
+}
+
+html.theme-override .rotate-285 {
+    transform: rotate(285deg) !important;
+}
+
+html.theme-override .rotate-300 {
+    transform: rotate(300deg) !important;
+}
+
+html.theme-override .rotate-315 {
+    transform: rotate(315deg) !important;
+}
+
+html.theme-override .rotate-320 {
+    transform: rotate(320deg) !important;
+}
+
+html.theme-override .rotate-330 {
+    transform: rotate(330deg) !important;
+}
+
+html.theme-override .rotate-345 {
+    transform: rotate(345deg) !important;
+}
+
+html.theme-override .rotate-355 {
+    transform: rotate(355deg) !important;
+}
+
+html.theme-override .rotate-360 {
+    transform: rotate(360deg) !important;
+}
+
+/* Writing mode and text-orientation */
+html.theme-override .sideways-lr {
+    writing-mode: sideways-lr !important;
+}
+
+html.theme-override .sideways-rl {
+    writing-mode: sideways-rl !important;
+}
+
+html.theme-override .vertical-lr {
+    writing-mode: vertical-lr !important;
+}
+
+html.theme-override .vertical-rl {
+    writing-mode: vertical-rl !important;
 }
 
 /* Margin Bottom */
@@ -2020,6 +3819,10 @@ html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
 }
 
+html.theme-override .draw-overlay-container .bg-gray-2 {
+    background-color: #efefef;
+}
+
 html.theme-override .draw-overlay-container .text-orange {
     color: #f17f21;
 }
@@ -2030,6 +3833,10 @@ html.theme-override .draw-overlay-container .text-green {
 
 html.theme-override .draw-overlay-container .text-blue {
     color: #323b8f;
+}
+
+html.theme-override .draw-overlay-container .text-white {
+    color: #ffffff;
 }
 
 /* BG Colors  */
