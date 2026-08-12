@@ -5197,12 +5197,14 @@ html.theme-override .draw-overlay-container .bold-list li::marker {
     font-weight: bold;
 }
 /* Square-List */
-html.theme-override .draw-overlay-container .square-list {
+html.theme-override .draw-overlay-container .square-list,
+html.theme-override .draw-overlay-container .box-list {
     list-style: none;
     margin: 5px 0;
     padding-left: 40px;
 }
-html.theme-override .draw-overlay-container .square-list li {
+html.theme-override .draw-overlay-container .square-list li,
+html.theme-override .draw-overlay-container .box-list li {
     position: relative;
     margin: 4px 0;
 }
@@ -5212,6 +5214,17 @@ html.theme-override .draw-overlay-container .square-list li::before {
     height: 10px;
     position: absolute;
     background: #000;
+    left: -20px;
+    top: 0.74em;
+    transform: translateY(-50%);
+}
+/* Box List */
+html.theme-override .draw-overlay-container .box-list li::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 2px solid #000;
     left: -20px;
     top: 0.74em;
     transform: translateY(-50%);
