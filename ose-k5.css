@@ -5269,7 +5269,7 @@ html.theme-override .draw-overlay-container .no-corner-table td {
 }
 html.theme-override .draw-overlay-container .no-corner-table tr:first-child td:first-child {
     border: 2px transparent !important;
-    background-color: transparent !important;
+    background: #fff !important;
 }
 /* Card Set */
 html.theme-override .draw-overlay-container .card-set {
@@ -5408,7 +5408,7 @@ html.theme-override .draw-overlay-container .text-white {
 }
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-black {
-    background-color: #231f20;
+    background-color: #000;
     color: #ffffff;
 }
 html.theme-override .draw-overlay-container .bg-black>th:not(:last-child),
