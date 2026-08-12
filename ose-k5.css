@@ -5269,6 +5269,7 @@ html.theme-override .draw-overlay-container .no-corner-table td {
 }
 html.theme-override .draw-overlay-container .no-corner-table tr:first-child td:first-child {
     border: 2px transparent !important;
+    background-color: transparent !important;
 }
 /* Card Set */
 html.theme-override .draw-overlay-container .card-set {
