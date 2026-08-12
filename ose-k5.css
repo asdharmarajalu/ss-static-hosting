@@ -5372,6 +5372,12 @@ html.theme-override .draw-overlay-container .border-4 {
 html.theme-override .draw-overlay-container .border-5 {
     border: 5px solid #000 !important;
 }
+html.theme-override .draw-overlay-container .border-bottom {
+    border-bottom: 2px solid #000 !important;
+}
+html.theme-override .draw-overlay-container .border-bottom-bold {
+    border-bottom: 3px solid #000 !important;
+}
 /* Colors */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
