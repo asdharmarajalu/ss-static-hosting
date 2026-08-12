@@ -5251,11 +5251,20 @@ html.theme-override .draw-overlay-container .t-chart-table th {
     border-left: none !important;
     border-top: none !important;
 }
-html.theme-override .draw-overlay-container .t-chart-table tr>*:last-child {
+html.theme-override .draw-overlay-container .t-chart-table tr>*:last-child,
+html.theme-override .draw-overlay-container .dashed-t-chart-table tr>*:last-child {
     border-right: none !important;
 }
-html.theme-override .draw-overlay-container .t-chart-table tr:last-child>* {
+html.theme-override .draw-overlay-container .t-chart-table tr:last-child>*, 
+html.theme-override .draw-overlay-container .dashed-t-chart-table tr:last-child>* {
     border-bottom: none !important;
+}
+html.theme-override .draw-overlay-container .dashed-t-chart-table td,
+html.theme-override .draw-overlay-container .dashed-t-chart-table th {
+    border-left: none !important;
+    border-top: none !important;
+    border-right: 4px dashed #6f6f6f !important;
+    border-bottom: 4px dashed #6f6f6f !important;
 }
 html.theme-override .draw-overlay-container .unset-table {
     table-layout: unset !important;
@@ -5393,6 +5402,9 @@ html.theme-override .draw-overlay-container .bg-gray-4 {
 }
 html.theme-override .draw-overlay-container .bg-yellow-orange {
     background-color: #f6bc31;
+}
+html.theme-override .draw-overlay-container .bg-green {
+    background-color: #42802d;
 }
 html.theme-override .draw-overlay-container .text-orange {
     color: #f17f21;
