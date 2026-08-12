@@ -5457,3 +5457,49 @@ html.theme-override .draw-overlay-container .footer-block p {
     margin: 2px 0;
     text-indent: 0;
 }
+/* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
+html.theme-override .draw-overlay-container .teacher-reference .page-title {
+    font-size: 26px;
+    font-weight: bold !important;
+    margin-bottom: 20px;
+    font-family: "Myriad Pro", sans-serif !important;
+}
+html.theme-override .draw-overlay-container .teacher-reference {
+    font-family: "Myriad Pro", sans-serif !important;
+}
+html.theme-override .draw-overlay-container .teacher-reference .border-blue-2 {
+    border-bottom: 5px solid #006fc0;
+}
+html.theme-override .draw-overlay-container .teacher-reference .hyper-link {
+    color: #0562c1;
+}
+html.theme-override .draw-overlay-container .teacher-reference .bg-pale-blue {
+    background-color: #deeaf6;
+}
+html.theme-override .draw-overlay-container .teacher-reference .ml-auto {
+    margin-left: auto !important;
+}
+html.theme-override .draw-overlay-container .teacher-reference .footer-block-2 {
+    font-size: 12px;
+    margin-top: auto;
+    padding-top: 20px;
+}
+html.theme-override .draw-overlay-container .teacher-reference .footer-block-2 div {
+    padding-top: 10px;
+    border-top: 1px solid #000;
+}
+html.theme-override .draw-overlay-container .teacher-reference .bullet-list {
+    list-style: disc;
+}
+html.theme-override .draw-overlay-container .teacher-reference .bullet-list li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+html.theme-override .draw-overlay-container .teacher-reference .writing-line {
+    border: none;
+    border-bottom: 1px solid #000;
+    min-height: 1px;
+    width: 100%;
+    margin-bottom: 40px;
+    line-height: normal;
+}
