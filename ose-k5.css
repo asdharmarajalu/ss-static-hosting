@@ -5397,6 +5397,9 @@ html.theme-override .draw-overlay-container .border-bottom {
 html.theme-override .draw-overlay-container .border-bottom-bold {
     border-bottom: 3px solid #000 !important;
 }
+html.theme-override .draw-overlay-container .border-radius-20 {
+    border-radius: 20px;
+}
 /* Colors */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5427,6 +5430,9 @@ html.theme-override .draw-overlay-container .text-blue {
 }
 html.theme-override .draw-overlay-container .text-white {
     color: #ffffff;
+}
+html.theme-override .draw-overlay-container .text-gray {
+    color: #6d6e71;
 }
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-black {
