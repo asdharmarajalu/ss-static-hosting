@@ -5102,6 +5102,7 @@ html.theme-override .draw-overlay-container .break-word {
 /* Overlay Custom Template CSS */
 html.theme-override .draw-overlay-container .page-title {
     font-family: "CabinSketch";
+    font-weight: bold;
     font-size: 40px;
     text-indent: 0pt;
     margin-top: 0pt;
@@ -5109,6 +5110,7 @@ html.theme-override .draw-overlay-container .page-title {
 }
 html.theme-override .draw-overlay-container .main-title {
     font-family: "CabinSketch";
+    font-weight: bold;
     font-size: 26px;
     text-indent: 0pt;
     margin-top: 0pt;
@@ -5116,6 +5118,7 @@ html.theme-override .draw-overlay-container .main-title {
 }
 html.theme-override .draw-overlay-container .activity-title {
     font-family: "CabinSketch";
+    font-weight: bold;
     font-size: 22px;
     text-indent: 0pt;
     margin-top: 0pt;
@@ -5457,6 +5460,13 @@ html.theme-override .draw-overlay-container .footer-block p {
     margin: 2px 0;
     text-indent: 0;
 }
+/* -------------Student Reading Grid Background------------- */
+html.theme-override .draw-overlay-container .page:has(.student-reading-grid) {
+    background-image: url('https://publisher.content2classroom.com/api/redirectToResource?authKey=15CC5702461943B5ACCA53921FE42BA0&resourceFolder=userFiles&resourceFileName=2BAB08B044FD451BB9A1A440076E46EC.png&entityId=&cacheBuster=1786596217436');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
     font-size: 26px;
@@ -5492,7 +5502,7 @@ html.theme-override .draw-overlay-container .teacher-reference .bullet-list {
     list-style: disc;
 }
 html.theme-override .draw-overlay-container .teacher-reference .bullet-list li {
-    margin-bottom: 10px;
+    margin-bottom: 0px !important;
     padding-left: 10px;
 }
 html.theme-override .draw-overlay-container .teacher-reference .writing-line {
