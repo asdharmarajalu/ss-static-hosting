@@ -3509,6 +3509,12 @@ html.theme-override .top-border {
 html.theme-override .bottom-border {
     border-bottom: 1px solid #000000 !important;
 }
+html.theme-override .draw-overlay-container .text-large {
+    font-size: 30px;
+}
+html.theme-override .draw-overlay-container .text-small {
+    font-size: 16px;
+}
 html.theme-override .fs-18 {
     font-size: 18px !important;
 }
