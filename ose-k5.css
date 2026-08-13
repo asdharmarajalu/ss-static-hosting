@@ -5460,7 +5460,22 @@ html.theme-override .draw-overlay-container .footer-block p {
     margin: 2px 0;
     text-indent: 0;
 }
-/* -------------Student Reading Grid Background------------- */
+/* -------------Student Reading ------------- */
+html.theme-override .draw-overlay-container .student-reading .page-title,
+html.theme-override .draw-overlay-container .student-reading-grid .page-title {
+    font-family: "Andika", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-indent: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 20px;
+}
+html.theme-override .draw-overlay-container .student-reading
+html.theme-override .draw-overlay-container .student-reading-grid {
+    font-family: "Andika", sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
 html.theme-override .draw-overlay-container .page:has(.student-reading-grid) {
     background-image: url('https://publisher.content2classroom.com/api/redirectToResource?authKey=15CC5702461943B5ACCA53921FE42BA0&resourceFolder=userFiles&resourceFileName=2BAB08B044FD451BB9A1A440076E46EC.png&entityId=&cacheBuster=1786596217436');
     background-position: center;
