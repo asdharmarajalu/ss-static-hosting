@@ -5437,6 +5437,9 @@ html.theme-override .draw-overlay-container .text-white {
 html.theme-override .draw-overlay-container .text-gray {
     color: #6d6e71;
 }
+html.theme-override .draw-overlay-container .text-blue-2 {
+    color: #245aa3;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-black {
     background-color: #000;
@@ -5470,7 +5473,7 @@ html.theme-override .draw-overlay-container .student-reading-grid .page-title {
     margin-top: 0pt;
     margin-bottom: 20px;
 }
-html.theme-override .draw-overlay-container .student-reading
+html.theme-override .draw-overlay-container .student-reading,
 html.theme-override .draw-overlay-container .student-reading-grid {
     font-family: "Andika", sans-serif;
     font-weight: normal;
