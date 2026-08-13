@@ -5416,6 +5416,9 @@ html.theme-override .draw-overlay-container .bg-gray-3 {
 html.theme-override .draw-overlay-container .bg-gray-4 {
     background-color: #d4d4d6;
 }
+html.theme-override .draw-overlay-container .bg-gray-5 {
+    background-color: #f8f8f7;
+}
 html.theme-override .draw-overlay-container .bg-yellow-orange {
     background-color: #f6bc31;
 }
@@ -5440,9 +5443,19 @@ html.theme-override .draw-overlay-container .text-gray {
 html.theme-override .draw-overlay-container .text-blue-2 {
     color: #245aa3;
 }
+html.theme-override .draw-overlay-container .text-lavender {
+    color: #7766ad;
+}
+html.theme-override .draw-overlay-container .text-blue-3 {
+    color: #2596be;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-black {
     background-color: #000;
+    color: #ffffff;
+}
+html.theme-override .draw-overlay-container .bg-lavender {
+    background-color: #7766ad;
     color: #ffffff;
 }
 html.theme-override .draw-overlay-container .bg-black>th:not(:last-child),
@@ -5484,6 +5497,27 @@ html.theme-override .draw-overlay-container .page:has(.student-reading-grid) {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+/* Student Reading Footers */
+html.theme-override .draw-overlay-container .student-reading .footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+html.theme-override .draw-overlay-container .student-reading .footer-block-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: auto auto 0 auto;
+    width: 10%;
+    padding: 8px 6px;
 }
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
