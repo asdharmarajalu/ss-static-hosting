@@ -5357,8 +5357,8 @@ html.theme-override .draw-overlay-container .student-reading .footer-block-small
     justify-content: center;
     font-size: 18px;
     margin: auto auto 0 auto;
-    width: 10%;
-    padding: 8px 6px;
+    width: 5%;
+    padding: 3px 6px;
 }
 html.theme-override .draw-overlay-container .student-reading-article .footer-block {
     font-size: 12px;
