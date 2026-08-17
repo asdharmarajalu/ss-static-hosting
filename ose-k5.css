@@ -5216,6 +5216,12 @@ html.theme-override .draw-overlay-container .text-lavender {
 html.theme-override .draw-overlay-container .text-blue-3 {
     color: #2596be;
 }
+html.theme-override .draw-overlay-container .text-red {
+    color: #ff0000;
+}
+html.theme-override .draw-overlay-container .text-brown {
+    color: #b53238;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-black {
     background-color: #000;
@@ -5267,6 +5273,16 @@ html.theme-override .draw-overlay-container .page:has(.student-reading-grid) {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-purple) {
+    background-color: #c07dab;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-purple) {
+    background: linear-gradient(to right,
+            #ffffff 0%,
+            #ffffff 25%,
+            #c07dab 25%,
+            #c07dab 100%);
 }
 /* Student Reading Footers */
 html.theme-override .draw-overlay-container .student-reading .footer-block,
@@ -5336,9 +5352,6 @@ html.theme-override .draw-overlay-container .teacher-reference .writing-line {
     width: 100%;
     margin-bottom: 40px;
     line-height: normal;
-}
-html.theme-override .draw-overlay-container .page:has(.student-reading.bg-purple) {
-    background-color: #c07dab;
 }
 /* High School Safety Acknowledgment Form */
 html.theme-override .draw-overlay-container .safety-form {
