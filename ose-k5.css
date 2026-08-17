@@ -2960,6 +2960,9 @@ html.theme-override .w-95 {
 html.theme-override .w-100 {
     width: 100% !important;
 }
+html.theme-override .h-full {
+    height: 100% !important;
+}
 /*********** canvas toolbar center css ************/
 html.theme-override .testItemQuestion:has(.question-wrapper.toolbar-center)~.drawToolbar {
     justify-content: center;
@@ -5170,28 +5173,7 @@ html.theme-override .draw-overlay-container .border-bottom-bold {
 html.theme-override .draw-overlay-container .border-radius-20 {
     border-radius: 20px;
 }
-/* Colors */
-html.theme-override .draw-overlay-container .bg-gray {
-    background-color: #eeeeee;
-}
-html.theme-override .draw-overlay-container .bg-gray-2 {
-    background-color: #efefef;
-}
-html.theme-override .draw-overlay-container .bg-gray-3 {
-    background-color: #d1d2d4;
-}
-html.theme-override .draw-overlay-container .bg-gray-4 {
-    background-color: #d4d4d6;
-}
-html.theme-override .draw-overlay-container .bg-gray-5 {
-    background-color: #f8f8f7;
-}
-html.theme-override .draw-overlay-container .bg-yellow-orange {
-    background-color: #f6bc31;
-}
-html.theme-override .draw-overlay-container .bg-green {
-    background-color: #42802d;
-}
+/* Text Colors */
 html.theme-override .draw-overlay-container .text-orange {
     color: #f17f21;
 }
@@ -5222,18 +5204,45 @@ html.theme-override .draw-overlay-container .text-red {
 html.theme-override .draw-overlay-container .text-brown {
     color: #b53238;
 }
+html.theme-override .draw-overlay-container .text-purple {
+    color: #c07dab;
+}
 /* BG Colors  */
+html.theme-override .draw-overlay-container .bg-gray {
+    background-color: #eeeeee;
+}
+html.theme-override .draw-overlay-container .bg-gray-2 {
+    background-color: #efefef;
+}
+html.theme-override .draw-overlay-container .bg-gray-3 {
+    background-color: #d1d2d4;
+}
+html.theme-override .draw-overlay-container .bg-gray-4 {
+    background-color: #d4d4d6;
+}
+html.theme-override .draw-overlay-container .bg-gray-5 {
+    background-color: #f8f8f7;
+}
+html.theme-override .draw-overlay-container .bg-yellow-orange {
+    background-color: #f6bc31;
+}
+html.theme-override .draw-overlay-container .bg-green {
+    background-color: #42802d;
+}
 html.theme-override .draw-overlay-container .bg-black {
     background-color: #000;
-    color: #ffffff;
-}
-html.theme-override .draw-overlay-container .bg-lavender {
-    background-color: #7766ad;
     color: #ffffff;
 }
 html.theme-override .draw-overlay-container .bg-black>th:not(:last-child),
 html.theme-override .draw-overlay-container .bg-black>td:not(:last-child) {
     border-right: 2px solid #fff !important;
+}
+html.theme-override .draw-overlay-container .bg-lavender {
+    background-color: #7766ad;
+    color: #ffffff;
+}
+html.theme-override .draw-overlay-container .bg-white {
+    background-color: #ffffff !important;
 }
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
