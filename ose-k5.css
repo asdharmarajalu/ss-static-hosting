@@ -5249,6 +5249,11 @@ html.theme-override .draw-overlay-container .bg-white-cell {
     color: #000 !important;
     border-right: 2px solid #000 !important;
 }
+html.theme-override .draw-overlay-container .bg-black-cell {
+    background-color: #000 !important;
+    color: #fff !important;
+    border-bottom: 2px solid #fff !important;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
