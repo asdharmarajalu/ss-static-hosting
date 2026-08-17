@@ -5254,6 +5254,10 @@ html.theme-override .draw-overlay-container .bg-black-cell {
     color: #fff !important;
     border-bottom: 2px solid #fff !important;
 }
+html.theme-override .draw-overlay-container .bg-yellow {
+    background-color: #e7e63b;
+    color: #000;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
@@ -5302,6 +5306,37 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-
             #ffffff 25%,
             #c07dab 25%,
             #c07dab 100%);
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-medium) {
+    background-color: #221e1f;
+    color: #fff;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-white) {
+    background: linear-gradient(to bottom,
+            #221e1f 0%,
+            #221e1f 50%,
+            #ffffff 50%,
+            #ffffff 100%);
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-triangle) {
+    background-color: #221e1f;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-triangle)>* {
+    position: relative;
+    z-index: 1;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-triangle)::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    background: #fff;
+    clip-path: polygon(0 0,
+            100% 0,
+            50% 100%);
 }
 /* Student Reading Footers */
 html.theme-override .draw-overlay-container .student-reading .footer-block,
