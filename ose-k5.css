@@ -5288,6 +5288,9 @@ html.theme-override .draw-overlay-container .student-reading-grid {
     font-weight: normal;
     font-size: 24px;
 }
+html.theme-override .draw-overlay-container .page:has(.page-content.student-reading.cover-page) {
+    padding: 0 !important;
+}
 html.theme-override .draw-overlay-container .student-reading-artical {
     font-size: 18px;
 }
