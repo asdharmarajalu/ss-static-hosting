@@ -5219,6 +5219,9 @@ html.theme-override .draw-overlay-container .text-teal {
 html.theme-override .draw-overlay-container .text-dark-teal {
     color: #114541;
 }
+html.theme-override .draw-overlay-container .text-light-teal {
+    color: #b4a7d6;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
