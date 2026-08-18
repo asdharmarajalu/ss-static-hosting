@@ -5338,6 +5338,10 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-
             100% 0,
             50% 100%);
 }
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-soft-purple) {
+    background-color: #7765ad;
+    color: #ffffff;
+}
 /* Student Reading Footers */
 html.theme-override .draw-overlay-container .student-reading .footer-block,
 html.theme-override .draw-overlay-container .student-reading-grid .footer-block {
