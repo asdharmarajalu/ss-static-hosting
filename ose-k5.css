@@ -5210,6 +5210,9 @@ html.theme-override .draw-overlay-container .text-purple {
 html.theme-override .draw-overlay-container .text-royal-purple {
     color: #674ea7;
 }
+html.theme-override .draw-overlay-container .text-teal {
+    color: #4aa4b3;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5304,6 +5307,38 @@ html.theme-override .draw-overlay-container .page:has(.student-reading-grid) {
     background-size: cover;
     background-repeat: no-repeat;
 }
+html.theme-override .draw-overlay-container .toc-title {
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 70px !important;
+}
+html.theme-override .draw-overlay-container .table-of-contents {
+    width: 65%;
+    margin: 0 auto;
+}
+html.theme-override .draw-overlay-container .table-of-contents div {
+    display: flex;
+    margin-bottom: 60px;
+}
+html.theme-override .draw-overlay-container .table-of-contents div p:first-child {
+    width: 80%;
+}
+html.theme-override .draw-overlay-container .table-of-contents div p:last-child {
+    width: 20%;
+}
+html.theme-override .draw-overlay-container .table-of-contents-2 {
+    width: 80%;
+    margin-left: 40px;
+}
+html.theme-override .draw-overlay-container .table-of-contents-2 div {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 70px;
+}
+html.theme-override .draw-overlay-container .table-of-contents-2 div p:first-child {
+    width: 5%;
+}
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-purple) {
     background-color: #c07dab;
 }
@@ -5352,6 +5387,13 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-soft-p
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-royal-purple) {
     background-color: #674ea7;
     color: #ffffff;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-teal-white) {
+    background: linear-gradient(to bottom,
+                #4aa4b3 0%,
+                #4aa4b3 30%,
+                #ffffff 30%,
+                #ffffff 100%);
 }
 /* Student Reading Footers */
 html.theme-override .draw-overlay-container .student-reading .footer-block,
