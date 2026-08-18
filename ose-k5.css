@@ -5207,6 +5207,9 @@ html.theme-override .draw-overlay-container .text-brown {
 html.theme-override .draw-overlay-container .text-purple {
     color: #c07dab;
 }
+html.theme-override .draw-overlay-container .text-royal-purple {
+    color: #674ea7;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5289,6 +5292,7 @@ html.theme-override .draw-overlay-container .student-reading-grid {
     font-size: 24px;
 }
 html.theme-override .draw-overlay-container .page:has(.page-content.student-reading.cover-page) {
+    width: 9.5in !important;
     padding: 0 !important;
 }
 html.theme-override .draw-overlay-container .student-reading-artical {
@@ -5343,6 +5347,10 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-soft-purple) {
     background-color: #7765ad;
+    color: #ffffff;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-royal-purple) {
+    background-color: #674ea7;
     color: #ffffff;
 }
 /* Student Reading Footers */
