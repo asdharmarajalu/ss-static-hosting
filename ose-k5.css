@@ -4969,6 +4969,9 @@ html.theme-override .draw-overlay-container .list-style-none {
 html.theme-override .draw-overlay-container .bold-list li::marker {
     font-weight: bold;
 }
+html.theme-override .draw-overlay-container .normal-list li::marker {
+    font-weight: normal !important;
+}
 /* Square-List */
 html.theme-override .draw-overlay-container .square-list,
 html.theme-override .draw-overlay-container .box-list {
