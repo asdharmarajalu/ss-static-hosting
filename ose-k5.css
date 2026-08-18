@@ -5264,6 +5264,9 @@ html.theme-override .draw-overlay-container .bg-yellow {
     background-color: #e7e63b;
     color: #000;
 }
+html.theme-override .draw-overlay-container .bg-slate-gray {
+    background-color: #4c6c76;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
