@@ -5198,6 +5198,9 @@ html.theme-override .draw-overlay-container .text-lavender {
 html.theme-override .draw-overlay-container .text-blue-3 {
     color: #2596be;
 }
+html.theme-override .draw-overlay-container .text-blue-4 {
+    color: #3f85c3;
+}
 html.theme-override .draw-overlay-container .text-red {
     color: #ff0000;
 }
@@ -5212,6 +5215,9 @@ html.theme-override .draw-overlay-container .text-royal-purple {
 }
 html.theme-override .draw-overlay-container .text-teal {
     color: #4aa4b3;
+}
+html.theme-override .draw-overlay-container .text-dark-teal {
+    color: #114541;
 }
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
@@ -5266,6 +5272,9 @@ html.theme-override .draw-overlay-container .bg-yellow {
 }
 html.theme-override .draw-overlay-container .bg-slate-gray {
     background-color: #4c6c76;
+}
+html.theme-override .draw-overlay-container .bg-dark-blue {
+    background-color: #343694;
 }
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
@@ -5395,6 +5404,13 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-teal-w
     background: linear-gradient(to bottom,
                 #4aa4b3 0%,
                 #4aa4b3 30%,
+                #ffffff 30%,
+                #ffffff 100%);
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-blue-white) {
+    background: linear-gradient(to bottom,
+                #3f85c3 0%,
+                #3f85c3 30%,
                 #ffffff 30%,
                 #ffffff 100%);
 }
