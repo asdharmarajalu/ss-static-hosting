@@ -5231,6 +5231,9 @@ html.theme-override .draw-overlay-container .text-dark-purple {
 html.theme-override .draw-overlay-container .text-light-cyan {
     color: #a2c4c9;
 }
+html.theme-override .draw-overlay-container .text-dark-blue-2 {
+    color: #2c3574;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5287,6 +5290,9 @@ html.theme-override .draw-overlay-container .bg-slate-gray {
 }
 html.theme-override .draw-overlay-container .bg-dark-blue {
     background-color: #343694;
+}
+html.theme-override .draw-overlay-container .bg-dark-blue-2 {
+    background-color: #2c3574;
 }
 html.theme-override .draw-overlay-container .bg-dark-purple {
     background-color: #674fa0;
