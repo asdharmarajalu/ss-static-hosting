@@ -5197,6 +5197,9 @@ html.theme-override .draw-overlay-container .border-bottom {
 html.theme-override .draw-overlay-container .border-bottom-bold {
     border-bottom: 3px solid #000 !important;
 }
+html.theme-override .draw-overlay-container .border-bottom-gray {
+    border-bottom: 2px solid #b7b7b7;
+}
 html.theme-override .draw-overlay-container .border-radius-20 {
     border-radius: 20px;
 }
