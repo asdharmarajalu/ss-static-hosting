@@ -5258,6 +5258,9 @@ html.theme-override .draw-overlay-container .text-light-cyan {
 html.theme-override .draw-overlay-container .text-dark-blue-2 {
     color: #2c3574;
 }
+html.theme-override .draw-overlay-container .text-brick-red {
+    color: #9c2720;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5456,6 +5459,13 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-blue-w
     background: linear-gradient(to bottom,
                 #3f85c3 0%,
                 #3f85c3 30%,
+                #ffffff 30%,
+                #ffffff 100%);
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-brick-red) {
+    background: linear-gradient(to bottom,
+                #9c2720 0%,
+                #9c2720 30%,
                 #ffffff 30%,
                 #ffffff 100%);
 }
