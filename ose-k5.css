@@ -5228,6 +5228,9 @@ html.theme-override .draw-overlay-container .text-light-teal {
 html.theme-override .draw-overlay-container .text-dark-purple {
     color: #674fa0;
 }
+html.theme-override .draw-overlay-container .text-light-cyan {
+    color: #a2c4c9;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5430,6 +5433,10 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-dark-p
     background-color: #674fa0;
     color: #ffffff;
 }
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-dark-cyan) {
+    background-color: #0097a7;
+    color: #ffffff;
+}
 /* Student Reading Footers */
 html.theme-override .draw-overlay-container .student-reading .footer-block,
 html.theme-override .draw-overlay-container .student-reading-grid .footer-block {
@@ -5456,6 +5463,13 @@ html.theme-override .draw-overlay-container .student-reading-article .footer-blo
     font-size: 12px;
     display: block;
     padding: 0;
+}
+/* Styles for custom components and elements  */
+html.theme-override .draw-overlay-container .float-image-1 {
+    float: right;
+    width: 220px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
