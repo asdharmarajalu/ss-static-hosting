@@ -5327,6 +5327,10 @@ html.theme-override .draw-overlay-container .bg-dark-purple {
     background-color: #674fa0;
     color: #ffffff;
 }
+html.theme-override .draw-overlay-container .bg-brick-red {
+    background-color: #9c2720;
+    color: #ffffff;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
