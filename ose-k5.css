@@ -4752,14 +4752,26 @@ html.theme-override .draw-overlay-container .h-775 {
 html.theme-override .draw-overlay-container .h-800 {
     height: 800px;
 }
+html.theme-override .draw-overlay-container .h-825 {
+    height: 825px;
+}
 html.theme-override .draw-overlay-container .h-850 {
     height: 850px;
+}
+html.theme-override .draw-overlay-container .h-875 {
+    height: 875px;
 }
 html.theme-override .draw-overlay-container .h-900 {
     height: 900px;
 }
+html.theme-override .draw-overlay-container .h-925 {
+    height: 925px;
+}
 html.theme-override .draw-overlay-container .h-950 {
     height: 950px;
+}
+html.theme-override .draw-overlay-container .h-975 {
+    height: 975px;
 }
 html.theme-override .draw-overlay-container .h-1000 {
     height: 1000px;
