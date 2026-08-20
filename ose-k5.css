@@ -5231,6 +5231,9 @@ html.theme-override .draw-overlay-container .text-blue-3 {
 html.theme-override .draw-overlay-container .text-blue-4 {
     color: #3f85c3;
 }
+html.theme-override .draw-overlay-container .text-blue-5 {
+    color: #1e3f4c;
+}
 html.theme-override .draw-overlay-container .text-red {
     color: #ff0000;
 }
@@ -5337,6 +5340,68 @@ html.theme-override .draw-overlay-container .bg-brick-red {
 html.theme-override .draw-overlay-container .bg-sky-blue {
     background-color: #3c85c5;
     color: #ffffff;
+}
+html.theme-override .draw-overlay-container .bg-gold {
+    background-color: #f1bb1a;
+}
+
+html.theme-override .draw-overlay-container .bg-gold-light {
+    background-color: #fdf8e8;
+    border: 3px solid #f1bb1a;
+}
+
+html.theme-override .draw-overlay-container .bg-leaf-green {
+    background-color: #a4c139;
+}
+
+html.theme-override .draw-overlay-container .bg-leaf-green-light {
+    background-color: #f5f8eb;
+    border: 3px solid #a4c139;
+}
+
+html.theme-override .draw-overlay-container .bg-emerald {
+    background-color: #52b957;
+}
+
+html.theme-override .draw-overlay-container .bg-emerald-light {
+    background-color: #eef8ee;
+    border: 3px solid #52b957;
+}
+
+html.theme-override .draw-overlay-container .bg-teal {
+    background-color: #00af82;
+}
+
+html.theme-override .draw-overlay-container .bg-teal-light {
+    background-color: #e6f7f3;
+    border: 3px solid #00af82;
+}
+
+html.theme-override .draw-overlay-container .bg-aqua-blue {
+    background-color: #5ca4c8;
+}
+
+html.theme-override .draw-overlay-container .bg-aqua-blue-light {
+    background-color: #eff6f9;
+    border: 3px solid #5ca4c8;
+}
+
+html.theme-override .draw-overlay-container .bg-cyan {
+    background-color: #00c5e6;
+}
+
+html.theme-override .draw-overlay-container .bg-cyan-light {
+    background-color: #e6f9fc;
+    border: 3px solid #00c5e6;
+}
+
+html.theme-override .draw-overlay-container .bg-deep-cyan {
+    background-color: #05a4d4;
+}
+
+html.theme-override .draw-overlay-container .bg-deep-cyan-light {
+    background-color: #e6f6fb;
+    border: 3px solid #05a4d4;
 }
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
@@ -5531,6 +5596,41 @@ html.theme-override .draw-overlay-container .float-image-1 {
     width: 220px;
     margin-left: 10px;
     margin-bottom: 10px;
+}
+html.theme-override .draw-overlay-container .investigation-grid {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 8px;
+}
+
+html.theme-override .draw-overlay-container .investigation-grid>div:nth-child(odd) {
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+html.theme-override .draw-overlay-container .investigation-grid>div:nth-child(even) {
+    padding: 6px;
+}
+
+html.theme-override .draw-overlay-container .investigation-grid>div:first-child {
+    border-top-left-radius: 12px;
+}
+
+html.theme-override .draw-overlay-container .investigation-grid>div:nth-last-child(2) {
+    border-top-right-radius: 12px;
+}
+
+html.theme-override .draw-overlay-container .investigation-grid>div:nth-child(2) {
+    border-bottom-left-radius: 12px;
+}
+
+html.theme-override .draw-overlay-container .investigation-grid>div:last-child {
+    border-bottom-right-radius: 12px;
 }
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
