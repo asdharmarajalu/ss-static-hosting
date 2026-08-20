@@ -5635,6 +5635,12 @@ html.theme-override .draw-overlay-container .legend-box {
     height: 16px;
     width: 16px;
 }
+html.theme-override .draw-overlay-container .nested-table td:first-child {
+    border-left: none !important;
+}
+html.theme-override .draw-overlay-container .nested-table td:last-child {
+    border-right: none !important;
+}
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
     font-size: 26px;
