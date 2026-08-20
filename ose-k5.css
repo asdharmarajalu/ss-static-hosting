@@ -5390,6 +5390,18 @@ html.theme-override .draw-overlay-container .bg-deep-cyan-light {
     background-color: #e6f6fb;
     border: 3px solid #05a4d4;
 }
+html.theme-override .draw-overlay-container .bg-blue {
+    background-color: #4285f4;
+}
+html.theme-override .draw-overlay-container .bg-red {
+    background-color: #ea4335;
+}
+html.theme-override .draw-overlay-container .bg-dark-yellow {
+    background-color: #fbbc04;
+}
+html.theme-override .draw-overlay-container .bg-vivid-green {
+    background-color: #34a853;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
@@ -5612,6 +5624,16 @@ html.theme-override .draw-overlay-container .investigation-grid>div:nth-child(2)
 }
 html.theme-override .draw-overlay-container .investigation-grid>div:last-child {
     border-bottom-right-radius: 12px;
+}
+html.theme-override .draw-overlay-container .legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+html.theme-override .draw-overlay-container .legend-box {
+    height: 16px;
+    width: 16px;
 }
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
