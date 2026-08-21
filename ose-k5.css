@@ -5408,6 +5408,10 @@ html.theme-override .draw-overlay-container .bg-dark-yellow {
 html.theme-override .draw-overlay-container .bg-vivid-green {
     background-color: #34a853;
 }
+html.theme-override .draw-overlay-container .bg-vivid-purple {
+    background-color: #674ea7;
+    color: #ffffff;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
