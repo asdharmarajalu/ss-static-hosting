@@ -2963,6 +2963,9 @@ html.theme-override .w-100 {
 html.theme-override .h-full {
     height: 100% !important;
 }
+html.theme-override .w-fit {
+    width: fit-content !important;
+}
 /*********** canvas toolbar center css ************/
 html.theme-override .testItemQuestion:has(.question-wrapper.toolbar-center)~.drawToolbar {
     justify-content: center;
