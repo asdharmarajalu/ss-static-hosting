@@ -5662,20 +5662,19 @@ html.theme-override .draw-overlay-container .self-evaluation-table tr:first-chil
     border-top: none;
 }
 html.theme-override .draw-overlay-container .self-evaluation-table .rubric-box {
-    padding: 0 !important;
     border-bottom: none !important;
     border-top: none !important;
+    position: relative;
 }
-html.theme-override .draw-overlay-container .self-evaluation-table tr:has(+ tr td.rubric-box) .rubric-box {
-    padding-bottom: 3px !important;
-}
-html.theme-override .draw-overlay-container .self-evaluation-table .rubric-box:not(:last-child) {
-    padding-right: 3px !important;
-}
-html.theme-override .draw-overlay-container .self-evaluation-table .rubric-box p {
+html.theme-override .draw-overlay-container .self-evaluation-table .rubric-box::before {
     background-color: #f8f8f7;
-    height: 100%;
-    width: 100%;
+    content: "";
+    position: absolute;
+    inset: 0 0 0 3px;
+
+}
+html.theme-override .draw-overlay-container .self-evaluation-table tr:has(+ tr td.rubric-box) .rubric-box::before {
+    inset: 0 0 3px 3px;
 }
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
