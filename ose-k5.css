@@ -5590,6 +5590,32 @@ html.theme-override .draw-overlay-container .student-reading .footer-block-small
     width: 5%;
     padding: 3px 6px;
 }
+html.theme-override .draw-overlay-container .student-reading .footer-block-left,
+html.theme-override .draw-overlay-container .student-reading-grid .footer-block-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    position: absolute;
+    left: 25px;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 25px;
+    width: fit-content;
+}
+html.theme-override .draw-overlay-container .student-reading .footer-block-right,
+html.theme-override .draw-overlay-container .student-reading-grid .footer-block-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 25px;
+    width: fit-content;
+}
 html.theme-override .draw-overlay-container .student-reading-article .footer-block {
     font-size: 12px;
     display: block;
