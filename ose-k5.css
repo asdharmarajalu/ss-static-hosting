@@ -5644,6 +5644,39 @@ html.theme-override .draw-overlay-container .nested-table td:first-child {
 html.theme-override .draw-overlay-container .nested-table td:last-child {
     border-right: none !important;
 }
+html.theme-override .draw-overlay-container .self-evaluation-table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+html.theme-override .draw-overlay-container .self-evaluation-table td {
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    height: 40px;
+    vertical-align: middle;
+    text-align: left;
+    padding: 6px 10px;
+}
+html.theme-override .draw-overlay-container .self-evaluation-table tr:first-child td {
+    border-top: none;
+}
+html.theme-override .draw-overlay-container .self-evaluation-table .rubric-box {
+    padding: 0 !important;
+    border-bottom: none !important;
+    border-top: none !important;
+}
+html.theme-override .draw-overlay-container .self-evaluation-table tr:has(+ tr td.rubric-box) .rubric-box {
+    padding-bottom: 3px !important;
+}
+html.theme-override .draw-overlay-container .self-evaluation-table .rubric-box:not(:last-child) {
+    padding-right: 3px !important;
+}
+html.theme-override .draw-overlay-container .self-evaluation-table .rubric-box p {
+    background-color: #f8f8f7;
+    height: 100%;
+    width: 100%;
+}
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
     font-size: 26px;
