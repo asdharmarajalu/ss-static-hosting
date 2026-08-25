@@ -5273,6 +5273,9 @@ html.theme-override .draw-overlay-container .text-brick-red {
 .html.theme-override .draw-overlay-container .text-slate-blue {
     color: #54899b;
 }
+html.theme-override .draw-overlay-container .text-dark-green {
+    color: #42802d;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5412,6 +5415,9 @@ html.theme-override .draw-overlay-container .bg-vivid-purple {
     background-color: #674ea7;
     color: #ffffff;
 }
+html.theme-override .draw-overlay-container .bg-green-2 {
+    background-color: #78c258;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
@@ -5487,6 +5493,7 @@ html.theme-override .draw-overlay-container .table-of-contents-2 div {
 html.theme-override .draw-overlay-container .table-of-contents-2 div p:first-child {
     width: 5%;
 }
+/* Page Colors */
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-purple) {
     background-color: #c07dab;
 }
@@ -5570,6 +5577,10 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-dark-p
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-dark-cyan) {
     background-color: #0097a7;
+    color: #ffffff;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-grass-green) {
+    background-color: #78c258;
     color: #ffffff;
 }
 /* Student Reading Footers */
