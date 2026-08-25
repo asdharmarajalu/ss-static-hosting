@@ -5418,10 +5418,6 @@ html.theme-override .draw-overlay-container .bg-vivid-purple {
 html.theme-override .draw-overlay-container .bg-green-2 {
     background-color: #78c258;
 }
-html.theme-override .draw-overlay-container .bg-indigo {
-    background-color: #616cb2;
-    color: #ffffff;
-}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
@@ -5592,6 +5588,10 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-dark-c
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-grass-green) {
     background-color: #78c258;
+    color: #ffffff;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-indigo) {
+    background-color: #616cb2;
     color: #ffffff;
 }
 /* Student Reading Footers */
