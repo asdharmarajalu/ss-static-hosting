@@ -5726,6 +5726,29 @@ html.theme-override .draw-overlay-container .self-evaluation-table .rubric-box::
 html.theme-override .draw-overlay-container .self-evaluation-table tr:has(+ tr td.rubric-box) .rubric-box::before {
     inset: 0 0 3px 3px;
 }
+html.theme-override .draw-overlay-container .legend-container {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #444;
+}
+html.theme-override .draw-overlay-container .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+html.theme-override .draw-overlay-container .bg-greenbox {
+    background-color: #2E8D39;
+}
+html.theme-override .draw-overlay-container .bg-bluebox {
+    background-color: #4A8F9A;
+}
+html.theme-override .draw-overlay-container .bg-yellowbox {
+    background-color: #F4D030;
+}
+html.theme-override .draw-overlay-container .bg-peachbox {
+    background-color: #DE8E5D;
+}
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
     font-size: 26px;
