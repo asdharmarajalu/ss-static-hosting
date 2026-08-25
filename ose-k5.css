@@ -5511,6 +5511,13 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-
             #616cb2 25%,
             #616cb2 100%);
 }
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-yellow) {
+    background: linear-gradient(to right,
+            #ffffff 0%,
+            #ffffff 25%,
+            #f6bc31 25%,
+            #f6bc31 100%);
+}
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-medium) {
     background-color: #221e1f;
     color: #fff;
