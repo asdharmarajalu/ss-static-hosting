@@ -4635,6 +4635,33 @@ html.theme-override .rotate-355 {
 html.theme-override .rotate-360 {
     transform: rotate(360deg) !important;
 }
+html.theme-override .draw-overlay-container .h-1 {
+    height: 1px;
+}
+html.theme-override .draw-overlay-container .h-2{
+    height: 2px;
+}
+html.theme-override .draw-overlay-container .h-3 {
+    height: 3px;
+}
+html.theme-override .draw-overlay-container .h-4 {
+    height: 4px;
+}
+html.theme-override .draw-overlay-container .h-5 {
+    height: 5px;
+}
+html.theme-override .draw-overlay-container .h-6 {
+    height: 6px;
+}
+html.theme-override .draw-overlay-container .h-7 {
+    height: 7px;
+}
+html.theme-override .draw-overlay-container .h-8 {
+    height: 8px;
+}
+html.theme-override .draw-overlay-container .h-9 {
+    height: 9px;
+}
 html.theme-override .draw-overlay-container .h-10 {
     height: 10px;
 }
@@ -5279,6 +5306,9 @@ html.theme-override .draw-overlay-container .text-dark-green {
 html.theme-override .draw-overlay-container .text-coral-pink {
     color: #de756a;
 }
+html.theme-override .draw-overlay-container .text-wine-purple {
+    color: #721846;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5424,6 +5454,9 @@ html.theme-override .draw-overlay-container .bg-green-2 {
 html.theme-override .draw-overlay-container .bg-coral-pink {
     background-color: #de756a;
 }
+html.theme-override .draw-overlay-container .bg-wine-purple {
+    background-color: #721846;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
@@ -5524,6 +5557,13 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-
             #f6bc31 25%,
             #f6bc31 100%);
 }
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-orange) {
+    background: linear-gradient(to right,
+            #ffffff 0%,
+            #ffffff 25%,
+            #f57f23 25%,
+            #f57f23 100%);
+}
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-medium) {
     background-color: #221e1f;
     color: #fff;
@@ -5610,6 +5650,9 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-indigo
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-coral-rose) {
     background-color: #de756a;
     color: #ffffff;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-vivid-orange) {
+    background-color: #f57f23;
 }
 /* Student Reading Footers */
 html.theme-override .draw-overlay-container .student-reading .footer-block,
