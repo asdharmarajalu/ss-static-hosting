@@ -5325,6 +5325,12 @@ html.theme-override .draw-overlay-container .bg-gray-4 {
 html.theme-override .draw-overlay-container .bg-gray-5 {
     background-color: #f8f8f7;
 }
+html.theme-override .draw-overlay-container .bg-gray-6 {
+    background-color: #bcbdc0;
+}
+html.theme-override .draw-overlay-container .bg-gray-7 {
+    background-color: #e6e7e9;
+}
 html.theme-override .draw-overlay-container .bg-yellow-orange {
     background-color: #f6bc31;
 }
