@@ -5230,6 +5230,9 @@ html.theme-override .draw-overlay-container .border-bottom-bold {
 html.theme-override .draw-overlay-container .border-bottom-gray {
     border-bottom: 2px solid #b7b7b7;
 }
+html.theme-override .draw-overlay-container .border-radius-2 {
+    border-radius: 2px;
+}
 html.theme-override .draw-overlay-container .border-radius-20 {
     border-radius: 20px;
 }
@@ -5366,6 +5369,9 @@ html.theme-override .draw-overlay-container .bg-yellow {
     background-color: #e7e63b;
     color: #000;
 }
+html.theme-override .draw-overlay-container .bg-yellow-2 {
+    background-color: #f8bc16;
+}
 html.theme-override .draw-overlay-container .bg-slate-gray {
     background-color: #4c6c76;
 }
@@ -5441,8 +5447,14 @@ html.theme-override .draw-overlay-container .bg-deep-cyan-light {
 html.theme-override .draw-overlay-container .bg-blue {
     background-color: #4285f4;
 }
+html.theme-override .draw-overlay-container .bg-blue-2 {
+    background-color: #557dbf;
+}
 html.theme-override .draw-overlay-container .bg-red {
     background-color: #ea4335;
+}
+html.theme-override .draw-overlay-container .bg-red-2 {
+    background-color: #e94333;
 }
 html.theme-override .draw-overlay-container .bg-dark-yellow {
     background-color: #fbbc04;
@@ -5457,11 +5469,17 @@ html.theme-override .draw-overlay-container .bg-vivid-purple {
 html.theme-override .draw-overlay-container .bg-green-2 {
     background-color: #78c258;
 }
+html.theme-override .draw-overlay-container .bg-green-3 {
+    background-color: #34a952;
+}
 html.theme-override .draw-overlay-container .bg-coral-pink {
     background-color: #de756a;
 }
 html.theme-override .draw-overlay-container .bg-wine-purple {
     background-color: #721846;
+}
+html.theme-override .draw-overlay-container .bg-orange {
+    background-color: #f36d21;
 }
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
