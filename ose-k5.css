@@ -5557,6 +5557,13 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-
             #f6bc31 25%,
             #f6bc31 100%);
 }
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-blue) {
+    background: linear-gradient(to right,
+            #ffffff 0%,
+            #ffffff 25%,
+            #2a3473 25%,
+            #2a3473 100%);
+}
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-orange) {
     background: linear-gradient(to right,
             #ffffff 0%,
@@ -5573,6 +5580,14 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-medium) {
     background-color: #221e1f;
+    color: #fff;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-charcoal-black) {
+    background-color: #231f20;
+    color: #fff;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-royal-indigo) {
+    background-color: #2a3473;
     color: #fff;
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-white) {
