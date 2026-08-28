@@ -5497,6 +5497,9 @@ html.theme-override .draw-overlay-container .bg-deep-indigo {
 html.theme-override .draw-overlay-container .bg-soft-blue {
     background-color: #a4c2f4;
 }
+html.theme-override .draw-overlay-container .bg-muted-purple {
+    background-color: #7765ad;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
