@@ -5318,6 +5318,9 @@ html.theme-override .draw-overlay-container .text-soft-purple {
 html.theme-override .draw-overlay-container .text-deep-indigo {
     color: #2a3473;
 }
+html.theme-override .draw-overlay-container .text-dusty-blue {
+    color: #5f6db3;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5490,6 +5493,9 @@ html.theme-override .draw-overlay-container .bg-orange {
 html.theme-override .draw-overlay-container .bg-deep-indigo {
     background-color: #2a3473;
     color: #ffffff;
+}
+html.theme-override .draw-overlay-container .bg-soft-blue {
+    background-color: #a4c2f4;
 }
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
@@ -5687,8 +5693,8 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-teal-w
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-blue-white) {
     background: linear-gradient(to bottom,
                 #3f85c3 0%,
-                #3f85c3 30%,
-                #ffffff 30%,
+                #3f85c3 40%,
+                #ffffff 40%,
                 #ffffff 100%);
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-red-white) {
