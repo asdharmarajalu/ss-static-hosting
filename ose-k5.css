@@ -5312,6 +5312,9 @@ html.theme-override .draw-overlay-container .text-coral-pink {
 html.theme-override .draw-overlay-container .text-wine-purple {
     color: #721846;
 }
+html.theme-override .draw-overlay-container .text-soft-purple {
+    color: #7765ad;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5602,8 +5605,19 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-
             #98ca3f 25%,
             #98ca3f 100%);
 }
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-vivid-red) {
+    background: linear-gradient(to right,
+            #ffffff 0%,
+            #ffffff 25%,
+            #e72925 25%,
+            #e72925 100%);
+}
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-medium) {
     background-color: #221e1f;
+    color: #fff;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-vivid-red) {
+    background-color: #e72925;
     color: #fff;
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-charcoal-black) {
