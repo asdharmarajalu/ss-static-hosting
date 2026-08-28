@@ -5634,7 +5634,6 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-vivid-red) {
     background-color: #e72925;
-    color: #fff;
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-charcoal-black) {
     background-color: #231f20;
