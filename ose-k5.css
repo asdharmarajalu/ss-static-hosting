@@ -5327,6 +5327,9 @@ html.theme-override .draw-overlay-container .text-warm-red {
 html.theme-override .draw-overlay-container .text-deep-purple {
     color: #422783;
 }
+html.theme-override .draw-overlay-container .text-blue-teal {
+    color: #203e4a;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
