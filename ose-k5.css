@@ -5867,6 +5867,22 @@ html.theme-override .draw-overlay-container .student-reading-article .footer-blo
     display: block;
     padding: 0;
 }
+html.theme-override .draw-overlay-container .student-reading .footer-block-2,
+html.theme-override .draw-overlay-container .student-reading-article .footer-block-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 12px;
+    margin-top: auto;
+    padding: 20px 0 0 0;
+    width: 100%;
+}
+
+html.theme-override .draw-overlay-container .student-reading .footer-block-2,
+html.theme-override .draw-overlay-container .student-reading-article .footer-block-2 p {
+    margin: 2px 0;
+    text-indent: 0;
+}
 /* Styles for custom components and elements  */
 html.theme-override .draw-overlay-container .float-image-1 {
     float: right;
