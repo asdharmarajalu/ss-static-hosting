@@ -5321,6 +5321,12 @@ html.theme-override .draw-overlay-container .text-deep-indigo {
 html.theme-override .draw-overlay-container .text-dusty-blue {
     color: #5f6db3;
 }
+html.theme-override .draw-overlay-container .text-warm-red {
+    color: #d43027;
+}
+html.theme-override .draw-overlay-container .text-deep-purple {
+    color: #422783;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5342,6 +5348,9 @@ html.theme-override .draw-overlay-container .bg-gray-6 {
 }
 html.theme-override .draw-overlay-container .bg-gray-7 {
     background-color: #e6e7e9;
+}
+html.theme-override .draw-overlay-container .bg-gray-8 {
+    background-color: #cdcbc8;
 }
 html.theme-override .draw-overlay-container .bg-yellow-orange {
     background-color: #f6bc31;
@@ -5499,6 +5508,9 @@ html.theme-override .draw-overlay-container .bg-soft-blue {
 }
 html.theme-override .draw-overlay-container .bg-muted-purple {
     background-color: #7765ad;
+}
+html.theme-override .draw-overlay-container .bg-warm-red {
+    background-color: #d43027;
 }
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
@@ -5907,6 +5919,12 @@ html.theme-override .draw-overlay-container .bg-yellowbox {
 }
 html.theme-override .draw-overlay-container .bg-peachbox {
     background-color: #DE8E5D;
+}
+html.theme-override .draw-overlay-container .border-b-dash-purple {
+    border-bottom: 4px dashed #422783;
+}
+html.theme-override .draw-overlay-container .border-t-dash-purple {
+    border-top: 4px dashed #422783;
 }
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
