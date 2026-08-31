@@ -5646,10 +5646,6 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-royal-
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-yellow-3) {
     background-color: #f6bb37;
 }
-html.theme-override .draw-overlay-container .page:has(.student-reading.bg-royal-indigo) {
-    background-color: #2a3473;
-    color: #fff;
-}
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-white) {
     background: linear-gradient(to bottom,
             #221e1f 0%,
