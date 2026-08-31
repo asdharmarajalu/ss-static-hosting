@@ -5879,7 +5879,7 @@ html.theme-override .draw-overlay-container .student-reading-article .footer-blo
     justify-content: space-between;
     align-items: flex-end;
     font-size: 12px;
-    margin-top: auto;
+    margin-top: auto !important;
     padding: 20px 0 0 0;
     width: 100%;
 }
