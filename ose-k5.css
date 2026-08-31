@@ -5381,6 +5381,9 @@ html.theme-override .draw-overlay-container .text-deep-purple {
 html.theme-override .draw-overlay-container .text-blue-teal {
     color: #203e4a;
 }
+html.theme-override .draw-overlay-container .text-forest-green {
+    color: #007336;
+}
 /* BG Colors  */
 html.theme-override .draw-overlay-container .bg-gray {
     background-color: #eeeeee;
@@ -5571,6 +5574,9 @@ html.theme-override .draw-overlay-container .bg-warm-red {
 }
 html.theme-override .draw-overlay-container .bg-dusty-blue {
     background-color: #5f6db3;
+}
+html.theme-override .draw-overlay-container .bg-fresh-green {
+    background-color: #93c47d;
 }
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
@@ -5877,7 +5883,6 @@ html.theme-override .draw-overlay-container .student-reading-article .footer-blo
     padding: 20px 0 0 0;
     width: 100%;
 }
-
 html.theme-override .draw-overlay-container .student-reading .footer-block-2,
 html.theme-override .draw-overlay-container .student-reading-article .footer-block-2 p {
     margin: 2px 0;
