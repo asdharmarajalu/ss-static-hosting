@@ -1832,6 +1832,18 @@ html.theme-override .mb-100 {
 html.theme-override .mt-0 {
     margin-top: 0px !important;
 }
+html.theme-override .mt-1 {
+    margin-top: 1px !important;
+}
+html.theme-override .mt-2 {
+    margin-top: 2px !important;
+}
+html.theme-override .mt-3 {
+    margin-top: 3px !important;
+}
+html.theme-override .mt-4 {
+    margin-top: 4px !important;
+}
 html.theme-override .mt-5 {
     margin-top: 5px !important;
 }
@@ -2879,14 +2891,26 @@ html.theme-override div#summaryPage-standalone-wrapper~.flyout-wrapper {
 html.theme-override .w-1 {
     width: 1% !important;
 }
+html.theme-override .w-1-half {
+    width: 1.5% !important;
+}
 html.theme-override .w-2 {
     width: 2% !important;
+}
+html.theme-override .w-2-half {
+    width: 2.5% !important;
 }
 html.theme-override .w-3 {
     width: 3% !important;
 }
+html.theme-override .w-3-half {
+    width: 3.5% !important;
+}
 html.theme-override .w-4 {
     width: 4% !important;
+}
+html.theme-override .w-4-half {
+    width: 4.5% !important;
 }
 html.theme-override .w-5 {
     width: 5% !important;
@@ -4665,6 +4689,33 @@ html.theme-override .draw-overlay-container .h-9 {
 html.theme-override .draw-overlay-container .h-10 {
     height: 10px;
 }
+html.theme-override .draw-overlay-container .h-11 {
+    height: 11px;
+}
+html.theme-override .draw-overlay-container .h-12 {
+    height: 12px;
+}
+html.theme-override .draw-overlay-container .h-13 {
+    height: 13px;
+}
+html.theme-override .draw-overlay-container .h-14 {
+    height: 14px;
+}
+html.theme-override .draw-overlay-container .h-15 {
+    height: 15px;
+}
+html.theme-override .draw-overlay-container .h-16 {
+    height: 16px;
+}
+html.theme-override .draw-overlay-container .h-17 {
+    height: 17px;
+}
+html.theme-override .draw-overlay-container .h-18 {
+    height: 18px;
+}
+html.theme-override .draw-overlay-container .h-19 {
+    height: 19px;
+}
 html.theme-override .draw-overlay-container .h-20 {
     height: 20px;
 }
@@ -5482,6 +5533,9 @@ html.theme-override .draw-overlay-container .bg-dark-yellow {
 }
 html.theme-override .draw-overlay-container .bg-vivid-green {
     background-color: #34a853;
+}
+html.theme-override .draw-overlay-container .bg-vivid-blue {
+    background-color: #035aa7;
 }
 html.theme-override .draw-overlay-container .bg-vivid-purple {
     background-color: #674ea7;
