@@ -2975,6 +2975,9 @@ html.theme-override .w-80 {
 html.theme-override .w-85 {
     width: 85% !important;
 }
+html.theme-override .w-89-half {
+    width: 89.5%;
+}
 html.theme-override .w-90 {
     width: 90% !important;
 }
@@ -4758,6 +4761,9 @@ html.theme-override .draw-overlay-container .h-175 {
 html.theme-override .draw-overlay-container .h-200 {
     height: 200px;
 }
+html.theme-override .draw-overlay-container .h-219 {
+    height: 219px;
+}
 html.theme-override .draw-overlay-container .h-225 {
     height: 225px;
 }
@@ -4862,6 +4868,9 @@ html.theme-override .draw-overlay-container .line-height-normal {
 }
 html.theme-override .draw-overlay-container .hidden-content {
     visibility: hidden !important;
+}
+html.theme-override .draw-overlay-container .opacity-0 {
+    opacity: 0 !important;
 }
 html.theme-override .bold {
     font-weight: bold !important;
@@ -6006,6 +6015,9 @@ html.theme-override .draw-overlay-container .border-b-dash-purple {
 }
 html.theme-override .draw-overlay-container .border-t-dash-purple {
     border-top: 4px dashed #422783;
+}
+html.theme-override .draw-overlay-container .-letter-space-4 {
+    letter-spacing: -4px !important;
 }
 /* -------------Saftety Acknowledgement - Teacher Reference Theme--------------------------- */
 html.theme-override .draw-overlay-container .teacher-reference .page-title {
