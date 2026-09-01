@@ -4656,6 +4656,9 @@ html.theme-override .rotate-330 {
 html.theme-override .rotate-345 {
     transform: rotate(345deg) !important;
 }
+html.theme-override .rotate-350 {
+    transform: rotate(350deg) !important;
+}
 html.theme-override .rotate-355 {
     transform: rotate(355deg) !important;
 }
