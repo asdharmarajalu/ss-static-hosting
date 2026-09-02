@@ -5615,6 +5615,21 @@ html.theme-override .draw-overlay-container .bg-dusty-blue {
 html.theme-override .draw-overlay-container .bg-fresh-green {
     background-color: #93c47d;
 }
+html.theme-override .draw-overlay-container .bg-olive-sage {
+    background-color: #b8bf7d;
+}
+html.theme-override .draw-overlay-container .bg-muted-gold {
+    background-color: #e4ca81;
+}
+html.theme-override .draw-overlay-container .bg-dusty-coral {
+    background-color: #cf8c83;
+}
+html.theme-override .draw-overlay-container .bg-soft-eucalyptus {
+    background-color: #9dbea9;
+}
+html.theme-override .draw-overlay-container .bg-warm-greige {
+    background-color: #dcd4cc;
+}
 /* Footer */
 html.theme-override .draw-overlay-container .footer-block {
     display: flex;
