@@ -3238,7 +3238,8 @@ html.theme-override .text-unset {
     text-align: unset !important;
 }
 html.theme-override .text-indent-0,
-html.theme-override .indent-0 {
+html.theme-override .indent-0,
+html.theme-override .no-indent {
     text-indent: 0 !important;
 }
 html.theme-override .text-indent-1 {
@@ -5369,6 +5370,9 @@ html.theme-override .draw-overlay-container .text-blue-5 {
 html.theme-override .draw-overlay-container .text-red {
     color: #ff0000;
 }
+html.theme-override .draw-overlay-container .text-strong-red {
+    color: #e62600;
+}
 html.theme-override .draw-overlay-container .text-brown {
     color: #b53238;
 }
@@ -5772,6 +5776,13 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-
             #e72925 25%,
             #e72925 100%);
 }
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-white-strong-red) {
+    background: linear-gradient(to right,
+            #ffffff 0%,
+            #ffffff 25%,
+            #e62600 25%,
+            #e62600 100%);
+}
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-black-medium) {
     background-color: #221e1f;
     color: #fff;
@@ -5782,6 +5793,9 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-dark-i
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-vivid-red) {
     background-color: #e72925;
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-strong-red) {
+    background-color: #e62600;
 }
 html.theme-override .draw-overlay-container .page:has(.student-reading.bg-charcoal-black) {
     background-color: #231f20;
