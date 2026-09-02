@@ -5266,6 +5266,22 @@ html.theme-override .draw-overlay-container .gray-box-rounded {
 html.theme-override .draw-overlay-container .border-none {
     border: none !important;
 }
+html.theme-override .draw-overlay-container .border-side-none {
+    border-left: none !important;
+    border-right: none !important;
+}
+html.theme-override .draw-overlay-container .border-left-none {
+    border-left: none !important;
+}
+html.theme-override .draw-overlay-container .border-right-none {
+    border-right: none !important;
+}
+html.theme-override .draw-overlay-container .border-top-none {
+    border-top: none !important;
+}
+html.theme-override .draw-overlay-container .border-bottom-none {
+    border-bottom: none !important;
+}
 html.theme-override .draw-overlay-container .border-transparent {
     border: transparent !important;
 }
