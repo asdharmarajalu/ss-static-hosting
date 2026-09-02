@@ -5309,6 +5309,12 @@ html.theme-override .draw-overlay-container .border-bottom-bold {
 html.theme-override .draw-overlay-container .border-bottom-gray {
     border-bottom: 2px solid #b7b7b7;
 }
+html.theme-override .draw-overlay-container .border-right-white {
+    border-right: 2px solid #ffffff !important;
+}
+html.theme-override .draw-overlay-container .border-bottom-white {
+    border-bottom: 2px solid #ffffff !important;
+}
 html.theme-override .draw-overlay-container .border-radius-2 {
     border-radius: 2px;
 }
@@ -5555,6 +5561,9 @@ html.theme-override .draw-overlay-container .bg-blue-2 {
 }
 html.theme-override .draw-overlay-container .bg-red {
     background-color: #ea4335;
+}
+html.theme-override .draw-overlay-container .bg-flame-red {
+    background-color: #e62600;
 }
 html.theme-override .draw-overlay-container .bg-red-2 {
     background-color: #e94333;
