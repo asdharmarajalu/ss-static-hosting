@@ -6098,7 +6098,6 @@ html.theme-override .draw-overlay-container .self-evaluation-table .rubric-box::
     content: "";
     position: absolute;
     inset: 0 0 0 3px;
-
 }
 html.theme-override .draw-overlay-container .self-evaluation-table tr:has(+ tr td.rubric-box) .rubric-box::before {
     inset: 0 0 3px 3px;
