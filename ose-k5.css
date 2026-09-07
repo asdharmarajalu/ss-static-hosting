@@ -5639,6 +5639,9 @@ html.theme-override .draw-overlay-container .bg-dusty-blue {
 html.theme-override .draw-overlay-container .bg-fresh-green {
     background-color: #93c47d;
 }
+html.theme-override .draw-overlay-container .bg-apple-green {
+    background-color: #99c93d;
+}
 html.theme-override .draw-overlay-container .bg-olive-sage {
     background-color: #b8bf7d;
 }
@@ -5884,6 +5887,13 @@ html.theme-override .draw-overlay-container .page:has(.student-reading.bg-blue-w
     background: linear-gradient(to bottom,
                 #3f85c3 0%,
                 #3f85c3 30%,
+                #ffffff 30%,
+                #ffffff 100%);
+}
+html.theme-override .draw-overlay-container .page:has(.student-reading.bg-apple-green-white) {
+    background: linear-gradient(to bottom,
+                #99c93d 0%,
+                #99c93d 30%,
                 #ffffff 30%,
                 #ffffff 100%);
 }
