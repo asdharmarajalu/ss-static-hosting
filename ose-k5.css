@@ -5318,6 +5318,9 @@ html.theme-override .draw-overlay-container .border-5 {
 html.theme-override .draw-overlay-container .border-bottom {
     border-bottom: 2px solid #000 !important;
 }
+html.theme-override .draw-overlay-container .border-right {
+    border-bottom: 1.5px solid #000;
+}
 html.theme-override .draw-overlay-container .border-bottom-bold {
     border-bottom: 3px solid #000 !important;
 }
