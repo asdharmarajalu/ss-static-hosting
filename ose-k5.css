@@ -6252,3 +6252,8 @@ html.theme-override .draw-overlay-container .safety-form .footer-block {
     width: 100%;
     padding: 5px 0 0 0;
 }
+/* C2C K5 Addon */
+html.theme-override .td-d-flex {
+        display: flex;
+        gap: 95px;
+}
